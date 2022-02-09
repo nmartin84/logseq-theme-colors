@@ -1,0 +1,53 @@
+{
+  "name": "Logseq One",
+  "author": "nmartin84",
+  "version": "0.1.0",
+  "description": "The one dark theme for logseq",
+  "logseq": {
+    "themes": [
+      {
+        "name": "One",
+        "url": "./one.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
+        "name": "Tokyo",
+        "url": "./tokyo.css",
+        "description": "Tokyo night",
+        "mode": "dark"
+      },
+      {
+        "name": "Solarized",
+        "url": "./solarized.css",
+        "description": "Solarized Theme",
+        "mode": "dark"
+      },
+      {
+        "name": "Gruvbox",
+        "url": "./gruvbox.css",
+        "description": "Gruvbox...",
+        "mode": "dark"
+      },
+      {
+        "name": "Yin",
+        "url": "./yin.css",
+        "description": "Yin and Yang",
+        "mode": "dark"
+      },
+      {
+        "name": "Ayu",
+        "url": "./ayu.css",
+        "description": "Ayu Colors",
+        "mode": "dark"
+      },
+      {
+        "name": "Nightowl",
+        "url": "./nightowl.css",
+        "description": "A theme for Owls.",
+        "mode": "dark"
+      }
+    ],
+    "id": "one"
+  }
+}
