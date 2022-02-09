@@ -437,3 +437,7 @@ li.my-2 {
 ::-webkit-scrollbar {
   width: 5px !important;
 }
+
+.editor-inner textarea {
+  color: var(--cd-alternate-color);
+}
