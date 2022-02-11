@@ -12,6 +12,18 @@
         "mode": "dark"
       },
       {
+        "name": "Noctis1",
+        "url": "./noctis1.css",
+        "description": "A theme for noctis1",
+        "mode": "dark"
+      },
+      {
+        "name": "Noctis2",
+        "url": "./noctis2.css",
+        "description": "A theme for noctis2",
+        "mode": "dark"
+      },
+      {
         "name": "Tokyo",
         "url": "./tokyo.css",
         "description": "Tokyo night",
