@@ -437,3 +437,7 @@ li.my-2 {
 .editor-inner textarea {
   color: var(--cd-alternate-color);
 }
+
+.cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+  text-shadow: none !important;
+}
