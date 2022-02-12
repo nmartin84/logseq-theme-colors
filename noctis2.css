@@ -32,7 +32,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: var(--ls-secondary-text-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #b2cacd;
   --ls-secondary-text-color: #7b9396;
@@ -250,8 +250,8 @@ mark {
   color: var(--cd-active-color);
 }
 .white-theme .block-ref, .dark-theme .block-ref {
-  border-radius: 4px !important;
-  padding: 2px 6px;
+  border-radius: 0px !important;
+  padding: 0px 0px;
 }
 .white-theme .block-ref {
   border-bottom: 0px solid;

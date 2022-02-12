@@ -250,8 +250,8 @@ mark {
   color: var(--cd-active-color);
 }
 .white-theme .block-ref, .dark-theme .block-ref {
-  border-radius: 4px !important;
-  padding: 2px 6px;
+  border-radius: 0px !important;
+  padding: 0px 0px;
 }
 .white-theme .block-ref {
   border-bottom: 0px solid;
