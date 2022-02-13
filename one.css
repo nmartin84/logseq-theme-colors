@@ -32,7 +32,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: var(--ls-secondary-text-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #ABB2BF;
   --ls-secondary-text-color: #979da8;
@@ -100,7 +100,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: var(--ls-secondary-text-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #383a42;
   --ls-secondary-text-color: #5a5d69;
@@ -207,10 +207,15 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 
 mark {
-  background-color: var(--cd-alternate-color);
-  color: var(--bg-color);
-  padding: 0px 4px !important;
-  border-radius: 1px !important;
+  background-color: transparent;
+  color: var(--ls-primary-text-color);
+  padding: 0px 0px !important;
+  border-radius: 0px !important;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--cd-alternate-color);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 3px;
 }
 
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {

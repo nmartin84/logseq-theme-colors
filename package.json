@@ -12,6 +12,18 @@
         "mode": "dark"
       },
       {
+        "name": "Winter",
+        "url": "./winter.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
+        "name": "Material - Palenight",
+        "url": "./material-palenight.css",
+        "description": "A palenight.",
+        "mode": "dark"
+      },
+      {
         "name": "Noctis1",
         "url": "./noctis1.css",
         "description": "A theme for noctis1",
