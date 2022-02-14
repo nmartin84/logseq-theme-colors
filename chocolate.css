@@ -6,17 +6,17 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-  --bg-color: hsl(210, 23%, 5%);
-  --bg-color-1: hsl(210, 23%, 8%);
-  --bg-color-2: hsl(210, 23%, 11%);
-  --bg-color-3: hsl(210, 23%, 14%);
-  --bg-color-4: hsl(210, 23%, 17%);
-  --bg-color-5: hsl(210, 23%, 20%);
-  --bg-color-6: hsl(210, 23%, 23%);
-  --cd-inactive-color: hsl(210, 23%, 35%);
-  --cd-active-color: #ff85dd;
-  --cd-accent-color: #C5E478;
-  --cd-alternate-color: #74B6FF;
+  --bg-color: #33272a;
+  --bg-color-1: #2e2326;
+  --bg-color-2: #291f22;
+  --bg-color-3: #241b1d;
+  --bg-color-4: #1f1719;
+  --bg-color-5: #1a1415;
+  --bg-color-6: #141011;
+  --cd-inactive-color: #705b5f;
+  --cd-active-color: #dc672c;
+  --cd-accent-color: #d19865;
+  --cd-alternate-color: #56b5c2;
   --ls-primary-background-color: var(--bg-color);
   --ls-secondary-background-color: var(--bg-color-1);
   --ls-tertiary-background-color: var(--bg-color-2);
@@ -34,8 +34,8 @@ html[data-theme='dark'] {
   --ls-secondary-border-color: var(--cd-alternate-color);
   --ls-guideline-color: var(--ls-secondary-text-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: #dbe1e6;
-  --ls-secondary-text-color: #c2c7cc;
+  --ls-primary-text-color: #c7ad9d;
+  --ls-secondary-text-color: #968185;
   --ls-title-text-color: var(--ls-primary-text-color);
   --ls-link-text-color: var(--ls-secondary-text-color);
   --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -74,17 +74,17 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-  --bg-color: hsl(180, 20%, 99%);
-  --bg-color-1: hsl(180, 20%, 96%);
-  --bg-color-2: hsl(180, 20%, 93%);
-  --bg-color-3: hsl(180, 20%, 90%);
-  --bg-color-4: hsl(180, 20%, 87%);
-  --bg-color-5: hsl(180, 20%, 84%);
-  --bg-color-6: hsl(180, 20%, 81%);
-  --cd-inactive-color: hsl(180, 20%, 65%);
-  --cd-active-color: #FF82DB;
-  --cd-accent-color: #a3c355;
-  --cd-alternate-color: #74B6FF;
+  --bg-color: #e9ded8;
+  --bg-color-1: #e3d6ce;
+  --bg-color-2: #ddcec4;
+  --bg-color-3: #d8c6ba;
+  --bg-color-4: #d2bdb1;
+  --bg-color-5: #cdb5a7;
+  --bg-color-6: #c7ad9d;
+  --cd-inactive-color: #705b5f;
+  --cd-active-color: #dc672c;
+  --cd-accent-color: #d19865;
+  --cd-alternate-color: #56b5c2;
   --ls-primary-background-color: var(--bg-color);
   --ls-secondary-background-color: var(--bg-color-1);
   --ls-tertiary-background-color: var(--bg-color-2);
@@ -102,8 +102,8 @@ html[data-theme='light'] {
   --ls-secondary-border-color: var(--cd-alternate-color);
   --ls-guideline-color: var(--ls-secondary-text-color);
   --ls-menu-hover-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: #1d282f;
-  --ls-secondary-text-color: #334652;
+  --ls-primary-text-color: #291f22;
+  --ls-secondary-text-color: #70555D;
   --ls-title-text-color: var(--ls-primary-text-color);
   --ls-link-text-color: var(--ls-secondary-text-color);
   --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -401,12 +401,14 @@ li.my-2 {
 }
 
 .dark-theme .block-parents a.tag {
-  color: var(--bg-color) !important;
-  background-color: var(--cd-active-color);
+  color: var(--cd-active-color) !important;
+  background-color: transparent;
+  border: 0px solid var(--cd-active-color);
 }
 .white-theme .block-parents a.tag {
-  color: var(--bg-color) !important;
-  background-color: var(--cd-active-color);
+  color: var(--cd-active-color) !important;
+  background-color: transparent;
+  border: 0px solid var(--cd-active-color);
 }
 
 /* PDF Viewer */
@@ -458,5 +460,5 @@ li.my-2 {
 }
 
 .block-parents mark {
-  text-decoration-color: var(--cd-inactive-color);
+    text-decoration-color: var(--cd-inactive-color);
 }

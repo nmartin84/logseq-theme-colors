@@ -12,6 +12,12 @@
         "mode": "dark"
       },
       {
+        "name": "Chocolate",
+        "url": "./chocolate.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
         "name": "Winter",
         "url": "./winter.css",
         "description": "A dark theme focused around the one.",

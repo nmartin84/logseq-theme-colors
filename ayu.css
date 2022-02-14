@@ -454,3 +454,11 @@ li.my-2 {
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
   text-shadow: none !important;
 }
+
+::selection {
+  color: var(--bg-color);
+}
+
+.block-parents mark {
+  text-decoration-color: var(--cd-inactive-color);
+}
