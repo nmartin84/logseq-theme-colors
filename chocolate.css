@@ -462,3 +462,11 @@ li.my-2 {
 .block-parents mark {
     text-decoration-color: var(--cd-inactive-color);
 }
+
+.page-property-key {
+  color: var(--cd-alternate-color);
+}
+
+.block-properties {
+  display: contents;
+}
