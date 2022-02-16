@@ -12,6 +12,12 @@
         "mode": "dark"
       },
       {
+        "name": "Nord",
+        "url": "./nord.css",
+        "description": "Nord for logseq.",
+        "mode": "dark"
+      },
+      {
         "name": "Chocolate",
         "url": "./chocolate.css",
         "description": "A dark theme focused around the one.",
