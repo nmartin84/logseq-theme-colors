@@ -26,7 +26,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #272a3f;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #C0CDF3;
   --ls-secondary-text-color: #848b9d;
@@ -39,7 +39,7 @@ html[data-theme='dark'] {
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--color-level-2);
-  --ls-block-bullet-color: var(--ls-guideline-color);
+  --ls-block-bullet-color: var(--cd-inactive-color);
   --ls-block-highlight-color: var(--color-level-3);
   --ls-selection-background-color: var(--cd-active-color);
   --ls-page-checkbox-color: transparent;
@@ -94,7 +94,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #d5dcdd;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #646564;
   --ls-secondary-text-color: #8e938e;
@@ -107,7 +107,7 @@ html[data-theme='light'] {
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--color-level-3);
-  --ls-block-bullet-color: var(--ls-guideline-color);
+  --ls-block-bullet-color: var(--cd-inactive-color);
   --ls-block-highlight-color: var(--color-level-3);
   --ls-selection-background-color: var(--cd-active-color);
   --ls-page-checkbox-color: transparent;
@@ -270,10 +270,10 @@ mark {
   color: var(--cd-alternate-color);
 }
 .block-children {
-  border-left: 1px solid var(--ls-guideline-color);
+  border-left: 0px solid var(--ls-guideline-color);
 }
 .block-children-left-border {
-  background-color: transparent !important;
+  background-color: var(--ls-guideline-color) !important;
 }
 .block-children-left-border:hover {
   background-color: var(--ls-primary-text-color) !important;

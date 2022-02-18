@@ -1,13 +1,13 @@
 .dark-theme,
 html[data-theme='dark'] {
-  --bg-color: #33272a;
-  --bg-color-1: #2e2326;
-  --bg-color-2: #291f22;
-  --bg-color-3: #241b1d;
-  --bg-color-4: #1f1719;
-  --bg-color-5: #1a1415;
-  --bg-color-6: #141011;
-  --cd-inactive-color: #705b5f;
+  --bg-color: hsl(345, 13%, 12%);
+  --bg-color-1: hsl(344, 14%, 15%);
+  --bg-color-2: hsl(342, 14%, 18%);
+  --bg-color-3: hsl(347, 14%, 21%);
+  --bg-color-4: hsl(345, 15%, 24%);
+  --bg-color-5: hsl(350, 13%, 27%);
+  --bg-color-6: hsl(345, 11%, 30%);
+  --cd-inactive-color: hsl(349, 10%, 45%);
   --cd-active-color: #dc672c;
   --cd-accent-color: #d19865;
   --cd-alternate-color: #56b5c2;
@@ -26,7 +26,7 @@ html[data-theme='dark'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #32292b;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #c7ad9d;
   --ls-secondary-text-color: #968185;
@@ -39,7 +39,7 @@ html[data-theme='dark'] {
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--color-level-2);
-  --ls-block-bullet-color: var(--ls-guideline-color);
+  --ls-block-bullet-color: var(--cd-inactive-color);
   --ls-block-highlight-color: var(--color-level-3);
   --ls-selection-background-color: var(--cd-active-color);
   --ls-page-checkbox-color: transparent;
@@ -94,7 +94,7 @@ html[data-theme='light'] {
   --ls-mark-color: var(--cd-active-color);
   --ls-border-color: var(--cd-accent-color);
   --ls-secondary-border-color: var(--cd-alternate-color);
-  --ls-guideline-color: var(--cd-inactive-color);
+  --ls-guideline-color: #d1c7c9;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #291f22;
   --ls-secondary-text-color: #70555D;
@@ -107,7 +107,7 @@ html[data-theme='light'] {
   --ls-tag-text-hover-color: var(--cd-alternate-color);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-block-bullet-border-color: var(--color-level-3);
-  --ls-block-bullet-color: var(--ls-guideline-color);
+  --ls-block-bullet-color: var(--cd-inactive-color);
   --ls-block-highlight-color: var(--color-level-3);
   --ls-selection-background-color: var(--cd-active-color);
   --ls-page-checkbox-color: transparent;
@@ -270,13 +270,13 @@ mark {
   color: var(--cd-alternate-color);
 }
 .block-children {
-  border-left: 1px solid var(--ls-guideline-color);
+  border-left: 0px solid var(--ls-guideline-color);
 }
 .block-children-left-border {
-  background-color: transparent !important;
+  background-color: var(--ls-guideline-color) !important;
 }
 .block-children-left-border:hover {
-  background-color: var(--ls-primary-text-color) !important;
+  background-color: var(--cd-inactive-color) !important;
 }
 
 .dark-theme :not(pre)>code {
