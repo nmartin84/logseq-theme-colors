@@ -567,13 +567,15 @@ h1[data-ref^='t_']:before {
 }
 
 span.page-reference[data-ref*='#/'] .page-ref,
-a.page-ref[data-ref*='_/'] {
+a.page-ref[data-ref*='_/'],
+h1[data-ref*='_/'] {
     color: var(--cd-alternate-color) !important;
     font-weight: 500;
 }
 
 .page-reference[data-ref*='#/'] .page-ref:before,
-.page-ref[data-ref*='_/']:before {
+.page-ref[data-ref*='_/']:before,
+h1[data-ref*='_/']:before {
     content: '🚧';
     margin-right: 2px;
 }
