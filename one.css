@@ -516,11 +516,6 @@ li.my-2 {
     font-weight: 700;
 }
 
-.block-properties {
-    display: contents;
-}
-
-
 /* Seedling Color (second rule is for seedlings that have text within linked to a block */
 
 span.page-reference[data-ref*='p: '] .page-ref,
@@ -619,4 +614,10 @@ h1[data-ref^='s_'] {
 h1[data-ref^='s_']:before {
     content: '🌱';
     margin-right: 2px;
+}
+
+.open-block-ref-link {
+    background-color: var(--cd-alternate-color);
+    color: var(--bg-color);
+    font-weight: 700;
 }

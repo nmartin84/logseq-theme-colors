@@ -12,6 +12,24 @@
         "mode": "dark"
       },
       {
+        "name": "Peacock",
+        "url": "./peacock.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
+        "name": "Flatwhite",
+        "url": "./flatwhite.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
+        "name": "Miramare",
+        "url": "./miramare.css",
+        "description": "A dark theme focused around the one.",
+        "mode": "dark"
+      },
+      {
         "name": "Nord",
         "url": "./nord.css",
         "description": "Nord for logseq.",
@@ -27,12 +45,6 @@
         "name": "Winter",
         "url": "./winter.css",
         "description": "A dark theme focused around the one.",
-        "mode": "dark"
-      },
-      {
-        "name": "Material - Palenight",
-        "url": "./material-palenight.css",
-        "description": "A palenight.",
         "mode": "dark"
       },
       {
