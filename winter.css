@@ -618,3 +618,7 @@ h1[data-ref^='s_']:before {
     color: var(--bg-color);
     font-weight: 700;
 }
+
+.flex.flex-1.flex-row.w-full.mt-6 {
+    margin-top: 0.5rem;
+  }
