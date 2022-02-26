@@ -451,6 +451,7 @@ li.my-2 {
     background-color: transparent;
 }
 
+
 /* PDF Viewer */
 
 #pdf-layout-container[data-theme=light] .textLayer {
@@ -621,4 +622,9 @@ h1[data-ref^='s_']:before {
 
 .flex.flex-1.flex-row.w-full.mt-6 {
     margin-top: 0.5rem;
-  }
+}
+
+.block-properties {
+    padding: 0px 8px;
+    margin: 0px;
+}

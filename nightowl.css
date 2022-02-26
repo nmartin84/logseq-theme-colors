@@ -513,6 +513,7 @@ li.my-2 {
     color: var(--ls-primary-text-color);
 }
 
+
 /* Seedling Color (second rule is for seedlings that have text within linked to a block */
 
 span.page-reference[data-ref*='p: '] .page-ref,
@@ -621,4 +622,9 @@ h1[data-ref^='s_']:before {
 
 .flex.flex-1.flex-row.w-full.mt-6 {
     margin-top: 0.5rem;
-  }
+}
+
+.block-properties {
+    padding: 0px 8px;
+    margin: 0px;
+}

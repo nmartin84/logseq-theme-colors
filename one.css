@@ -454,6 +454,7 @@ li.my-2 {
     background-color: transparent;
 }
 
+
 /* PDF Viewer */
 
 #pdf-layout-container[data-theme=light] .textLayer {
@@ -514,6 +515,7 @@ li.my-2 {
 .page-property-key {
     color: var(--ls-primary-text-color);
 }
+
 
 /* Seedling Color (second rule is for seedlings that have text within linked to a block */
 
@@ -623,4 +625,9 @@ h1[data-ref^='s_']:before {
 
 .flex.flex-1.flex-row.w-full.mt-6 {
     margin-top: 0.5rem;
-  }
+}
+
+.block-properties {
+    padding: 0px 8px;
+    margin: 0px;
+}
