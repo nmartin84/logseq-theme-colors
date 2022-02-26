@@ -344,7 +344,7 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 /* Embedded page, main container reference window */
 
 #main-content-container .references-blocks .block-properties {
-    background-color: var(--color-level-2) !important;
+    background-color: transparent;
 }
 
 
@@ -511,7 +511,6 @@ li.my-2 {
 
 .page-property-key {
     color: var(--ls-primary-text-color);
-    font-weight: 700;
 }
 
 /* Seedling Color (second rule is for seedlings that have text within linked to a block */
