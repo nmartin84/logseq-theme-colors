@@ -11,26 +11,14 @@
                 "mode": "dark"
             },
             {
-                "name": "Wilmersdorf",
-                "url": "./wilmersdorf.css",
-                "description": "A dark theme focused around the one.",
+                "name": "Ayu",
+                "url": "./ayu.css",
+                "description": "Ayu Colors",
                 "mode": "dark"
             },
             {
-                "name": "Sourcerer",
-                "url": "./sourcerer.css",
-                "description": "A dark theme focused around the one.",
-                "mode": "dark"
-            },
-            {
-                "name": "Zenburn",
-                "url": "./zenburn.css",
-                "description": "A dark theme focused around the one.",
-                "mode": "dark"
-            },
-            {
-                "name": "Henna",
-                "url": "./henna.css",
+                "name": "Chocolate",
+                "url": "./chocolate.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
@@ -41,32 +29,26 @@
                 "mode": "dark"
             },
             {
-                "name": "Peacock",
-                "url": "./peacock.css",
-                "description": "A dark theme focused around the one.",
-                "mode": "dark"
-            },
-            {
                 "name": "Flatwhite",
                 "url": "./flatwhite.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
             {
-                "name": "Miramare",
-                "url": "./miramare.css",
+                "name": "Gruvbox",
+                "url": "./gruvbox.css",
+                "description": "Gruvbox...",
+                "mode": "dark"
+            },
+            {
+                "name": "Henna",
+                "url": "./henna.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
             {
-                "name": "Nord",
-                "url": "./nord.css",
-                "description": "Nord for logseq.",
-                "mode": "dark"
-            },
-            {
-                "name": "Chocolate",
-                "url": "./chocolate.css",
+                "name": "Miramare",
+                "url": "./miramare.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
@@ -83,9 +65,15 @@
                 "mode": "dark"
             },
             {
-                "name": "Tokyo",
-                "url": "./tokyo.css",
-                "description": "Tokyo night",
+                "name": "Nord",
+                "url": "./nord.css",
+                "description": "Nord for logseq.",
+                "mode": "dark"
+            },
+            {
+                "name": "Peacock",
+                "url": "./peacock.css",
+                "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
             {
@@ -95,9 +83,21 @@
                 "mode": "dark"
             },
             {
-                "name": "Gruvbox",
-                "url": "./gruvbox.css",
-                "description": "Gruvbox...",
+                "name": "Sourcerer",
+                "url": "./sourcerer.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
+                "name": "Tokyo",
+                "url": "./tokyo.css",
+                "description": "Tokyo night",
+                "mode": "dark"
+            },
+            {
+                "name": "Wilmersdorf",
+                "url": "./wilmersdorf.css",
+                "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
             {
@@ -107,9 +107,9 @@
                 "mode": "dark"
             },
             {
-                "name": "Ayu",
-                "url": "./ayu.css",
-                "description": "Ayu Colors",
+                "name": "Zenburn",
+                "url": "./zenburn.css",
+                "description": "A dark theme focused around the one.",
                 "mode": "dark"
             }
         ],
