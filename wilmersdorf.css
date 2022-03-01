@@ -1,16 +1,16 @@
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-color: #011628;
-    --bg-color-1: #011f37;
-    --bg-color-2: #022746;
-    --bg-color-3: #022f55;
-    --bg-color-4: #033863;
-    --bg-color-5: #034072;
-    --bg-color-6: #034981;
-    --cd-inactive-color: #0462ae;
-    --cd-active-color: #c790ea;
-    --cd-accent-color: #e0576e;
-    --cd-alternate-color: #c5e478;
+    --bg-color: hsl(224, 12%, 18%);
+    --bg-color-1: hsl(224, 12%, 21%);
+    --bg-color-2: hsl(224, 12%, 24%);
+    --bg-color-3: hsl(224, 12%, 27%);
+    --bg-color-4: hsl(224, 12%, 30%);
+    --bg-color-5: hsl(224, 12%, 33%);
+    --bg-color-6: hsl(224, 12%, 36%);
+    --cd-inactive-color: hsl(224, 12%, 45%);
+    --cd-active-color: #5b94ab;
+    --cd-accent-color: #4d5d80;
+    --cd-alternate-color: #7ebebd;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -26,10 +26,10 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--ls-secondary-text-color);
+    --ls-guideline-color: var(--bg-color-4);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #EBDBB2;
-    --ls-secondary-text-color: #d4c6a2;
+    --ls-primary-text-color: #c6c6c6;
+    --ls-secondary-text-color: #6e7899;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -39,7 +39,7 @@ html[data-theme='dark'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-2);
-    --ls-block-bullet-color: var(--ls-guideline-color);
+    --ls-block-bullet-color: var(--bg-color-6);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
@@ -68,17 +68,17 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: hsl(0, 0%, 95%);
-    --bg-color-1: hsl(0, 0%, 92%);
-    --bg-color-2: hsl(0, 0%, 89%);
-    --bg-color-3: hsl(0, 0%, 86%);
-    --bg-color-4: hsl(0, 0%, 83%);
-    --bg-color-5: hsl(0, 0%, 80%);
-    --bg-color-6: hsl(0, 0%, 77%);
-    --cd-inactive-color: hsl(0, 0%, 65%);
-    --cd-active-color: #e0576e;
-    --cd-accent-color: #3f68bf;
-    --cd-alternate-color: #99b949;
+    --bg-color: hsl(0, 0%, 94%);
+    --bg-color-1: hsl(0, 0%, 91%);
+    --bg-color-2: hsl(0, 0%, 88%);
+    --bg-color-3: hsl(0, 0%, 85%);
+    --bg-color-4: hsl(0, 0%, 82%);
+    --bg-color-5: hsl(0, 0%, 79%);
+    --bg-color-6: hsl(0, 0%, 76%);
+    --cd-inactive-color: hsl(0, 0%, 65%);;
+    --cd-active-color: #5b94ab;
+    --cd-accent-color: #4d5d80;
+    --cd-alternate-color: #5faaa9;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -94,10 +94,10 @@ html[data-theme='light'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--ls-secondary-text-color);
+    --ls-guideline-color: var(--color-level-4);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #403F53;
-    --ls-secondary-text-color: #53526b;
+    --ls-primary-text-color: #282b33;
+    --ls-secondary-text-color: #50535c;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -107,7 +107,7 @@ html[data-theme='light'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-3);
-    --ls-block-bullet-color: var(--ls-guideline-color);
+    --ls-block-bullet-color: var(--bg-color-6);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
@@ -233,7 +233,7 @@ mark {
 }
 
 .block-marker {
-    color: var(--cd-accent-color) !important;
+    color: var(--cd-alternate-color) !important;
     opacity: 0.7;
     font-weight: 700 !important;
 }
@@ -297,11 +297,11 @@ mark {
 }
 
 .block-children {
-    border-left: 1px solid var(--ls-guideline-color);
+    border-left: 2px solid var(--ls-guideline-color);
 }
 
 .block-children-left-border {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 .block-children-left-border:hover {
@@ -361,7 +361,7 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 }
 
 .dark-theme .block-parents a {
-    color: var(--cd-inactive-color) !important;
+    color: var(--ls-secondary-text-color) !important;
     font-size: 85%;
 }
 
@@ -371,7 +371,7 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 }
 
 .white-theme .block-parents a {
-    color: var(--cd-inactive-color) !important;
+    color: var(--ls-secondary-text-color) !important;
     font-size: 85%;
 }
 
@@ -402,7 +402,7 @@ li.my-2 {
 
 .form-checkbox {
     border: 0px solid !important;
-    background-color: var(--cd-accent-color) !important;
+    background-color: var(--cd-alternate-color) !important;
     opacity: 0.4;
     border-radius: 2px;
 }

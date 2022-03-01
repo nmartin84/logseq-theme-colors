@@ -11,6 +11,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Wilmersdorf",
+                "url": "./wilmersdorf.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
                 "name": "Henna",
                 "url": "./henna.css",
                 "description": "A dark theme focused around the one.",
@@ -92,12 +98,6 @@
                 "name": "Ayu",
                 "url": "./ayu.css",
                 "description": "Ayu Colors",
-                "mode": "dark"
-            },
-            {
-                "name": "Nightowl",
-                "url": "./nightowl.css",
-                "description": "A theme for Owls.",
                 "mode": "dark"
             }
         ],
