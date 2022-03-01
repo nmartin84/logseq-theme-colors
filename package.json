@@ -17,6 +17,18 @@
                 "mode": "dark"
             },
             {
+                "name": "Sourcerer",
+                "url": "./sourcerer.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
+                "name": "Zenburn",
+                "url": "./zenburn.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
                 "name": "Henna",
                 "url": "./henna.css",
                 "description": "A dark theme focused around the one.",
