@@ -71,6 +71,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Oceanic Next",
+                "url": "./oceanic-next.css",
+                "description": "Nord for logseq.",
+                "mode": "dark"
+            },
+            {
                 "name": "Peacock",
                 "url": "./peacock.css",
                 "description": "A dark theme focused around the one.",
@@ -85,6 +91,12 @@
             {
                 "name": "Sourcerer",
                 "url": "./sourcerer.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
+                "name": "Spacegrey",
+                "url": "./spacegrey.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
