@@ -212,15 +212,8 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 
 mark {
-    background-color: transparent;
-    color: var(--ls-primary-text-color);
-    padding: 0px 0px !important;
-    border-radius: 0px !important;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--cd-alternate-color);
-    text-underline-offset: 2px;
-    text-decoration-thickness: 3px;
+    background-color: var(--cd-alternate-color);
+    color: var(--bg-color);
 }
 
 .editor-inner .uniline-block:is(.h1, .h2),
@@ -274,7 +267,6 @@ mark {
 .white-theme .block-ref {
     border-bottom: 0px solid;
     color: var(--cd-inactive-color);
-    font-style: italic;
 }
 
 .white-theme .block-ref:hover {
@@ -283,7 +275,6 @@ mark {
 
 .dark-theme .block-ref {
     color: var(--cd-inactive-color);
-    font-style: italic;
     border-bottom: 0px solid;
 }
 
