@@ -552,18 +552,6 @@ h1[data-ref*='_/']:before {
     margin-right: 2px;
 }
 
-span.page-reference[data-ref*='Action Items'] .page-ref,
-a.page-ref[data-ref*='Action_Items'],
-h1[data-ref^='action items'] {
-    color: var(--cd-alternate-color) !important;
-}
-
-.page-reference[data-ref*='Action Items'] .page-ref:before,
-.page-ref[data-ref*='Action_Items']:before,
-h1[data-ref^='action items']:before {
-    content: '✅';
-    margin-right: 2px;
-}
 
 span.page-reference[data-ref^='@'] .page-ref,
 a.page-ref[data-ref^='@'],
