@@ -300,7 +300,6 @@ mark {
     border: 0px solid !important;
     padding: 0px 2px !important;
     color: var(--cd-alternate-color);
-    font-style: italic !important;
 }
 
 .white-theme :not(pre)>code {
@@ -309,7 +308,6 @@ mark {
     padding: 0px 2px !important;
     color: var(--cd-alternate-color);
     border-radius: 2px !important;
-    font-style: italic !important;
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
