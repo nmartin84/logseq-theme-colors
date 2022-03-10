@@ -296,7 +296,7 @@ mark {
 }
 
 .dark-theme :not(pre)>code {
-    background-color: transparent;
+    background-color: var(--bg-color-2);
     border: 0px solid !important;
     padding: 0px 2px !important;
     color: var(--cd-alternate-color);
@@ -304,7 +304,7 @@ mark {
 }
 
 .white-theme :not(pre)>code {
-    background-color: transparent;
+    background-color: var(--bg-color-2);
     border: 0px solid !important;
     padding: 0px 2px !important;
     color: var(--cd-alternate-color);
