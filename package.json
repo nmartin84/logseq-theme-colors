@@ -17,6 +17,30 @@
                 "mode": "dark"
             },
             {
+                "name": "Bearded Earth",
+                "url": "./bearded-earth.css",
+                "description": "Ayu Colors",
+                "mode": "dark"
+            },
+            {
+                "name": "Bearded Eggplant",
+                "url": "./bearded-eggplant.css",
+                "description": "Ayu Colors",
+                "mode": "dark"
+            },
+            {
+                "name": "Bearded Stone",
+                "url": "./bearded-stone.css",
+                "description": "Ayu Colors",
+                "mode": "dark"
+            },
+            {
+                "name": "Bearded Watermelon",
+                "url": "./bearded-watermelon.css",
+                "description": "Ayu Colors",
+                "mode": "dark"
+            },
+            {
                 "name": "Chocolate",
                 "url": "./chocolate.css",
                 "description": "A dark theme focused around the one.",
@@ -77,9 +101,33 @@
                 "mode": "dark"
             },
             {
+                "name": "Old Hope",
+                "url": "./oldhope.css",
+                "description": "Nord for logseq.",
+                "mode": "dark"
+            },
+            {
+                "name": "Opera",
+                "url": "./opera.css",
+                "description": "Opera.",
+                "mode": "dark"
+            },
+            {
                 "name": "Peacock",
                 "url": "./peacock.css",
                 "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
+                "name": "Rougue",
+                "url": "./rougue.css",
+                "description": "Solarized Theme",
+                "mode": "dark"
+            },
+            {
+                "name": "Snazzy",
+                "url": "./snazzy.css",
+                "description": "Solarized Theme",
                 "mode": "dark"
             },
             {

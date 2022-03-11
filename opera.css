@@ -1,0 +1,593 @@
+.dark-theme,
+html[data-theme='dark'] {
+    --bg-color: hsl(210, 2%, 20%);
+    --bg-color-1: hsl(210, 2%, 23%);
+    --bg-color-2: hsl(210, 2%, 26%);
+    --bg-color-3: hsl(210, 2%, 29%);
+    --bg-color-4: hsl(210, 2%, 32%);
+    --bg-color-5: hsl(210, 2%, 35%);
+    --bg-color-6: hsl(210, 2%, 38%);
+    --cd-inactive-color: hsl(210, 2%, 45%);
+    --cd-active-color: #8ebcbb;
+    --cd-accent-color: #b58dae;
+    --cd-alternate-color: #d2876d;
+    --ls-primary-background-color: var(--bg-color);
+    --ls-secondary-background-color: var(--bg-color-1);
+    --ls-tertiary-background-color: var(--bg-color-2);
+    --ls-quaternary-background-color: var(--bg-color-3);
+    --ls-table-tr-even-background-color: var(--color-level-3);
+    --ls-active-primary-color: var(--cd-active-color);
+    --ls-active-secondary-color: var(--cd-alternate-color);
+    --ls-block-properties-background-color: var(--color-level-1);
+    --ls-page-properties-background-color: var(--color-level-1);
+    --ls-block-ref-link-text-color: var(--cd-active-color);
+    --ls-search-background-color: var(--color-level-4);
+    --ls-mark-bg-color: var(--cd-accent-color);
+    --ls-mark-color: var(--cd-active-color);
+    --ls-border-color: var(--cd-accent-color);
+    --ls-secondary-border-color: var(--cd-alternate-color);
+    --ls-guideline-color: var(--bg-color-4);
+    --ls-menu-hover-color: var(--ls-secondary-background-color);
+    --ls-primary-text-color: #eceff4;
+    --ls-secondary-text-color: #747474;
+    --ls-title-text-color: var(--ls-primary-text-color);
+    --ls-link-text-color: var(--ls-secondary-text-color);
+    --ls-link-text-hover-color: var(--cd-alternate-color);
+    --ls-link-ref-text-color: var(--cd-active-color);
+    --ls-link-ref-text-hover-color: var(--cd-alternate-color);
+    --ls-tag-text-color: var(--cd-active-color);
+    --ls-tag-text-hover-color: var(--cd-alternate-color);
+    --ls-slide-background-color: var(--ls-primary-background-color);
+    --ls-block-bullet-border-color: var(--color-level-2);
+    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-highlight-color: var(--color-level-3);
+    --ls-selection-background-color: var(--cd-active-color);
+    --ls-page-checkbox-color: transparent;
+    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+    --ls-page-blockquote-color: var(--ls-primary-text-color);
+    --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
+    --ls-page-blockquote-border-color: var(--ls-border-color);
+    --ls-page-inline-code-color: var(--cd-alternate-color);
+    --ls-page-inline-code-bg-color: var(--color-level-2);
+    --ls-scrollbar-foreground-color: var(--cd-inactive-color);
+    --ls-scrollbar-background-color: var(--color-level-2);
+    --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
+    --ls-head-text-color: var(--ls-link-text-color);
+    --ls-cloze-text-color: var(--cd-active-color);
+    --ls-icon-color: var(--cd-active-color);
+    --ls-search-icon-color: var(--ls-link-text-color);
+    --ls-a-chosen-bg: var(--ls-secondary-background-color);
+    --ls-right-sidebar-code-bg-color: var(--bg-color-3);
+    --color-level-1: var(--ls-secondary-background-color);
+    --color-level-2: var(--ls-tertiary-background-color);
+    --color-level-3: var(--ls-quaternary-background-color);
+    --color-level-4: var(--bg-color-4);
+    --color-level-5: var(--bg-color-5);
+    --color-level-6: var(--bg-color-5);
+}
+
+.white-theme,
+html[data-theme='light'] {
+    --bg-color: hsl(210, 2%, 90%);
+    --bg-color-1: hsl(210, 2%, 88%);
+    --bg-color-2: hsl(210, 2%, 86%);
+    --bg-color-3: hsl(210, 2%, 84%);
+    --bg-color-4: hsl(210, 2%, 82%);
+    --bg-color-5: hsl(210, 2%, 80%);
+    --bg-color-6: hsl(210, 2%, 78%);
+    --cd-inactive-color: hsl(210, 2%, 65%);
+    --cd-active-color: #68a7a5;
+    --cd-accent-color: #915385;
+    --cd-alternate-color: #b45332;
+    --ls-primary-background-color: var(--bg-color);
+    --ls-secondary-background-color: var(--bg-color-1);
+    --ls-tertiary-background-color: var(--bg-color-2);
+    --ls-quaternary-background-color: var(--bg-color-3);
+    --ls-table-tr-even-background-color: var(--color-level-3);
+    --ls-active-primary-color: var(--cd-active-color);
+    --ls-active-secondary-color: var(--cd-alternate-color);
+    --ls-block-properties-background-color: var(--color-level-1);
+    --ls-page-properties-background-color: var(--color-level-1);
+    --ls-block-ref-link-text-color: var(--cd-active-color);
+    --ls-search-background-color: var(--color-level-3);
+    --ls-mark-bg-color: var(--cd-accent-color);
+    --ls-mark-color: var(--cd-active-color);
+    --ls-border-color: var(--cd-accent-color);
+    --ls-secondary-border-color: var(--cd-alternate-color);
+    --ls-guideline-color: var(--color-level-4);
+    --ls-menu-hover-color: var(--ls-secondary-background-color);
+    --ls-primary-text-color: #0e1822;
+    --ls-secondary-text-color: #323334;
+    --ls-title-text-color: var(--ls-primary-text-color);
+    --ls-link-text-color: var(--ls-secondary-text-color);
+    --ls-link-text-hover-color: var(--cd-alternate-color);
+    --ls-link-ref-text-color: var(--cd-active-color);
+    --ls-link-ref-text-hover-color: var(--cd-alternate-color);
+    --ls-tag-text-color: var(--cd-active-color);
+    --ls-tag-text-hover-color: var(--cd-alternate-color);
+    --ls-slide-background-color: var(--ls-primary-background-color);
+    --ls-block-bullet-border-color: var(--color-level-3);
+    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-highlight-color: var(--color-level-3);
+    --ls-selection-background-color: var(--cd-active-color);
+    --ls-page-checkbox-color: transparent;
+    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+    --ls-page-blockquote-color: var(--ls-primary-text-color);
+    --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
+    --ls-page-blockquote-border-color: var(--ls-border-color);
+    --ls-page-inline-code-color: var(--cd-alternate-color);
+    --ls-page-inline-code-bg-color: var(--color-level-2);
+    --ls-scrollbar-foreground-color: var(--ls-guideline-color);
+    --ls-scrollbar-background-color: var(--color-level-2);
+    --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
+    --ls-head-text-color: var(--ls-link-text-color);
+    --ls-cloze-text-color: var(--cd-active-color);
+    --ls-icon-color: var(--cd-active-color);
+    --ls-search-icon-color: var(--ls-link-text-color);
+    --ls-a-chosen-bg: var(--ls-secondary-background-color);
+    --ls-right-sidebar-code-bg-color: var(--bg-color-3);
+    --color-level-1: var(--ls-secondary-background-color);
+    --color-level-2: var(--ls-tertiary-background-color);
+    --color-level-3: var(--ls-quaternary-background-color);
+    --color-level-4: var(--bg-color-4);
+    --color-level-5: var(--bg-color-5);
+    --color-level-6: var(--bg-color-5);
+}
+
+.bg-indigo-600 {
+    background-color: var(--cd-active-color);
+}
+
+.extensions__code-lang {
+    top: 9px;
+    padding: .10rem !important;
+}
+
+.dark-theme .CodeMirror.cm-s-solarized.cm-s-dark,
+.dark-theme .extensions__code-lang {
+    background-color: var(--color-level-3);
+}
+
+.white-theme .CodeMirror.cm-s-solarized.cm-s-white,
+.white-theme .extensions__code-lang {
+    background-color: var(--color-level-3);
+}
+
+.dark-theme .CodeMirror-gutter,
+.dark-theme .CodeMirror-lines,
+.dark-theme .CodeMirror-scroll,
+.dark-theme .CodeMirror-sizer {
+    background-color: var(--color-level-3);
+}
+
+html[data-theme='light'] .CodeMirror-gutter,
+.CodeMirror-lines,
+.CodeMirror-scroll,
+.CodeMirror-sizer {
+    background-color: var(--color-level-3);
+}
+
+.cm-s-solarized.cm-s-dark {
+    color: var(--ls-primary-text-color);
+}
+
+
+/* something */
+
+.cm-s-solarized .cm-keyword {
+    color: var(--cd-active-color);
+}
+
+.cm-s-solarized .cm-operator {
+    color: var(--cd-active-color);
+}
+
+.cm-s-solarized .cm-property {
+    color: var(--cd-alternate-color);
+}
+
+.cm-s-solarized .cm-builtin {
+    color: var(--cd-alternate-color);
+}
+
+.cm-s-solarized .cm-number {
+    color: var(--cd-accent-color);
+}
+
+.cm-s-solarized .cm-string {
+    color: var(--cd-accent-color);
+}
+
+.cm-s-solarized .cm-comment {
+    color: var(--cd-inactive-color);
+}
+
+.cm-s-solarized .cm-variable {
+    color: var(--ls-primary-text-color);
+}
+
+.cm-s-solarized .cm-def,
+.cm-s-solarized .cm-attribute {
+    color: var(--cd-active-color);
+}
+
+mark {
+    background-color: var(--cd-alternate-color);
+    color: var(--bg-color);
+}
+
+.editor-inner .uniline-block:is(.h1, .h2),
+.ls-block :is(h1, h2) {
+    border-bottom: 0px solid !important;
+}
+
+.block-marker {
+    color: var(--cd-alternate-color) !important;
+    opacity: 0.7;
+}
+
+.dark-theme .external-link:after {
+    font-family: 'tabler-icons';
+    content: "\ea99";
+    padding-left: 3px;
+    font-size: 80%;
+}
+
+.dark-theme .external-link {
+    color: var(--cd-accent-color);
+    border-bottom: 0px solid;
+}
+
+.dark-theme .external-link:hover {
+    color: var(--cd-active-color);
+}
+
+.white-theme .external-link:after {
+    font-family: 'tabler-icons';
+    content: "\ea99";
+    padding-left: 3px;
+    font-size: 80%;
+}
+
+.white-theme .external-link {
+    color: var(--cd-accent-color);
+    border-bottom: 0px solid;
+}
+
+.white-theme .external-link:hover {
+    color: var(--cd-active-color);
+}
+
+.white-theme .block-ref,
+.dark-theme .block-ref {
+    border-radius: 0px !important;
+    padding: 0px 0px;
+}
+
+.white-theme .block-ref {
+    border-bottom: 0px solid;
+    color: var(--cd-inactive-color);
+}
+
+.white-theme .block-ref:hover {
+    color: var(--cd-alternate-color);
+}
+
+.dark-theme .block-ref {
+    color: var(--cd-inactive-color);
+    border-bottom: 0px solid;
+}
+
+.dark-theme .block-ref:hover {
+    color: var(--cd-alternate-color);
+}
+
+.block-children {
+    border-left: 2px solid var(--ls-guideline-color);
+}
+
+.block-children-left-border {
+    background-color: transparent;
+}
+
+.block-children-left-border:hover {
+    background-color: var(--ls-primary-text-color) !important;
+}
+
+.dark-theme :not(pre)>code {
+    background-color: var(--bg-color-2);
+    border: 0px solid !important;
+    padding: 0px 2px !important;
+    color: var(--cd-alternate-color);
+}
+
+.white-theme :not(pre)>code {
+    background-color: var(--bg-color-2);
+    border: 0px solid !important;
+    padding: 0px 2px !important;
+    color: var(--cd-alternate-color);
+    border-radius: 2px !important;
+}
+
+html[data-theme=light] .cp__right-sidebar .block-content {
+    --ls-page-inline-code-bg-color: transparent !important;
+}
+
+
+/* Right sidebar properties, right sidebar references window */
+
+#right-sidebar .block-properties {
+    background-color: var(--color-level-2);
+}
+
+#right-sidebar .my-2.color-level .block-properties {
+    background-color: var(--color-level-3) !important;
+}
+
+
+/* Embedded page, main container reference window */
+
+#main-content-container .references-blocks .block-properties {
+    background-color: transparent;
+}
+
+
+/* References title and breadcrumbs */
+
+.dark-theme .references .foldable-title .page-ref:hover,
+.white-theme .references .foldable-title .page-ref:hover {
+    color: var(--ls-link-ref-text-hover-color) !important;
+}
+
+.dark-theme .references .foldable-title .page-ref,
+.white-theme .references .foldable-title .page-ref {
+    color: var(--ls-primary-text-color);
+}
+
+.dark-theme .block-parents a {
+    color: var(--ls-secondary-text-color) !important;
+    font-size: 85%;
+}
+
+.dark-theme .block-parents a .page-ref,
+.white-theme .block-parents a .page-ref {
+    color: var(--ls-link-ref-text-color) !important;
+}
+
+.white-theme .block-parents a {
+    color: var(--ls-secondary-text-color) !important;
+    font-size: 85%;
+}
+
+.dark-theme .block-parents a:hover,
+.white-theme .block-parents a:hover {
+    color: var(--ls-primary-text-color) !important;
+}
+
+.white-theme .references .foldable-title .page-ref,
+.white-theme .block-parents a {
+    color: #373f4f;
+}
+
+.color-level.rounded {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.my-2 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+li.my-2 {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.form-checkbox {
+    border: 0px solid !important;
+    background-color: var(--cd-alternate-color) !important;
+    opacity: 0.4;
+    border-radius: 2px;
+}
+
+.form-checkbox:checked {
+    background-color: var(--cd-inactive-color);
+    opacity: 0.3;
+}
+
+.journal h1.title:before {
+    content: "📆 ";
+    font-size: 80%;
+    position: relative;
+    top: -3px;
+}
+
+.dark-theme .tag {
+    font-size: 90% !important;
+    padding: 0px 0px;
+    color: var(--ls-secondary-text-color);
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.white-theme .tag {
+    font-size: 90% !important;
+    padding: 0px 0px;
+    color: var(--ls-secondary-text-color);
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.done .tag {
+    text-decoration: line-through;
+}
+
+.dark-theme .block-parents a.tag {
+    color: var(--ls-secondary-text-color) !important;
+    background-color: transparent;
+}
+
+.white-theme .block-parents a.tag {
+    color: var(--ls-secondary-text-color) !important;
+    background-color: transparent;
+}
+
+
+/* PDF Viewer */
+
+#pdf-layout-container[data-theme=light] .textLayer {
+    background-color: #eceff4;
+}
+
+#pdf-layout-container[data-theme=dark] .textLayer {
+    background-color: #2f3541;
+}
+
+#pdf-layout-container[data-theme=light] {
+    background-color: #ced6e3;
+}
+
+#pdf-layout-container[data-theme=dark] {
+    background-color: #22272f;
+}
+
+.textLayer .highlight.selected,
+.textLayer ::selection {
+    background-color: var(--cd-active-color);
+}
+
+:root {
+    --ph-highlight-color-blue: var(--cd-accent-color);
+    --ph-highlight-color-green: var(--cd-green-1);
+    --ph-highlight-color-red: var(--cd-active-color);
+    --ph-highlight-color-purple: var(--cd-pink-1);
+    --ph-highlight-color-yellow: var(--cd-alternate-color);
+    --ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);
+}
+
+.hls-popup-box {
+    background-color: var(--color-level-3);
+}
+
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+.editor-inner textarea {
+    color: var(--cd-alternate-color);
+}
+
+.cm-s-solarized.cm-s-dark,
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+    text-shadow: none !important;
+}
+
+::selection {
+    color: var(--bg-color);
+}
+
+.block-parents mark {
+    text-decoration-color: var(--cd-inactive-color);
+}
+
+.page-property-key {
+    color: var(--ls-primary-text-color);
+}
+
+
+/* Seedling Color (second rule is for seedlings that have text within linked to a block */
+
+span.page-reference[data-ref*='p: '] .page-ref,
+a.page-ref[data-ref*='p_'],
+h1[data-ref^='p_'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref*='p: '] .page-ref:before,
+.page-ref[data-ref*='p_']:before,
+h1[data-ref^='p_']:before {
+    content: '🚀';
+    margin-right: 2px;
+}
+
+span.page-reference[data-ref*='f: '] .page-ref,
+a.page-ref[data-ref*='f_'],
+h1[data-ref^='f_'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref*='f: '] .page-ref:before,
+.page-ref[data-ref*='f_']:before,
+h1[data-ref^='f_']:before {
+    content: '🧠';
+    margin-right: 2px;
+}
+
+span.page-reference[data-ref*='t: '] .page-ref,
+a.page-ref[data-ref*='t_ '],
+h1[data-ref^='t_'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref*='t: '] .page-ref:before,
+.page-ref[data-ref*='t_ ']:before,
+h1[data-ref^='t_']:before {
+    content: '💻';
+    margin-right: 2px;
+}
+
+span.page-reference[data-ref*='#/'] .page-ref,
+a.page-ref[data-ref*='_/'],
+h1[data-ref*='_/'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref*='#/'] .page-ref:before,
+.page-ref[data-ref*='_/']:before,
+h1[data-ref*='_/']:before {
+    content: '🚧';
+    margin-right: 2px;
+}
+
+
+span.page-reference[data-ref^='@'] .page-ref,
+a.page-ref[data-ref^='@'],
+h1[data-ref^='@'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref^='@'] .page-ref:before,
+.page-ref[data-ref^='@']:before,
+h1[data-ref^='@']:before {
+    content: '👩‍💼';
+    margin-right: 2px;
+}
+
+span.page-reference[data-ref^='s: '] .page-ref,
+a.page-ref[data-ref^='s_'],
+h1[data-ref^='s_'] {
+    color: var(--cd-alternate-color) !important;
+}
+
+.page-reference[data-ref^='s: '] .page-ref:before,
+.page-ref[data-ref^='s_']:before,
+h1[data-ref^='s_']:before {
+    content: '🌱';
+    margin-right: 2px;
+}
+
+.open-block-ref-link {
+    background-color: var(--cd-alternate-color);
+    color: var(--bg-color);
+    font-weight: 500;
+}
+
+.flex.flex-1.flex-row.w-full.mt-6 {
+    margin-top: 0.5rem;
+}
+
+.block-properties {
+    padding: 0px 8px;
+    margin: 0px;
+}
