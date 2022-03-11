@@ -77,7 +77,7 @@ html[data-theme='light'] {
     --bg-color-6: hsl(190, 31%, 70%);
     --cd-inactive-color: hsl(190, 31%, 60%);
     --cd-active-color: #c54539;
-    --cd-accent-color: #81ce34;
+    --cd-accent-color: #60b807;
     --cd-alternate-color: #04a2aa;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
