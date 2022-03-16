@@ -1,5 +1,6 @@
 .dark-theme,
 html[data-theme='dark'] {
+    --bg-dark: hsl(202, 32%, 12%);
     --bg-color: hsl(202, 32%, 15%);
     --bg-color-1: hsl(202, 32%, 18%);
     --bg-color-2: hsl(202, 32%, 21%);
@@ -145,26 +146,26 @@ html[data-theme='light'] {
 
 .dark-theme .CodeMirror.cm-s-solarized.cm-s-dark,
 .dark-theme .extensions__code-lang {
-    background-color: var(--color-level-3);
+    background-color: var(--bg-dark);
 }
 
 .white-theme .CodeMirror.cm-s-solarized.cm-s-white,
 .white-theme .extensions__code-lang {
-    background-color: var(--color-level-3);
+    background-color: var(--color-level-1);
 }
 
 .dark-theme .CodeMirror-gutter,
 .dark-theme .CodeMirror-lines,
 .dark-theme .CodeMirror-scroll,
 .dark-theme .CodeMirror-sizer {
-    background-color: var(--color-level-3);
+    background-color: var(--bg-dark);
 }
 
 html[data-theme='light'] .CodeMirror-gutter,
 .CodeMirror-lines,
 .CodeMirror-scroll,
 .CodeMirror-sizer {
-    background-color: var(--color-level-3);
+    background-color: var(--color-level-1);
 }
 
 .cm-s-solarized.cm-s-dark {
@@ -283,7 +284,7 @@ mark {
 }
 
 .block-children {
-    border-left: 2px solid var(--ls-guideline-color);
+    border-left: 1px solid var(--ls-guideline-color);
 }
 
 .block-children-left-border {
@@ -590,4 +591,10 @@ h1[data-ref^='s_']:before {
 .block-properties {
     padding: 0px 8px;
     margin: 0px;
+}
+.dark-theme .page-properties {
+    background: var(--bg-dark);
+}
+.white-theme .references-blocks :is(.CodeMirror-gutter,.CodeMirror-lines,.CodeMirror-scroll,.CodeMirror-sizer) {
+    background-color: var(--bg-color-2);
 }

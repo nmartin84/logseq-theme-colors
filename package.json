@@ -5,12 +5,6 @@
     "description": "The one dark theme for logseq",
     "logseq": {
         "themes": [{
-                "name": "One",
-                "url": "./one.css",
-                "description": "A dark theme focused around the one.",
-                "mode": "dark"
-            },
-            {
                 "name": "Ayu",
                 "url": "./ayu.css",
                 "description": "Ayu Colors",
