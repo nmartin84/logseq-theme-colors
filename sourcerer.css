@@ -140,18 +140,19 @@ html[data-theme='light'] {
 }
 
 .extensions__code-lang {
-    top: 9px;
-    padding: .10rem !important;
+    top: 8px;
+    padding: .10rem .30rem !important;
+    color: var(--bg-color);
 }
 
 .dark-theme .CodeMirror.cm-s-solarized.cm-s-dark,
 .dark-theme .extensions__code-lang {
-    background-color: var(--bg-dark);
+    background-color: var(--cd-accent-color);
 }
 
 .white-theme .CodeMirror.cm-s-solarized.cm-s-white,
 .white-theme .extensions__code-lang {
-    background-color: var(--color-level-1);
+    background-color: var(--cd-accent-color);
 }
 
 .dark-theme .CodeMirror-gutter,
