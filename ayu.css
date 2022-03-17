@@ -300,7 +300,7 @@ mark {
     background-color: var(--bg-color-2);
     border: 0px solid !important;
     padding: 0px 2px !important;
-    color: var(--cd-alternate-color);
+    color: var(--ls-primary-text-color);
     font-style: italic !important;
 }
 
@@ -308,9 +308,13 @@ mark {
     background-color: var(--bg-color-2);
     border: 0px solid !important;
     padding: 0px 2px !important;
-    color: var(--cd-alternate-color);
+    color: var(--ls-primary-text-color);
     border-radius: 2px !important;
     font-style: italic !important;
+}
+:not(pre)>code:before,
+ :not(pre)>code:after {
+    content: "`";
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {

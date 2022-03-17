@@ -298,17 +298,22 @@ mark {
 
 .dark-theme :not(pre)>code {
     background-color: var(--bg-color-2);
-    border: 0px solid !important;
+    border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--cd-alternate-color);
+    color: var(--ls-primary-text-color);
+    border-radius: 2px !important;
 }
 
 .white-theme :not(pre)>code {
     background-color: var(--bg-color-2);
-    border: 0px solid !important;
+    border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--cd-alternate-color);
+    color: var(--ls-primary-text-color);
     border-radius: 2px !important;
+}
+:not(pre)>code:before,
+ :not(pre)>code:after {
+    content: "`";
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
