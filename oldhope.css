@@ -224,7 +224,7 @@ mark {
 }
 
 .block-marker {
-    color: var(--cd-alternate-color) !important;
+    color: var(--cd-active-color) !important;
     opacity: 0.7;
 }
 
@@ -397,7 +397,7 @@ li.my-2 {
 
 .form-checkbox {
     border: 0px solid !important;
-    background-color: var(--cd-alternate-color) !important;
+    background-color: var(--cd-active-color) !important;
     opacity: 0.4;
     border-radius: 2px;
 }
