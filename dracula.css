@@ -69,14 +69,14 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: hsl(60, 30%, 96%);
-    --bg-color-1: hsl(60, 30%, 93%);
-    --bg-color-2: hsl(60, 30%, 90%);
-    --bg-color-3: hsl(60, 30%, 87%);
-    --bg-color-4: hsl(60, 30%, 84%);
-    --bg-color-5: hsl(60, 30%, 81%);
-    --bg-color-6: hsl(60, 30%, 78%);
-    --cd-inactive-color: hsl(60, 30%, 65%);
+    --bg-color: hsl(265, 18%, 98%);
+    --bg-color-1: hsl(265, 18%, 95%);
+    --bg-color-2: hsl(265, 18%, 92%);
+    --bg-color-3: hsl(265, 18%, 89%);
+    --bg-color-4: hsl(265, 18%, 86%);
+    --bg-color-5: hsl(265, 18%, 83%);
+    --bg-color-6: hsl(265, 18%, 80%);
+    --cd-inactive-color: hsl(265, 18%, 65%);
     --cd-active-color: #e545a0;
     --cd-accent-color: #bfd012;
     --cd-alternate-color: #8e48ef;
@@ -268,7 +268,7 @@ mark {
 
 .white-theme .block-ref {
     border-bottom: 0px solid;
-    color: var(--cd-inactive-color);
+    color: var(--ls-secondary-text-color);
 }
 
 .white-theme .block-ref:hover {
@@ -276,7 +276,7 @@ mark {
 }
 
 .dark-theme .block-ref {
-    color: var(--cd-inactive-color);
+    color: var(--ls-secondary-text-color);
     border-bottom: 0px solid;
 }
 
@@ -311,10 +311,7 @@ mark {
     color: var(--ls-primary-text-color);
     border-radius: 2px !important;
 }
-:not(pre)>code:before,
- :not(pre)>code:after {
-    content: "`";
-}
+
 
 html[data-theme=light] .cp__right-sidebar .block-content {
     --ls-page-inline-code-bg-color: transparent !important;
@@ -407,13 +404,6 @@ li.my-2 {
     opacity: 0.3;
 }
 
-.journal h1.title:before {
-    content: "📆 ";
-    font-size: 80%;
-    position: relative;
-    top: -3px;
-}
-
 .dark-theme .tag {
     font-size: 90% !important;
     padding: 0px 0px;
@@ -486,7 +476,7 @@ li.my-2 {
 }
 
 .editor-inner textarea {
-    color: var(--cd-alternate-color);
+    caret-color: var(--cd-active-color);
 }
 
 .cm-s-solarized.cm-s-dark,
@@ -508,9 +498,9 @@ li.my-2 {
 
 
 .open-block-ref-link {
-    background-color: var(--cd-alternate-color);
-    color: var(--bg-color);
-    font-weight: 500;
+    background-color: var(--bg-color-3);
+    color: var(--cd-alternate-color);
+    font-weight: 700;
 }
 
 .flex.flex-1.flex-row.w-full.mt-6 {
@@ -526,4 +516,8 @@ li.my-2 {
 }
 .white-theme .references-blocks :is(.CodeMirror-gutter,.CodeMirror-lines,.CodeMirror-scroll,.CodeMirror-sizer) {
     background-color: var(--bg-color-2);
+}
+
+.ls-block {
+    font-weight: 300;
 }
