@@ -69,14 +69,14 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: hsl(270, 31%, 88%);
-    --bg-color-1: hsl(270, 31%, 85%);
-    --bg-color-2: hsl(270, 31%, 82%);
-    --bg-color-3: hsl(270, 31%, 79%);
-    --bg-color-4: hsl(270, 31%, 76%);
-    --bg-color-5: hsl(270, 31%, 73%);
-    --bg-color-6: hsl(270, 31%, 70%);
-    --cd-inactive-color: hsl(270, 31%, 60%);
+    --bg-color: hsl(270, 31%, 98%);
+    --bg-color-1: hsl(270, 31%, 95%);
+    --bg-color-2: hsl(270, 31%, 92%);
+    --bg-color-3: hsl(270, 31%, 89%);
+    --bg-color-4: hsl(270, 31%, 86%);
+    --bg-color-5: hsl(270, 31%, 83%);
+    --bg-color-6: hsl(270, 31%, 80%);
+    --cd-inactive-color: hsl(270, 31%, 70%);
     --cd-active-color: #d12c2c;
     --cd-accent-color: #7dc931;
     --cd-alternate-color: #02a7af;

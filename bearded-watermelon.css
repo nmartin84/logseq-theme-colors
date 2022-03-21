@@ -77,7 +77,7 @@ html[data-theme='light'] {
     --bg-color-5: hsl(190, 31%, 82%);
     --bg-color-6: hsl(190, 31%, 79%);
     --cd-inactive-color: hsl(190, 31%, 70%);
-    --cd-active-color: #c54539;
+    --cd-active-color: #ef233c;
     --cd-accent-color: #2968a3;
     --cd-alternate-color: #04a2aa;
     --ls-primary-background-color: var(--bg-color);
@@ -97,8 +97,8 @@ html[data-theme='light'] {
     --ls-secondary-border-color: var(--cd-alternate-color);
     --ls-guideline-color: var(--color-level-4);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #142326;
-    --ls-secondary-text-color: #354b50;
+    --ls-primary-text-color: #1d3557;
+    --ls-secondary-text-color: #8d99ae;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);

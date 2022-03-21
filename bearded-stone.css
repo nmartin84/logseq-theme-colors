@@ -9,7 +9,7 @@ html[data-theme='dark'] {
     --bg-color-5: hsl(220, 10%, 33%);
     --bg-color-6: hsl(220, 10%, 36%);
     --cd-inactive-color: hsl(220, 10%, 45%);
-    --cd-active-color: #229aa5;
+    --cd-active-color: #8ecae6;
     --cd-accent-color: #6ab156;
     --cd-alternate-color: #f09f7c;
     --ls-primary-background-color: var(--bg-color);
@@ -77,7 +77,7 @@ html[data-theme='light'] {
     --bg-color-5: hsl(220, 10%, 83%);
     --bg-color-6: hsl(220, 10%, 80%);
     --cd-inactive-color: hsl(220, 10%, 70%);
-    --cd-active-color: #065e66;
+    --cd-active-color: #07a6b5;
     --cd-accent-color: #f56c31;
     --cd-alternate-color: #CE4257;
     --ls-primary-background-color: var(--bg-color);
