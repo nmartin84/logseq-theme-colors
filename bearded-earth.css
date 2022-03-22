@@ -300,7 +300,7 @@ mark {
     background-color: var(--bg-color-2);
     border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--ls-primary-text-color);
+    color: var(--cd-alternate-color);
     border-radius: 2px !important;
 }
 
@@ -308,7 +308,7 @@ mark {
     background-color: var(--bg-color-2);
     border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--ls-primary-text-color);
+    color: var(--cd-alternate-color);
     border-radius: 2px !important;
 }
 

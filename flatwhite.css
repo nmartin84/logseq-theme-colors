@@ -9,9 +9,9 @@ html[data-theme='dark'] {
     --bg-color-5: hsl(34, 8%, 24%);
     --bg-color-6: hsl(34, 8%, 27%);
     --cd-inactive-color: hsl(34, 8%, 35%);
-    --cd-active-color: #71ad99;
+    --cd-active-color: #c58fc5;
     --cd-accent-color: #bb7979;
-    --cd-alternate-color: #c58fc5;
+    --cd-alternate-color: #71ad99;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -300,7 +300,7 @@ mark {
     background-color: var(--bg-color-2);
     border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--ls-primary-text-color);
+    color: var(--cd-alternate-color);
     border-radius: 2px !important;
 }
 
@@ -308,7 +308,7 @@ mark {
     background-color: var(--bg-color-2);
     border: 1px solid var(--bg-color-3) !important;
     padding: 0px 2px !important;
-    color: var(--ls-primary-text-color);
+    color: var(--cd-alternate-color);
     border-radius: 2px !important;
 }
 
