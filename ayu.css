@@ -77,7 +77,7 @@ html[data-theme='light'] {
     --bg-color-5: hsl(210, 17%, 82%);
     --bg-color-6: hsl(210, 17%, 79%);
     --cd-inactive-color: hsl(210, 17%, 65%);
-    --cd-active-color: #f3bb4c;
+    --cd-active-color: #efaa1f;
     --cd-accent-color: #aad94c;
     --cd-alternate-color: #61c6f8;
     --ls-primary-background-color: var(--bg-color);
