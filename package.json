@@ -159,12 +159,6 @@
                 "url": "./yin.css",
                 "description": "Yin and Yang",
                 "mode": "dark"
-            },
-            {
-                "name": "Zenburn",
-                "url": "./zenburn.css",
-                "description": "A dark theme focused around the one.",
-                "mode": "dark"
             }
         ],
         "id": "one"
