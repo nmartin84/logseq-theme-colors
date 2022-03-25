@@ -263,18 +263,12 @@ li.my-2 {
 
 .dark-theme .tag {
     font-size: 90% !important;
-    padding: 0px 4px;
     color: var(--cd-alternate-color);
-    background-color: var(--bg-color-2);
-    border-radius: 2px;
 }
 
 .white-theme .tag {
     font-size: 90% !important;
-    padding: 0px 4px;
     color: var(--cd-alternate-color);
-    background-color: var(--bg-color-2);
-    border-radius: 2px;
 }
 
 .done .tag {
