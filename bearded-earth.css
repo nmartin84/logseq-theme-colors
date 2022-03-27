@@ -2,18 +2,18 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-dark: hsl(7, 18%, 7%);
-    --bg-color: hsl(7, 18%, 10%);
-    --bg-color-1: hsl(7, 18%, 13%);
-    --bg-color-2: hsl(7, 18%, 16%);
-    --bg-color-3: hsl(7, 18%, 19%);
-    --bg-color-4: hsl(7, 18%, 22%);
-    --bg-color-5: hsl(7, 18%, 25%);
-    --bg-color-6: hsl(7, 18%, 28%);
-    --cd-inactive-color: hsl(7, 18%, 35%);
+    --bg-dark: hsl(6, 24%, 7%);
+    --bg-color: hsl(6, 24%, 10%);
+    --bg-color-1: hsl(6, 24%, 13%);
+    --bg-color-2: hsl(6, 24%, 16%);
+    --bg-color-3: hsl(6, 24%, 19%);
+    --bg-color-4: hsl(6, 24%, 22%);
+    --bg-color-5: hsl(6, 24%, 25%);
+    --bg-color-6: hsl(6, 24%, 28%);
+    --cd-inactive-color: hsl(6, 24%, 35%);
     --cd-active-color: #85964e;
     --cd-accent-color: #aa4465;
-    --cd-alternate-color: #56c1b5;
+    --cd-alternate-color: #bea246;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -29,7 +29,7 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--bg-color-4);
+    --ls-guideline-color: #78684747;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #c6beab;
     --ls-secondary-text-color: #918a7b;
@@ -41,8 +41,8 @@ html[data-theme='dark'] {
     --ls-tag-text-color: var(--cd-active-color);
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: var(--color-level-2);
-    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-bullet-border-color: #78684738;
+    --ls-block-bullet-color: #786847;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
@@ -71,17 +71,17 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: hsl(7, 18%, 96%);
-    --bg-color-1: hsl(7, 18%, 93%);
-    --bg-color-2: hsl(7, 18%, 90%);
-    --bg-color-3: hsl(7, 18%, 87%);
-    --bg-color-4: hsl(7, 18%, 84%);
-    --bg-color-5: hsl(7, 18%, 81%);
-    --bg-color-6: hsl(7, 18%, 78%);
-    --cd-inactive-color: hsl(7, 18%, 70%);
+    --bg-color: hsl(46, 18%, 92%);
+    --bg-color-1: hsl(46, 18%, 89%);
+    --bg-color-2: hsl(46, 18%, 86%);
+    --bg-color-3: hsl(46, 18%, 83%);
+    --bg-color-4: hsl(46, 18%, 80%);
+    --bg-color-5: hsl(46, 18%, 77%);
+    --bg-color-6: hsl(46, 18%, 74%);
+    --cd-inactive-color: hsl(46, 18%, 65%);
     --cd-active-color: #83af89;
     --cd-accent-color: #aa4465;
-    --cd-alternate-color: #56c1b5;
+    --cd-alternate-color: #8fbb6f;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -110,7 +110,7 @@ html[data-theme='light'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-3);
-    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-bullet-color: #c2bfb4;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;

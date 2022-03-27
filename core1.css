@@ -77,8 +77,13 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 
 mark {
-    background-color: var(--cd-alternate-color);
-    color: var(--bg-color);
+    background-color: transparent;
+    color: var(--ls-primary-text-color);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--cd-alternate-color);
+    padding: 0px 0px;
 }
 
 .editor-inner .uniline-block:is(.h1, .h2),
@@ -370,5 +375,11 @@ li.my-2 {
 }
 
 .ls-block {
-    font-weight: 300;
+    font-weight: 400;
+}
+.page-ref {
+    font-weight: 500 !important;
+}
+.ls-block b {
+    font-weight: 700;
 }
