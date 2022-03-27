@@ -13,7 +13,7 @@ html[data-theme='dark'] {
     --cd-inactive-color: hsl(224, 12%, 45%);
     --cd-active-color: #5b94ab;
     --cd-accent-color: #4d5d80;
-    --cd-alternate-color: #7ebebd;
+    --cd-alternate-color: #92d9f6;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -81,7 +81,7 @@ html[data-theme='light'] {
     --cd-inactive-color: hsl(0, 0%, 65%);;
     --cd-active-color: #5b94ab;
     --cd-accent-color: #4d5d80;
-    --cd-alternate-color: #5faaa9;
+    --cd-alternate-color: #1f98c9;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
