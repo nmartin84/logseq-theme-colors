@@ -11,6 +11,12 @@
             "mode": "dark"
             },
             {
+                "name": "Default2",
+                "url": "./default2.css",
+                "description": "Default2",
+                "mode": "dark"
+            },
+            {
                 "name": "Ayu",
                 "url": "./ayu.css",
                 "description": "Ayu Colors",
@@ -152,12 +158,6 @@
                 "name": "Tokyo",
                 "url": "./tokyo.css",
                 "description": "Tokyo night",
-                "mode": "dark"
-            },
-            {
-                "name": "Wilmersdorf",
-                "url": "./wilmersdorf.css",
-                "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
             {

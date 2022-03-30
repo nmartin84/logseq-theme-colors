@@ -2,18 +2,17 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-dark: hsl(224, 12%, 15%);
-    --bg-color: hsl(224, 12%, 18%);
-    --bg-color-1: hsl(224, 12%, 21%);
-    --bg-color-2: hsl(224, 12%, 24%);
-    --bg-color-3: hsl(224, 12%, 27%);
-    --bg-color-4: hsl(224, 12%, 30%);
-    --bg-color-5: hsl(224, 12%, 33%);
-    --bg-color-6: hsl(224, 12%, 36%);
-    --cd-inactive-color: hsl(224, 12%, 45%);
-    --cd-active-color: #5b94ab;
-    --cd-accent-color: #4d5d80;
-    --cd-alternate-color: #92d9f6;
+    --bg-dark: #002b36;
+    --bg-color: #023643;
+    --bg-color-1: #08404f;
+    --bg-color-2: #094b5a;
+    --bg-color-3: #195d6c;
+    --bg-color-4: #266c7d;
+    --bg-color-5: #3a7e8e;
+    --cd-inactive-color: #3a7e8e;
+    --cd-active-color: #57A0B4;
+    --cd-accent-color: #819C91;
+    --cd-alternate-color: #57A0B4;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -29,10 +28,10 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--bg-color-4);
+    --ls-guideline-color: #6CB3AB;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #c6c6c6;
-    --ls-secondary-text-color: #6e7899;
+    --ls-primary-text-color: #E4D8C5;
+    --ls-secondary-text-color: #a2a09e;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -42,7 +41,7 @@ html[data-theme='dark'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-2);
-    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-bullet-color: #6CB3AB;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
@@ -71,17 +70,16 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: hsl(0, 0%, 94%);
-    --bg-color-1: hsl(0, 0%, 91%);
-    --bg-color-2: hsl(0, 0%, 88%);
-    --bg-color-3: hsl(0, 0%, 85%);
-    --bg-color-4: hsl(0, 0%, 82%);
-    --bg-color-5: hsl(0, 0%, 79%);
-    --bg-color-6: hsl(0, 0%, 76%);
-    --cd-inactive-color: hsl(0, 0%, 65%);;
-    --cd-active-color: #5b94ab;
-    --cd-accent-color: #4d5d80;
-    --cd-alternate-color: #1f98c9;
+    --bg-color: #ffffff;
+    --bg-color-1: #f7f7f7;
+    --bg-color-2: #f1eee8;
+    --bg-color-3: #e8e5de;
+    --bg-color-4: #d0e6fa;
+    --bg-color-5: #bbdaf6;
+    --cd-inactive-color: #705b5f;
+    --cd-active-color: #106ba3;
+    --cd-accent-color: #75BED8;
+    --cd-alternate-color: #106ba3;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -97,10 +95,10 @@ html[data-theme='light'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--color-level-4);
+    --ls-guideline-color: var(--cd-accent-color);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #282b33;
-    --ls-secondary-text-color: #50535c;
+    --ls-primary-text-color: #253140;
+    --ls-secondary-text-color: #353a41;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -110,7 +108,7 @@ html[data-theme='light'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-3);
-    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-bullet-color: var(--cd-accent-color);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
