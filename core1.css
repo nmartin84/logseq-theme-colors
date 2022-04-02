@@ -381,5 +381,5 @@ li.my-2 {
     font-weight: 700;
 }
 .page-reference .bracket {
-    color: var(--cd-inactive-color);
+    color: var(--ls-primary-text-color);
 }
