@@ -131,6 +131,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Rougue - Alt",
+                "url": "./rougue2.css",
+                "description": "Rougue Color",
+                "mode": "dark"
+            },
+            {
                 "name": "Snazzy",
                 "url": "./snazzy.css",
                 "description": "Solarized Theme",

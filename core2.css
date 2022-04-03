@@ -165,13 +165,13 @@ mark {
 }
 
 .dark-theme :not(pre)>code {
-    background-color: var(--bg-dark);
-    color: var(--cd-alternate-color);
+    background-color: var(--cd-active-color);
+    color: var(--bg-color);
 }
 
 .white-theme :not(pre)>code {
-    background-color: var(--bg-color-2);
-    color: var(--cd-alternate-color);
+    background-color: var(--cd-active-color);
+    color: var(--bg-color);
 }
 
 
