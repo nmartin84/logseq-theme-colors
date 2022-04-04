@@ -8,13 +8,7 @@
     color: var(--bg-color);
 }
 
-.dark-theme .CodeMirror.cm-s-solarized.cm-s-dark,
-.dark-theme .extensions__code-lang {
-    background-color: var(--cd-accent-color);
-}
-
-.white-theme .CodeMirror.cm-s-solarized.cm-s-white,
-.white-theme .extensions__code-lang {
+.extensions__code-lang {
     background-color: var(--cd-accent-color);
 }
 
@@ -23,6 +17,9 @@
 .dark-theme .CodeMirror-scroll,
 .dark-theme .CodeMirror-sizer {
     background-color: var(--bg-dark);
+}
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+    background-color: var(--bg-color-1);
 }
 
 html[data-theme='light'] .CodeMirror-gutter,
@@ -128,27 +125,13 @@ mark {
     color: var(--cd-active-color);
 }
 
-.white-theme .block-ref,
-.dark-theme .block-ref {
-    border-radius: 0px !important;
+.block-ref {
+    border-bottom: 1px solid var(--bg-color-6);
+    color: var(--ls-secondary-text-color);
     padding: 0px 0px;
 }
 
-.white-theme .block-ref {
-    border-bottom: 0px solid;
-    color: var(--ls-secondary-text-color);
-}
-
-.white-theme .block-ref:hover {
-    color: var(--cd-alternate-color);
-}
-
-.dark-theme .block-ref {
-    color: var(--ls-secondary-text-color);
-    border-bottom: 0px solid;
-}
-
-.dark-theme .block-ref:hover {
+.block-ref:hover {
     color: var(--cd-alternate-color);
 }
 
@@ -216,11 +199,12 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 
 /* === References Window Breadcrumbs === */
 
-.block-parents a {
+.block-parents a:not(.tag) {
     color: var(--ls-secondary-text-color) !important;
     font-size: 13px;
 }
 .block-parents a.tag {
+    color: var(--cd-active-color);
     font-size: 13px;
 }
 
@@ -275,12 +259,10 @@ li.my-2 {
 }
 
 .dark-theme .tag {
-    font-size: 90% !important;
     color: var(--cd-alternate-color);
 }
 
 .white-theme .tag {
-    font-size: 90% !important;
     color: var(--cd-alternate-color);
 }
 
@@ -292,12 +274,6 @@ li.my-2 {
     color: var(--ls-secondary-text-color) !important;
     background-color: transparent;
 }
-
-.white-theme .block-parents a.tag {
-    color: var(--ls-secondary-text-color) !important;
-    background-color: transparent;
-}
-
 
 /* PDF Viewer */
 
