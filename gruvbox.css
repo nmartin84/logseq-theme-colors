@@ -80,8 +80,8 @@ html[data-theme='light'] {
     --bg-color-6: hsl(46, 33%, 66%);
     --cd-inactive-color: hsl(46, 33%, 55%);
     --cd-active-color: #c14a4a;
-    --cd-accent-color: #45707a;
-    --cd-alternate-color: #6c782e;
+    --cd-accent-color: #6c782e;
+    --cd-alternate-color: #55866f;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -99,8 +99,8 @@ html[data-theme='light'] {
     --ls-secondary-border-color: var(--cd-alternate-color);
     --ls-guideline-color: #bc875f47;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #403F53;
-    --ls-secondary-text-color: #53526b;
+    --ls-primary-text-color: #3f3930;
+    --ls-secondary-text-color: #6a6e66;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
