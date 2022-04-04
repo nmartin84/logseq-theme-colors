@@ -97,7 +97,7 @@ html[data-theme='light'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--color-level-4);
+    --ls-guideline-color: #bc875f47;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #403F53;
     --ls-secondary-text-color: #53526b;
@@ -109,8 +109,8 @@ html[data-theme='light'] {
     --ls-tag-text-color: var(--cd-active-color);
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: var(--color-level-3);
-    --ls-block-bullet-color: var(--bg-color-6);
+    --ls-block-bullet-border-color: #bc875f47;
+    --ls-block-bullet-color: #bc875f;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
