@@ -148,9 +148,11 @@ mark {
 }
 
 :not(pre)>code {
+    font-family: "JetBrains Mono", "Fira Code";
     background-color: var(--ls-primary-text-color);
     color: var(--bg-color);
     padding: 1px 1px !important;
+    border-radius: 1px;
 }
 
 html[data-theme=light] .cp__right-sidebar .block-content {
