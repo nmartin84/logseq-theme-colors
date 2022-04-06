@@ -194,20 +194,20 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 
 .block-parents a:not(.tag) {
     color: var(--ls-secondary-text-color) !important;
-    font-size: 13px;
+    font-size: 100%;
 }
 .block-parents a.tag {
     color: var(--cd-active-color);
-    font-size: 13px;
+    font-size: 100%;
 }
 
 .block-parents a .page-ref {
     color: var(--ls-link-ref-text-color) !important;
-    font-size: 13px;
+    font-size: 100%;
 }
 
 .mx-2.opacity-50 {
-    font-size: 13px;
+    font-size: 100%;
 }
 
 .dark-theme .block-parents a:hover,
