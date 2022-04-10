@@ -51,7 +51,7 @@ html[data-theme='dark'] {
     --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: var(--cd-alternate-color);
-    --ls-page-inline-code-bg-color: var(--color-level-2);
+    --ls-page-inline-code-bg-color: #00b4bd1c;
     --ls-scrollbar-foreground-color: var(--cd-inactive-color);
     --ls-scrollbar-background-color: var(--color-level-2);
     --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
@@ -119,7 +119,7 @@ html[data-theme='light'] {
     --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: var(--cd-alternate-color);
-    --ls-page-inline-code-bg-color: var(--color-level-2);
+    --ls-page-inline-code-bg-color: #04a2aa1c;
     --ls-scrollbar-foreground-color: var(--ls-guideline-color);
     --ls-scrollbar-background-color: var(--color-level-2);
     --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);

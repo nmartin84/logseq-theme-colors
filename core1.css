@@ -88,6 +88,10 @@ mark {
     border-bottom: 0px solid !important;
 }
 
+.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
+    margin: 0 0 0  !important;
+}
+
 .block-marker {
     color: var(--cd-active-color) !important;
     opacity: 0.7;
@@ -149,15 +153,15 @@ mark {
 
 :not(pre)>code {
     font-family: "JetBrains Mono", "Fira Code";
-    background-color: var(--ls-primary-text-color);
-    color: var(--bg-color);
-    padding: 1px 1px !important;
+    background-color: var(--ls-page-inline-code-bg-color);
+    color: var(--cd-alternate-color);
+    padding: 0px 3px !important;
     border-radius: 1px;
 }
 
-html[data-theme=light] .cp__right-sidebar .block-content {
+/*html[data-theme=light] .cp__right-sidebar .block-content {
     --ls-page-inline-code-bg-color: transparent !important;
-}
+}*/
 
 
 /* Right sidebar properties, right sidebar references window */
@@ -197,7 +201,7 @@ html[data-theme=light] .cp__right-sidebar .block-content {
     font-size: 100%;
 }
 .block-parents a.tag {
-    color: var(--cd-active-color);
+    color: var(--cd-accent-color);
     font-size: 100%;
 }
 
@@ -261,11 +265,6 @@ li.my-2 {
 
 .done .tag {
     text-decoration: line-through;
-}
-
-.dark-theme .block-parents a.tag {
-    color: var(--ls-secondary-text-color) !important;
-    background-color: transparent;
 }
 
 /* PDF Viewer */
