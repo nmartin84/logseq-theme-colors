@@ -29,7 +29,7 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--cd-accent-color);
+    --ls-guideline-color: #7e676b40;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #c7ad9d;
     --ls-secondary-text-color: #968185;
@@ -42,7 +42,7 @@ html[data-theme='dark'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-2);
-    --ls-block-bullet-color: var(--cd-accent-color);
+    --ls-block-bullet-color: var(--cd-inactive-color);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
@@ -97,7 +97,7 @@ html[data-theme='light'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--cd-accent-color);
+    --ls-guideline-color: #b69a9c47;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #2D3D43;
     --ls-secondary-text-color: #454e52;
@@ -109,8 +109,8 @@ html[data-theme='light'] {
     --ls-tag-text-color: var(--cd-active-color);
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: var(--color-level-3);
-    --ls-block-bullet-color: var(--cd-accent-color);
+    --ls-block-bullet-border-color: #b69a9c47;
+    --ls-block-bullet-color: #b69a9c;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: transparent;
