@@ -200,10 +200,6 @@ mark {
     color: var(--ls-secondary-text-color) !important;
     font-size: 100%;
 }
-.block-parents a.tag {
-    color: var(--cd-accent-color);
-    font-size: 100%;
-}
 
 .block-parents a .page-ref {
     color: var(--ls-link-ref-text-color) !important;
