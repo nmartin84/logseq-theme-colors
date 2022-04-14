@@ -100,7 +100,7 @@ html[data-theme='light'] {
     --ls-guideline-color: #f6a35140;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #124668;
-    --ls-secondary-text-color: #2e3435;
+    --ls-secondary-text-color: #1246689c;
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);

@@ -196,33 +196,24 @@ mark {
 
 /* === References Window Breadcrumbs === */
 
-.block-parents a:not(.tag) {
-    color: var(--ls-secondary-text-color) !important;
-    font-size: 100%;
-}
-
-.block-parents a .page-ref {
-    color: var(--ls-link-ref-text-color) !important;
-    font-size: 100%;
-}
-
 .mx-2.opacity-50 {
     font-size: 100%;
 }
 
-.dark-theme .block-parents a:hover,
-.white-theme .block-parents a:hover {
+.block-parents a {
+    color: var(--ls-primary-text-color);
+    font-size: 90%;
+    filter: opacity(0.5);
+}
+
+.block-parents a:hover {
     color: var(--ls-primary-text-color) !important;
+    filter: opacity(1);
 }
 
 .foldable-title .page-ref {
     color: var(--cd-active-color) !important;
 }
-
-/*.white-theme .references .foldable-title .page-ref,
-.white-theme .block-parents a {
-    color: #373f4f;
-}*/
 
 .color-level.rounded {
     margin-top: .5rem !important;
@@ -240,8 +231,8 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 0px solid !important;
-    background-color: var(--cd-active-color) !important;
+    border: 0px solid;
+    background-color: var(--cd-active-color);
     opacity: 0.4;
     border-radius: 2px;
 }
@@ -249,14 +240,6 @@ li.my-2 {
 .form-checkbox:checked {
     background-color: var(--cd-inactive-color);
     opacity: 0.3;
-}
-
-.dark-theme .tag {
-    color: var(--cd-alternate-color);
-}
-
-.white-theme .tag {
-    color: var(--cd-alternate-color);
 }
 
 .done .tag {
