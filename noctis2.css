@@ -97,7 +97,7 @@ html[data-theme='light'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: #e3e8e8;
+    --ls-guideline-color: #d5dddd;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #007180;
     --ls-secondary-text-color: #278491;
