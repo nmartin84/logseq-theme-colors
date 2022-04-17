@@ -125,9 +125,15 @@
                 "mode": "dark"
             },
             {
-                "name": "Rougue - Alt",
-                "url": "./rougue2.css",
-                "description": "Rougue Color",
+                "name": "Slate",
+                "url": "./slate.css",
+                "description": "Slate   ",
+                "mode": "dark"
+            },
+            {
+                "name": "Slate - Turqoise",
+                "url": "./slate-turqoise.css",
+                "description": "Slate Turqoise",
                 "mode": "dark"
             },
             {

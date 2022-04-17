@@ -140,15 +140,15 @@ mark {
 }
 
 .block-children {
-    border-left: 1px solid var(--ls-guideline-color);
+    border-left: 0px solid var(--ls-guideline-color);
 }
 
 .block-children-left-border {
-    background-color: transparent;
+    background-color: var(--ls-guideline-color);
 }
 
 .block-children-left-border:hover {
-    background-color: var(--ls-primary-text-color) !important;
+    background-color: var(--cd-active-color) !important;
 }
 
 :not(pre)>code {
@@ -338,3 +338,19 @@ li.my-2 {
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
 }
+
+/* Tags */
+
+a.tag {
+    color: var(--ls-primary-text-color);
+    background: var(--bg-color-3);
+    background-size: 100%;
+    font-size: 14px !important;
+    padding: 2px 5px 2px 5px;
+    line-height: 1em;
+    border-radius: 1px;
+    font-weight: 500;
+    position: relative;
+    box-shadow: 0.7px 0.8px 3px 0px rgba(0,0,0,0.5);
+    box-shadow: none;
+  }
