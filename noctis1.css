@@ -29,7 +29,7 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--cd-active-color);
     --ls-border-color: var(--cd-accent-color);
     --ls-secondary-border-color: var(--cd-alternate-color);
-    --ls-guideline-color: var(--cd-inactive-color);
+    --ls-guideline-color: var(--color-level-2);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: #cbbec2;
     --ls-secondary-text-color: #a08990;
