@@ -139,12 +139,13 @@ mark {
 .block-ref {
     border-bottom: 1px solid var(--bg-color-6);
     color: var(--ls-secondary-text-color);
-    padding: 0px 0px;
+    padding: 0px 2px;
 }
 
 .block-ref:hover {
     color: var(--cd-alternate-color);
     background: var(--bg-color-2);
+    padding: 0px 2px;
 }
 
 .block-children {
