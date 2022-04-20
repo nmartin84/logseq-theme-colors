@@ -144,6 +144,7 @@ mark {
 
 .block-ref:hover {
     color: var(--cd-alternate-color);
+    background: var(--bg-color-2);
 }
 
 .block-children {
