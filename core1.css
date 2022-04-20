@@ -2,6 +2,8 @@
     background-color: var(--cd-active-color);
 }
 
+/* Code Mirror Block */
+
 .extensions__code-lang {
     top: 8px;
     padding: .10rem .30rem !important;
@@ -11,6 +13,10 @@
 .extensions__code-lang {
     background-color: var(--cd-accent-color);
 }
+
+.extensions__code .code-editor {
+    margin-top: 4px;
+  }
 
 .dark-theme .CodeMirror-gutter,
 .dark-theme .CodeMirror-lines,
@@ -33,8 +39,7 @@ html[data-theme='light'] .CodeMirror-gutter,
     color: var(--ls-primary-text-color);
 }
 
-
-/* something */
+/* Code Mirror Colors */
 
 .cm-s-solarized .cm-keyword {
     color: var(--cd-active-color);
@@ -72,6 +77,8 @@ html[data-theme='light'] .CodeMirror-gutter,
 .cm-s-solarized .cm-attribute {
     color: var(--cd-active-color);
 }
+
+/* Markdown Formatting */
 
 mark {
     background-color: transparent;
@@ -353,4 +360,32 @@ a.tag {
     position: relative;
     box-shadow: 0.7px 0.8px 3px 0px rgba(0,0,0,0.5);
     box-shadow: none;
+  }
+
+  /* Tag Markups */
+
+  a.tag[data-ref$="atomic note"], a.tag[data-ref$="literature note"], a.tag[data-ref$="reference note"], a.tag[data-ref$="fleeting note"] {
+    font-size: 0px;
+    background: transparent;
+    padding: 0px;
+  }
+  
+  a.tag[data-ref$="fleeting note"]:after {
+    content: "💭";
+    font-size: 16px;
+  }
+  
+  a.tag[data-ref$="reference note"]:after {
+    content: "📘";
+    font-size: 16px;
+  }
+  
+  a.tag[data-ref$="literature note"]:after {
+    content: "📝";
+    font-size: 16px;
+  }
+  
+  a.tag[data-ref$="atomic note"]:after {
+    content: "📄";
+    font-size: 16px;
   }
