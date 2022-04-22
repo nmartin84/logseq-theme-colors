@@ -213,7 +213,7 @@ mark {
     font-size: 100%;
 }
 
-.block-parents a:not(a.tag) {
+.block-parents a:not(.tag) {
     color: var(--ls-primary-text-color);
     font-size: 90%;
     filter: opacity(0.5);
@@ -363,35 +363,21 @@ a.tag {
     background-size: 100%;
     font-size: 100%;
     padding: 0px;
-    font-weight: 600;
-    text-decoration: underline;
+    font-weight: 700;
   }
 
   /* Tag Markups */
 
-  a.tag[data-ref$="atomic note"], a.tag[data-ref$="literature note"], a.tag[data-ref$="reference note"], a.tag[data-ref$="fleeting note"] {
-    font-size: 0px;
-    background: transparent;
-    padding: 0px;
-    text-decoration: none;
-  }
-  
-  a.tag[data-ref$="fleeting note"]:after {
-    content: "💭";
-    font-size: 16px;
-  }
-  
-  a.tag[data-ref$="reference note"]:after {
-    content: "📘";
-    font-size: 16px;
-  }
-  
-  a.tag[data-ref$="literature note"]:after {
-    content: "📝";
-    font-size: 16px;
-  }
-  
-  a.tag[data-ref$="atomic note"]:after {
-    content: "📄";
-    font-size: 16px;
-  }
+a.tag[data-ref$="note"] {
+    color: var(--bg-color);
+    background: var(--cd-active-color);
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 2px 3px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+a.tag[data-ref$="note"]:after, a.tag[data-ref$="statement"]:after {
+    content: " »";
+}
