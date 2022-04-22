@@ -246,13 +246,13 @@ li.my-2 {
 .form-checkbox {
     border: 0px solid;
     background-color: var(--cd-active-color);
-    opacity: 0.4;
-    border-radius: 2px;
+    opacity: 0.7;
+    border-radius: 1px;
 }
 
 .form-checkbox:checked {
     background-color: var(--cd-inactive-color);
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .done .tag {
