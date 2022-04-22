@@ -364,6 +364,7 @@ a.tag {
     font-size: 100%;
     padding: 0px;
     font-weight: 600;
+    text-decoration: underline;
   }
 
   /* Tag Markups */
