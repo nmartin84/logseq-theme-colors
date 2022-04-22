@@ -368,7 +368,7 @@ a.tag {
 
   /* Tag Markups */
 
-a.tag[data-ref$="note"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
     font-size: 14px;
@@ -378,6 +378,6 @@ a.tag[data-ref$="note"] {
     border-radius: 2px;
 }
 
-a.tag[data-ref$="note"]:after, a.tag[data-ref$="statement"]:after {
+a.tag[data-ref$="note"]:after, a.tag[data-ref$="statement"]:after, a.tag[data-ref="project"]:after {
     content: " »";
 }
