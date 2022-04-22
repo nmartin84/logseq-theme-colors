@@ -373,6 +373,7 @@ a.tag {
     font-size: 0px;
     background: transparent;
     padding: 0px;
+    text-decoration: none;
   }
   
   a.tag[data-ref$="fleeting note"]:after {
