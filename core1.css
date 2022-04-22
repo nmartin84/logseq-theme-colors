@@ -213,7 +213,7 @@ mark {
     font-size: 100%;
 }
 
-.block-parents a {
+.block-parents a:not(a.tag) {
     color: var(--ls-primary-text-color);
     font-size: 90%;
     filter: opacity(0.5);
