@@ -248,7 +248,7 @@ li.my-2 {
     background-color: var(--ls-page-checkbox-color);
     opacity: 0.7;
     border-radius: 1px;
-    padding-left: 1px;
+    margin-left: 1px;
 }
 
 .form-checkbox:checked {
