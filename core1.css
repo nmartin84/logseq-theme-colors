@@ -16,7 +16,11 @@
 
 .extensions__code .code-editor {
     margin-top: 4px;
-  }
+}
+
+.CodeMirror pre.CodeMirror-line {
+    box-shadow: none;
+}
 
 .dark-theme .CodeMirror-gutter,
 .dark-theme .CodeMirror-lines,
@@ -137,8 +141,8 @@ mark {
 }
 
 .block-ref {
-    border-bottom: 1px solid var(--bg-color-6);
-    color: var(--ls-secondary-text-color);
+    border-bottom: 0px solid var(--bg-color-6);
+    color: var(--ls-primary-text-color);
     padding: 0px 2px;
 }
 
@@ -351,8 +355,8 @@ li.my-2 {
 /* Tags */
 
 a.tag {
-    color: var(--ls-primary-text-color);
-    background: var(--bg-color-3);
+    color: var(--bg-color);
+    background: var(--cd-active-color);
     background-size: 100%;
     font-size: 14px;
     padding: 2px 5px 2px 5px;
