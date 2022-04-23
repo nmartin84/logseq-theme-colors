@@ -167,6 +167,7 @@ mark {
 :not(pre)>code {
     font-family: "JetBrains Mono", "Fira Code";
     background-color: var(--ls-page-inline-code-bg-color);
+    background-color: transparent;
     color: var(--cd-alternate-color);
     padding: 0px 3px !important;
     border-radius: 1px;
