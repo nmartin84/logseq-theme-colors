@@ -371,7 +371,7 @@ a.tag {
 a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
-    font-size: 70%;
+    font-size: 80%;
     line-height: 1.2em;
     padding: 2px 3px;
     font-weight: 700;
