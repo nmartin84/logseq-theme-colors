@@ -325,7 +325,7 @@ li.my-2 {
 
 
 .open-block-ref-link {
-    background-color: var(--cd-alternate-color);
+    background-color: var(--cd-active-color);
     color: var(--bg-color);
     font-weight: 700;
 }
