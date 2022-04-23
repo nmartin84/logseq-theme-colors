@@ -308,7 +308,7 @@ li.my-2 {
 }
 
 .cm-s-solarized.cm-s-dark,
-.cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber, .cm-s-solarized.cm-s-light {
     text-shadow: none !important;
 }
 
