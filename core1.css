@@ -384,14 +384,6 @@ a.tag[data-ref$="note"]:after {
     content: " »";
 }
 
-a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after {
-    content: " ↠";
-}
-
-a.tag[data-ref$="incident"]:after {
-    content: " ⛨";
-}
-
-a.tag[data-ref$="resource"]:after {
+a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after {
     content: " ↠";
 }
