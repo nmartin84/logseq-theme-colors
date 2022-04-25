@@ -45,8 +45,8 @@ html[data-theme='dark'] {
     --ls-block-bullet-color: var(--ls-guideline-color);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
-    --ls-page-checkbox-color: transparent;
-    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+    --ls-page-checkbox-color: #49e9a63f;
+    --ls-page-checkbox-border-color: var(--cd-active-color);
     --ls-page-blockquote-color: var(--ls-primary-text-color);
     --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
     --ls-page-blockquote-border-color: var(--ls-border-color);
@@ -113,8 +113,8 @@ html[data-theme='light'] {
     --ls-block-bullet-color: #D7C1BD;
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
-    --ls-page-checkbox-color: transparent;
-    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+    --ls-page-checkbox-color: #ff579243;
+    --ls-page-checkbox-border-color: var(--cd-active-color);
     --ls-page-blockquote-color: var(--ls-primary-text-color);
     --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
     --ls-page-blockquote-border-color: var(--ls-border-color);
@@ -136,8 +136,3 @@ html[data-theme='light'] {
     --color-level-5: var(--bg-color-5);
     --color-level-6: var(--bg-color-5);
 }
-
-/*
-    --ls-primary-text-color: #004d57;
-    --ls-secondary-text-color: #197b88;
-*/

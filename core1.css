@@ -104,8 +104,9 @@ mark {
 }
 
 .block-marker {
-    color: var(--cd-active-color) !important;
+    color: var(--cd-active-color);
     opacity: 0.7;
+    font-weight: 500;
 }
 
 .dark-theme .external-link:after {
@@ -143,13 +144,13 @@ mark {
 .block-ref {
     border-bottom: 0px solid var(--bg-color-6);
     color: var(--ls-primary-text-color);
-    padding: 0px 2px;
+    padding-right: 0px 2px;
 }
 
 .block-ref:hover {
     color: var(--cd-alternate-color);
     background: var(--bg-color-2);
-    padding: 0px 2px;
+    padding-right: 0px 2px;
 }
 
 .block-children {
@@ -245,7 +246,7 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1.5px solid var(--cd-active-color);
+    border: 1.5px solid var(--ls-page-checkbox-border-color);
     background-color: var(--ls-page-checkbox-color);
     opacity: 0.7;
     border-radius: 1px;
@@ -359,7 +360,7 @@ li.my-2 {
 /* Tags */
 
 a.tag {
-    color: var(--cd-active-color);
+    color: var(--ls-tag-text-color);
     background: transparent;
     background-size: 100%;
     font-size: 100%;
@@ -369,7 +370,7 @@ a.tag {
 
   /* Tag Markups */
 
-a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
     font-size: 80%;
@@ -379,6 +380,18 @@ a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"]
     border-radius: 2px;
 }
 
-a.tag[data-ref$="note"]:after, a.tag[data-ref$="statement"]:after, a.tag[data-ref="project"]:after {
+a.tag[data-ref$="note"]:after {
     content: " »";
+}
+
+a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after {
+    content: " ↠";
+}
+
+a.tag[data-ref$="incident"]:after {
+    content: " ⛨";
+}
+
+a.tag[data-ref$="resource"]:after {
+    content: " ↠";
 }
