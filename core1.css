@@ -1,3 +1,11 @@
+@import './worksans.css';
+
+/* Global Settings */
+
+:root {
+    --ls-font-family: "Work Sans";
+}
+
 .bg-indigo-600 {
     background-color: var(--cd-active-color);
 }
@@ -348,10 +356,10 @@ li.my-2 {
 }
 
 .ls-block {
-    font-weight: 400;
+    font-weight: 300;
 }
 .ls-block b {
-    font-weight: 700;
+    font-weight: 600;
 }
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
@@ -370,7 +378,7 @@ a.tag {
 
   /* Tag Markups */
 
-a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
     font-size: 80%;
@@ -384,6 +392,10 @@ a.tag[data-ref$="note"]:after {
     content: " »";
 }
 
+a.tag[data-ref="sparknote"]:after {
+    content: "💎";
+}
+
 a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after {
-    content: " ↠";
+    content: " 🞺";
 }
