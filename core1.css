@@ -402,7 +402,7 @@ a.page-ref[data-ref^="apr "]:before, a.page-ref[data-ref^="mar "]:before, a.page
     content: "📆 ";
 }
 .color-level.rounded {
-    border: 2px solid var(--ls-guideline-color);
+    border: 0px solid var(--ls-guideline-color);
 }
 
 /* Page References */
