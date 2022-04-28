@@ -4,8 +4,8 @@
 
 :root {
     --ls-font-family: "Work Sans";
-    --ls-main-content-max-width: 800px;
-    --ls-main-content-max-width-wide: 1000px;
+    --ls-main-content-max-width: 700px;
+    --ls-main-content-max-width-wide: 900px;
 }
 
 .bg-indigo-600 {
