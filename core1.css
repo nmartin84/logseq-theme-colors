@@ -384,7 +384,7 @@ a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="incident"], 
     border-radius: 2px;
 }
 
-a.tag[data-ref$="flarenote"], a.tag[data-ref$="sparknote"] {
+a.tag[data-ref$="fixnote"], a.tag[data-ref$="sparknote"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
     border: 0px solid;
@@ -401,7 +401,7 @@ a.tag[data-ref$="note"]:after {
 a.tag[data-ref="sparknote"]:after {
     content: "💎";
 }
-a.tag[data-ref$="flarenote"]:after {
+a.tag[data-ref$="fixnote"]:after {
     content: "🔥";
 }
 a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after {
