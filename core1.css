@@ -373,7 +373,7 @@ a.tag {
     font-weight: 600;
 }
 
-a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
+a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"] {
     color: var(--bg-color);
     background: var(--cd-alternate-color);
     border: 0px solid;
@@ -384,7 +384,7 @@ a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="incident"], 
     border-radius: 2px;
 }
 
-a.tag[data-ref$="flarenote"], a.tag[data-ref$="statement"] {
+a.tag[data-ref$="flarenote"], a.tag[data-ref$="sparknote"] {
     color: var(--bg-color);
     background: var(--cd-active-color);
     border: 0px solid;
