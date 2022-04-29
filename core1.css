@@ -373,7 +373,7 @@ a.tag {
     font-weight: 600;
 }
 
-a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="iss"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
     color: var(--bg-color);
     background: var(--cd-alternate-color);
     font-size: 80%;
@@ -389,8 +389,8 @@ a.tag[data-ref$="note"]:after {
 a.tag[data-ref="sparknote"]:after {
     content: "💎";
 }
-a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after {
-    content: " 🞺";
+a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after, a.tag[data-ref$="iss"]:after {
+    content: " ✱";
 }
 
 /* References Markup */

@@ -11,12 +11,6 @@
             "mode": "dark"
             },
             {
-                "name": "Ariake",
-                "url": "./ariake.css",
-                "description": "Ariake Colors",
-                "mode": "dark"
-            },
-            {
                 "name": "Ayu",
                 "url": "./ayu.css",
                 "description": "Ayu Colors",
