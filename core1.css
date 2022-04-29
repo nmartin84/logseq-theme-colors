@@ -373,9 +373,19 @@ a.tag {
     font-weight: 600;
 }
 
-a.tag[data-ref$="note"], a.tag[data-ref$="iss"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
     color: var(--bg-color);
     background: var(--cd-alternate-color);
+    font-size: 80%;
+    line-height: 1.2em;
+    padding: 2px 3px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+a.tag[data-ref$="iss"] {
+    color: var(--bg-color);
+    background: var(--cd-active-color);
     font-size: 80%;
     line-height: 1.2em;
     padding: 2px 3px;
