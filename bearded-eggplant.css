@@ -14,6 +14,7 @@ html[data-theme='dark'] {
     --cd-active-color: #d24e4e;
     --cd-accent-color: #a9dc76;
     --cd-alternate-color: #00b3bd;
+    --cd-alternate-faded-color: #00b4bd36;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -82,6 +83,7 @@ html[data-theme='light'] {
     --cd-active-color: #d12c2c;
     --cd-accent-color: #7dc931;
     --cd-alternate-color: #02a7af;
+    --cd-alternate-faded-color: #02a6af37;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);

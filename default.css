@@ -10,9 +10,10 @@ html[data-theme='dark'] {
     --bg-color-4: #266c7d;
     --bg-color-5: #3a7e8e;
     --cd-inactive-color: #3a7e8e;
-    --cd-active-color: rgb(138, 187, 187);
-    --cd-accent-color: rgb(138, 187, 187);
-    --cd-alternate-color: rgb(138, 187, 187);
+    --cd-active-color: #8abbbb;
+    --cd-accent-color: #8abbbb;
+    --cd-alternate-color: #8abbbb;
+    --cd--alternate-faded-color: #8abbbb30;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
@@ -80,6 +81,7 @@ html[data-theme='light'] {
     --cd-active-color: #106ba3;
     --cd-accent-color: #106ba3;
     --cd-alternate-color: #106ba3;
+    --cd-alternate-faded-color: #106ba337;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
