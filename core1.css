@@ -370,7 +370,7 @@ a.tag {
     background-size: 100%;
     font-size: 100%;
     padding: 0px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 a.tag[data-ref$="note"], a.tag[data-ref$="statement"], a.tag[data-ref="project"], a.tag[data-ref="incident"], a.tag[data-ref="area"], a.tag[data-ref="resource"], a.tag[data-ref="sparknote"] {
