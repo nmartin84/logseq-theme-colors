@@ -116,7 +116,7 @@ mark {
 .block-marker {
     color: var(--cd-active-color);
     opacity: 0.7;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .dark-theme .external-link:after {
@@ -251,8 +251,8 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1px solid var(--ls-page-checkbox-border-color);
-    background-color: var(--ls-page-checkbox-color);
+    border: 1.5px solid var(--ls-page-checkbox-border-color);
+    background-color: transparent;
     opacity: 0.7;
     border-radius: 1px;
     margin-left: 1px;
