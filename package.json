@@ -41,8 +41,20 @@
                 "mode": "dark"
             },
             {
+                "name": "Bearded Watermelon - Gradient",
+                "url": "./bearded-watermelon2.css",
+                "description": "Watermelon Gradient Colors",
+                "mode": "dark"
+            },
+            {
                 "name": "Chocolate",
                 "url": "./chocolate.css",
+                "description": "A dark theme focused around the one.",
+                "mode": "dark"
+            },
+            {
+                "name": "Chocolate - Gradient",
+                "url": "./chocolate2.css",
                 "description": "A dark theme focused around the one.",
                 "mode": "dark"
             },
@@ -65,9 +77,9 @@
                 "mode": "dark"
             },
             {
-                "name": "Henna",
-                "url": "./henna.css",
-                "description": "A dark theme focused around the one.",
+                "name": "Gruvbox - Gradient",
+                "url": "./gruvbox2.css",
+                "description": "Gruvbox Gradient",
                 "mode": "dark"
             },
             {

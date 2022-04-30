@@ -1,15 +1,24 @@
-@import './core1.css';
+@import './core2.css';
 
 .dark-theme,
 html[data-theme='dark'] {
+    --bg-gradient: linear-gradient(to right top, #34282c, #34282c, #34282c, #34282c, #34282c, #3a2a2e, #402b30, #462d32, #543035, #613436, #6e3836, #7a3d34);
+    --bg-dark-faded: hsl(345deg 13% 8% / 41%);
+    --bg-color-faded: hsl(345deg 13% 11% / 41%);
+    --bg-color-1-faded: hsl(345deg 13% 14% / 41%);
+    --bg-color-2-faded: hsl(345deg 13% 17% / 41%);
+    --bg-color-3-faded: hsl(345deg 13% 20% / 41%);
+    --bg-color-4-faded: hsl(345deg 13% 23% / 41%);
+    --bg-color-5-faded: hsl(345deg 13% 26% / 41%);
+    --bg-color-6-faded: hsl(345deg 13% 29% / 41%);
     --bg-dark: hsl(345, 13%, 9%);
     --bg-color: hsl(345, 13%, 12%);
-    --bg-color-1: hsl(344, 14%, 15%);
-    --bg-color-2: hsl(342, 14%, 18%);
-    --bg-color-3: hsl(347, 14%, 21%);
-    --bg-color-4: hsl(345, 15%, 24%);
+    --bg-color-1: hsl(344, 13%, 15%);
+    --bg-color-2: hsl(342, 13%, 18%);
+    --bg-color-3: hsl(347, 13%, 21%);
+    --bg-color-4: hsl(345, 13%, 24%);
     --bg-color-5: hsl(350, 13%, 27%);
-    --bg-color-6: hsl(345, 11%, 30%);
+    --bg-color-6: hsl(345, 13%, 30%);
     --cd-inactive-color: hsl(349, 10%, 45%);
     --cd-active-color: #56B5C2;
     --cd-accent-color: #d0a458;
@@ -72,7 +81,16 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: #e9ded8;
+    --bg-gradient: linear-gradient(to right top, #e3d6ce, #e3d6ce, #e3d6ce, #e3d6ce, #e3d6ce, #e3d8ce, #e3dbce, #e2decf, #dde5d4, #d7ecdd, #d1f1eb, #cff6fb);
+    --bg-dark-faded: hsl(21deg 28% 88% / 20%);
+    --bg-color-faded: hsl(21deg 28% 82% / 20%);
+    --bg-color-1-faded: hsl(21deg 28% 79% / 20%);
+    --bg-color-2-faded: hsl(21deg 28% 76% / 20%);
+    --bg-color-3-faded: hsl(21deg 28% 73% / 20%);
+    --bg-color-4-faded: hsl(21deg 28% 70% / 20%);
+    --bg-color-5-faded: hsl(21deg 28% 67% / 20%);
+    --bg-color-6-faded: hsl(21deg 28% 64% / 20%);
+    --bg-color: hsl(21, 28%, 88%);
     --bg-color-1: #e3d6ce;
     --bg-color-2: #ddcec4;
     --bg-color-3: #d8c6ba;
