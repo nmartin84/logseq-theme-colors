@@ -330,6 +330,10 @@ h1.title[data-ref^="apr "]:before, h1.title[data-ref^="mar "]:before, h1.title[d
     position: relative;
     top: 1px;
 }
+h1.title[data-ref$="(ztl)"] {
+    color: var(--cd-active-color);
+    font-weight: 700;
+}
 
 /* JOURNAL PAGES */
 .journal-item h1.title {
