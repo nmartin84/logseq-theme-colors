@@ -116,6 +116,10 @@ a.tag[data-ref="misc"]:after {
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
+.page-ref[data-ref$="(ztl)"] {
+    font-weight: 600;
+    color: var(--cd-alternate-color);
+}
 .page-ref[data-ref$="(moc)"] {
     font-weight: 600;
     color: var(--cd-alternate-color);
@@ -142,6 +146,14 @@ a.tag[data-ref="misc"]:after {
 }
 
 .page-ref[data-ref^="z_"]:before, h1.title[data-ref^="z_"]:before {
+    content: "\ed51";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(ztl)"]:before, h1.title[data-ref$="(ztl)"]:before {
     content: "\ed51";
     font-family: 'tabler-icons';
     margin-right: 3px;
