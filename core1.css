@@ -357,15 +357,17 @@ li.my-2 {
 /* TAG MARKUPS */
 
 a.tag {
-    color: var(--ls-tag-text-color);
-    background: transparent;
-    background-size: 100%;
-    font-size: 100%;
-    padding: 0px;
-    font-weight: 600;
+    color: var(--cd-active-color);
+    background: var(--ls-guideline-color);
+    border: 0px solid;
+    font-size: 80%;
+    line-height: 1em;
+    padding: 2px 3px;
+    font-weight: 700;
+    border-radius: 2px;
 }
 
-a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="area"], a.tag[data-ref="resource"] {
+a.tag[data-ref$="note"], a.tag[data-ref$="notes"], a.tag[data-ref="project"] {
     color: var(--cd-alternate-color);
     background: var(--cd-alternate-faded-color);
     border: 0px solid;
@@ -376,7 +378,7 @@ a.tag[data-ref$="note"], a.tag[data-ref="project"], a.tag[data-ref="area"], a.ta
     border-radius: 2px;
 }
 
-a.tag[data-ref$="fixnote"], a.tag[data-ref$="sparknote"], a.tag[data-ref$="worknote"], a.tag[data-ref$="incnote"] {
+a.tag[data-ref$="breakfix"], a.tag[data-ref$="sparknote"], a.tag[data-ref="work note"], a.tag[data-ref="proactive"], a.tag[data-ref="knowledge"], a.tag[data-ref="training"] {
     color: var(--cd-active-color);
     background: var(--ls-guideline-color);
     border: 0px solid;
@@ -405,7 +407,7 @@ a.tag[data-ref="sparknote"]:after {
     top: 1px;
     padding-right: 3px;
 }
-a.tag[data-ref$="fixnote"]:after {
+a.tag[data-ref$="breakfix"]:after {
     content: "\ec2c";
     font-family: 'tabler-icons';
     margin-left: 3px;
@@ -414,7 +416,7 @@ a.tag[data-ref$="fixnote"]:after {
     top: 1px;
     padding-right: 3px;
 }
-a.tag[data-ref$="worknote"]:after {
+a.tag[data-ref="work note"]:after {
     content: "\ea89";
     font-family: 'tabler-icons';
     margin-left: 3px;
@@ -423,8 +425,8 @@ a.tag[data-ref$="worknote"]:after {
     top: 1px;
     padding-right: 3px;
 }
-a.tag[data-ref$="incnote"]:after {
-    content: "\ea48";
+a.tag[data-ref="relevant note"]:after {
+    content: "\f00a";
     font-family: 'tabler-icons';
     margin-left: 3px;
     font-weight: 100;
@@ -432,8 +434,53 @@ a.tag[data-ref$="incnote"]:after {
     top: 1px;
     padding-right: 3px;
 }
-a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$="incident"]:after, a.tag[data-ref$="resource"]:after {
-    content: "\f01a";
+a.tag[data-ref="literature notes"]:after {
+    content: "\ed4f";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    padding-right: 3px;
+}
+a.tag[data-ref="proactive"]:after {
+    content: "\ee2f";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    padding-right: 3px;
+}
+a.tag[data-ref="communication note"]:after {
+    content: "\ebf2";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    padding-right: 3px;
+}
+a.tag[data-ref="knowledge"]:after {
+    content: "\ecf7";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    padding-right: 3px;
+}
+a.tag[data-ref="training"]:after {
+    content: "\ec82";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    padding-right: 3px;
+}
+a.tag[data-ref="misc"]:after {
+    content: "\eaf3";
     font-family: 'tabler-icons';
     margin-left: 3px;
     font-weight: 100;
@@ -452,9 +499,17 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
+.page-ref[data-ref$="(obs)"] {
+    font-weight: 600;
+    color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(prb)"] {
+    font-weight: 600;
+    color: var(--cd-alternate-color);
+}
 .page-ref[data-ref$="(sl)"] {
     font-weight: 600;
-    color: var(--cd-active-color);
+    color: var(--cd-alternate-color);
 }
 .page-ref[data-ref="literature notes"] {
     color: var(--cd-accent-color);
@@ -475,6 +530,22 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
   }
   .page-ref[data-ref$="(moc)"]:before, h1.title[data-ref$="(moc)"]:before {
     content: "\ed50";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(obs)"]:before, h1.title[data-ref$="(obs)"]:before {
+    content: "\ec26";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(prb)"]:before, h1.title[data-ref$="(prb)"]:before {
+    content: "\ea48";
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
@@ -525,6 +596,24 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
     top: 0px;
     font-weight: 100;
   }
+  span[data-page-ref$="(obs)"]:after {
+    content: "\ec26";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    margin-right: 12px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
+  span[data-page-ref$="(prb)"]:after {
+    content: "\ea48";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    margin-right: 12px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
 
   span[data-page-ref$="(sl)"]:after {
     content: "\ed50";
@@ -564,7 +653,7 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
     font-weight: 100;
   }
   
-  span[data-page-ref^="Z:"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+  span[data-page-ref^="Z:"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"] span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
     display: inline-flex;
   }
 
