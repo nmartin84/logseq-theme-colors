@@ -139,8 +139,9 @@ mark {
     padding: 0px 0px;
     text-decoration: underline;
     text-decoration-style: dashed;
-    text-decoration-color: var(--bg-color-4);
+    text-decoration-color: var(--ls-primary-text-color);
     text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
 }
 
 .block-ref:hover {
