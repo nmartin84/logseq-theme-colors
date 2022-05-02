@@ -10,29 +10,6 @@ a.tag {
     font-weight: 700;
     border-radius: 2px;
 }
-
-a.tag[data-ref$="note"], a.tag[data-ref$="notes"], a.tag[data-ref="project"] {
-    color: var(--cd-alternate-color);
-    background: var(--cd-alternate-faded-color);
-    border: 0px solid;
-    font-size: 80%;
-    line-height: 1em;
-    padding: 2px 3px;
-    font-weight: 700;
-    border-radius: 2px;
-}
-
-a.tag[data-ref$="breakfix"], a.tag[data-ref$="sparknote"], a.tag[data-ref="work note"], a.tag[data-ref="proactive"], a.tag[data-ref="knowledge"], a.tag[data-ref="training"] {
-    color: var(--cd-active-color);
-    background: var(--ls-guideline-color);
-    border: 0px solid;
-    font-size: 80%;
-    line-height: 1em;
-    padding: 2px 3px;
-    font-weight: 700;
-    border-radius: 2px;
-}
-
 a.tag[data-ref$="note"]:after {
     content: "\efec";
     font-family: 'tabler-icons';
