@@ -445,20 +445,44 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
 /* PAGE REFERENCE MARKUPS */
 
 .page-ref[data-ref^="z_"] {
-    font-weight: 700;
+    font-weight: 600;
     color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(moc)"] {
+    font-weight: 600;
+    color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(sl)"] {
+    font-weight: 600;
+    color: var(--cd-active-color);
 }
 .page-ref[data-ref="literature notes"] {
     color: var(--cd-accent-color);
-    font-weight: 700;
+    font-weight: 600;
 }
 .page-ref[data-ref="permanent notes"] {
     color: var(--cd-alternate-color);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .page-ref[data-ref^="z_"]:before, h1.title[data-ref^="z_"]:before {
-    content: "\eb96";
+    content: "\ed51";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(moc)"]:before, h1.title[data-ref$="(moc)"]:before {
+    content: "\ed50";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(sl)"]:before, h1.title[data-ref$="(sl)"]:before {
+    content: "\ed78";
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
@@ -483,7 +507,27 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
   }
   
   span[data-page-ref^="Z:"]:after {
-    content: "\eb96";
+    content: "\ed51";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    margin-right: 12px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
+
+  span[data-page-ref$="(moc)"]:after {
+    content: "\ed50";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    margin-right: 12px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
+
+  span[data-page-ref$="(sl)"]:after {
+    content: "\ed50";
     font-family: 'tabler-icons';
     margin-left: 3px;
     margin-right: 12px;
@@ -520,17 +564,7 @@ a.tag[data-ref$="area"]:after, a.tag[data-ref$="project"]:after, a.tag[data-ref$
     font-weight: 100;
   }
   
-  span[data-page-ref^="OBS "]:after {
-    content: "👀";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
-  
-  span[data-page-ref^="Z:"], span[data-page-ref^="LN-"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+  span[data-page-ref^="Z:"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
     display: inline-flex;
   }
 
@@ -558,7 +592,7 @@ a.page-ref[data-ref^="apr "]:before, a.page-ref[data-ref^="mar "]:before, a.page
     text-decoration-thickness: 1.5px;
     text-decoration-skip-ink: none;
     text-underline-offset: 2px;
-    text-decoration-color: var(--ls-primary-text-color);
+    text-decoration-color: var(--ls-page-checkbox-color);
 }
 
 /* TITLE MARKUPS */

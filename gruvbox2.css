@@ -2,7 +2,7 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-gradient: linear-gradient(to right top, #1c1c1c, #3e3039, #694544, #856444, #848d51);
+    --bg-gradient: linear-gradient(to right top, #1c1c1c, #362930, #563635, #684c30, #616935);
     --bg-dark-faded: hsl(0deg 0% 8% / 41%);
     --bg-color-faded: hsl(0deg 0% 11% / 41%);
     --bg-color-1-faded: hsl(0deg 0% 14% / 41%);
