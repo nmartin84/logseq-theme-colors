@@ -128,6 +128,10 @@ a.tag[data-ref="misc"]:after {
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
+.page-ref[data-ref$="(bfix)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
 .page-ref[data-ref$="(prb)"] {
     font-weight: 600;
     color: var(--cd-alternate-color);
@@ -171,6 +175,14 @@ a.tag[data-ref="misc"]:after {
   }
   .page-ref[data-ref$="(obs)"]:before, h1.title[data-ref$="(obs)"]:before {
     content: "\ec26";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+    font-weight: 100;
+  }
+  .page-ref[data-ref$="(bfix)"]:before, h1.title[data-ref$="(bfix)"]:before {
+    content: "\ec2c";
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
@@ -238,6 +250,15 @@ a.tag[data-ref="misc"]:after {
     top: 0px;
     font-weight: 100;
   }
+  span[data-page-ref$="(bfix)"]:after {
+    content: "\ec26";
+    font-family: 'tabler-icons';
+    margin-left: 3px;
+    margin-right: 12px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
   span[data-page-ref$="(prb)"]:after {
     content: "\ea48";
     font-family: 'tabler-icons';
@@ -286,7 +307,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
   
-  span[data-page-ref^="Z:"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"] span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+  span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"] span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
     display: inline-flex;
   }
 
@@ -333,6 +354,10 @@ h1.title[data-ref^="apr "]:before, h1.title[data-ref^="mar "]:before, h1.title[d
 h1.title[data-ref$="(ztl)"] {
     color: var(--cd-active-color);
     font-weight: 700;
+}
+h1.title[data-ref$="(bfix)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
 }
 
 /* JOURNAL PAGES */
