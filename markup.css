@@ -186,7 +186,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
   .page-ref[data-ref$="(iss)"]:before, h1.title[data-ref$="(iss)"]:before {
-    content: "\eb40";
+    content: "\ee72";
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
@@ -263,7 +263,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
   span[data-page-ref$="(iss)"]:after {
-    content: "\eb40";
+    content: "\ee72";
     font-family: 'tabler-icons';
     margin-left: 3px;
     margin-right: 12px;
