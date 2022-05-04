@@ -238,52 +238,52 @@ span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(
   display: inline-flex;
 }  
   
-  span[data-page-ref^="Z:"]:after {
-    content: "\ed51";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
+span[data-page-ref^="Z:"]:after {
+  content: "\ed51";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
 
-  span[data-page-ref$="(moc)"]:after {
-    content: "\ed50";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
-  span[data-page-ref$="(obs)"]:after {
-    content: "\ec26";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
-  span[data-page-ref$="(iss)"]:after {
-    content: "\ee72";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
-  span[data-page-ref$="(bfix)"]:after {
-    content: "\ec26";
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    margin-right: 12px;
-    position: relative;
-    top: 0px;
-    font-weight: 100;
-  }
+span[data-page-ref$="(moc)"]:after {
+  content: "\ed50";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(obs)"]:after {
+  content: "\ec26";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(iss)"]:after {
+  content: "\ee72";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(bfix)"]:after {
+  content: "\ec26";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
   span[data-page-ref$="(prb)"]:after {
     content: "\ea48";
     font-family: 'tabler-icons';
