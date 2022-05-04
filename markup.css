@@ -16,7 +16,7 @@ a.tag[data-ref$="note"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="sparknote"]:after {
@@ -25,7 +25,7 @@ a.tag[data-ref="sparknote"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref$="breakfix"]:after {
@@ -34,7 +34,7 @@ a.tag[data-ref$="breakfix"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="work note"]:after {
@@ -43,7 +43,7 @@ a.tag[data-ref="work note"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="relevant note"]:after {
@@ -52,7 +52,7 @@ a.tag[data-ref="relevant note"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="literature notes"]:after {
@@ -61,7 +61,7 @@ a.tag[data-ref="literature notes"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="proactive"]:after {
@@ -70,7 +70,7 @@ a.tag[data-ref="proactive"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="communication note"]:after {
@@ -79,7 +79,7 @@ a.tag[data-ref="communication note"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="knowledge"]:after {
@@ -88,7 +88,7 @@ a.tag[data-ref="knowledge"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="training"]:after {
@@ -97,7 +97,7 @@ a.tag[data-ref="training"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 a.tag[data-ref="misc"]:after {
@@ -106,7 +106,7 @@ a.tag[data-ref="misc"]:after {
     margin-left: 3px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
     padding-right: 3px;
 }
 
@@ -158,7 +158,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(ztl)"]:before, h1.title[data-ref$="(ztl)"]:before {
@@ -166,7 +166,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(moc)"]:before, h1.title[data-ref$="(moc)"]:before {
@@ -174,7 +174,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(obs)"]:before, h1.title[data-ref$="(obs)"]:before {
@@ -182,7 +182,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(iss)"]:before, h1.title[data-ref$="(iss)"]:before {
@@ -190,7 +190,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(bfix)"]:before, h1.title[data-ref$="(bfix)"]:before {
@@ -198,7 +198,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(prb)"]:before, h1.title[data-ref$="(prb)"]:before {
@@ -206,7 +206,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref$="(sl)"]:before, h1.title[data-ref$="(sl)"]:before {
@@ -214,7 +214,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref="literature notes"]:before, h1.title[data-ref="literature notes"]:before {
@@ -222,7 +222,7 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
   .page-ref[data-ref="permanent notes"]:before, h1.title[data-ref="permanent notes"]:before {
@@ -230,9 +230,13 @@ a.tag[data-ref="misc"]:after {
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
-    top: 1px;
+    top: 0px;
     font-weight: 100;
   }
+
+span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+  display: inline-flex;
+}  
   
   span[data-page-ref^="Z:"]:after {
     content: "\ed51";
@@ -327,10 +331,6 @@ a.tag[data-ref="misc"]:after {
     top: 0px;
     font-weight: 100;
   }
-  
-  span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"] span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
-    display: inline-flex;
-  }
 
 /* References Markup */
 a.page-ref[data-ref^="apr "], a.page-ref[data-ref^="mar "], a.page-ref[data-ref^="feb "], a.page-ref[data-ref^="jan "], a.page-ref[data-ref^="may "], a.page-ref[data-ref^="jun "], a.page-ref[data-ref^="jul "], a.page-ref[data-ref^="aug "], a.page-ref[data-ref^="sep "], a.page-ref[data-ref^="oct "], a.page-ref[data-ref^="nov "], a.page-ref[data-ref^="dec "] {
@@ -343,7 +343,7 @@ a.page-ref[data-ref^="apr "]:before, a.page-ref[data-ref^="mar "]:before, a.page
     margin-right: 5px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
 }
 .color-level.rounded {
     border: 0px solid var(--ls-guideline-color);
@@ -370,7 +370,7 @@ h1.title[data-ref^="apr "]:before, h1.title[data-ref^="mar "]:before, h1.title[d
     margin-right: 5px;
     font-weight: 100;
     position: relative;
-    top: 1px;
+    top: 0px;
 }
 h1.title[data-ref$="(ztl)"] {
     color: var(--cd-active-color);
@@ -381,6 +381,14 @@ h1.title[data-ref$="(bfix)"] {
   font-weight: 700;
 }
 h1.title[data-ref$="(iss)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+h1.title[data-ref$="(moc)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+h1.title[data-ref$="(sl)"] {
   color: var(--cd-active-color);
   font-weight: 700;
 }
