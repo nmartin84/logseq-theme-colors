@@ -234,7 +234,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
 
-span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="ISS"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="(iss)"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
   display: inline-flex;
 }  
   
