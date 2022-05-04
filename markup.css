@@ -116,6 +116,60 @@ a.tag[data-ref="misc"]:after {
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
+.page-ref[data-ref="breakfix"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="sparknote"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="proactive"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="knowledge"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="training"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="misc"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
 .page-ref[data-ref$="(ztl)"] {
     font-weight: 600;
     color: var(--cd-alternate-color);
