@@ -134,7 +134,7 @@ a.tag[data-ref="misc"]:after {
   padding-right: 3px;
 }
 .page-ref[data-ref$="(spk)"]:after {
-  content: "\ec2c";
+  content: "\ea51";
   font-family: 'tabler-icons';
   margin-left: 3px;
   font-weight: 100;
@@ -260,7 +260,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
   .page-ref[data-ref$="(spk)"]:before, h1.title[data-ref$="(spk)"]:before {
-    content: "\ec2c";
+    content: "\ea51";
     font-family: 'tabler-icons';
     margin-right: 3px;
     position: relative;
@@ -332,7 +332,7 @@ span[data-page-ref$="(moc)"]:after {
   font-weight: 100;
 }
 span[data-page-ref$="(spk)"]:after {
-  content: "\ec2c";
+  content: "\ea51";
   font-family: 'tabler-icons';
   margin-left: 3px;
   margin-right: 12px;
