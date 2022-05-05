@@ -1,16 +1,22 @@
 @import './core1.css';
+@import './calculators.css';
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-dark: #002b36;
-    --bg-color: #023643;
-    --bg-color-1: #08404f;
-    --bg-color-2: #094b5a;
-    --bg-color-3: #195d6c;
-    --bg-color-4: #266c7d;
-    --bg-color-5: #3a7e8e;
+    --background-color-h: 192;
+    --background-color-s: 94%;
+    --background-color-l: 14%;
+    --primary-color-h: 180;
+    --primary-color-s: 26%;
+    --primary-color-l: 64%;
+    --secondary-color-h: 180;
+    --secondary-color-s: 26%;
+    --secondary-color-l: 64%;
+    --accent-color-h: 180;
+    --accent-color-s: 26%;
+    --accent-color-l: 64%;
     --cd-inactive-color: #3a7e8e;
-    --cd-active-color: #8abbbb;
+    --cd-active-color: hsl(180, 26%, 64%);
     --cd-accent-color: #8abbbb;
     --cd-alternate-color: #8abbbb;
     --cd--alternate-faded-color: #8abbbb30;
@@ -71,14 +77,20 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
-    --bg-color: #ffffff;
-    --bg-color-1: #f7f7f7;
-    --bg-color-2: #f1eee8;
-    --bg-color-3: #e8e5de;
-    --bg-color-4: #d0e6fa;
-    --bg-color-5: #bbdaf6;
+    --background-color-h: 0;
+    --background-color-s: 0%;
+    --background-color-l: 100%;
+    --primary-color-h: 203;
+    --primary-color-s: 82%;
+    --primary-color-l: 35%;
+    --secondary-color-h: 203;
+    --secondary-color-s: 82%;
+    --secondary-color-l: 35%;
+    --accent-color-h: 203;
+    --accent-color-s: 82%;
+    --accent-color-l: 35%;
     --cd-inactive-color: #705b5f;
-    --cd-active-color: #106ba3;
+    --cd-active-color: #106aa2;
     --cd-accent-color: #106ba3;
     --cd-alternate-color: #106ba3;
     --cd-alternate-faded-color: #106ba337;

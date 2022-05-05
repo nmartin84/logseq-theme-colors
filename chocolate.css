@@ -1,19 +1,24 @@
 @import './core1.css';
+@import './calculators.css';
 
 .dark-theme,
 html[data-theme='dark'] {
-    --bg-dark: hsl(345, 13%, 9%);
-    --bg-color: hsl(345, 13%, 12%);
-    --bg-color-1: hsl(344, 14%, 15%);
-    --bg-color-2: hsl(342, 14%, 18%);
-    --bg-color-3: hsl(347, 14%, 21%);
-    --bg-color-4: hsl(345, 15%, 24%);
-    --bg-color-5: hsl(350, 13%, 27%);
-    --bg-color-6: hsl(345, 11%, 30%);
+    --background-color-h: 345;
+    --background-color-s: 13%;
+    --background-color-l: 9%;
+    --primary-color-h: 187;
+    --primary-color-s: 47%;
+    --primary-color-l: 55%;
+    --secondary-color-h: 7;
+    --secondary-color-s: 47%;
+    --secondary-color-l: 55%;
+    --accent-color-h: 38;
+    --accent-color-s: 56%;
+    --accent-color-l: 58%;
     --cd-inactive-color: hsl(349, 10%, 45%);
-    --cd-active-color: #56B5C2;
-    --cd-accent-color: #d0a458;
-    --cd-alternate-color: #c26356;
+    --cd-active-color: hsl(187, 47%, 55%);
+    --cd-accent-color: hsl(38, 56%, 58%);
+    --cd-alternate-color: hsl(7, 47%, 55%);
     --cd-alternate-faded-color: #c2635641;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
@@ -37,10 +42,10 @@ html[data-theme='dark'] {
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
-    --ls-link-ref-text-color: var(--cd-active-color);
-    --ls-link-ref-text-hover-color: var(--cd-alternate-color);
-    --ls-tag-text-color: var(--cd-active-color);
-    --ls-tag-text-hover-color: var(--cd-alternate-color);
+    --ls-link-ref-text-color: var(--color-primary);
+    --ls-link-ref-text-hover-color: var(--color-primary-light);
+    --ls-tag-text-color: var(--color-primary-light);
+    --ls-tag-text-hover-color: var(--color-primary);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-2);
     --ls-block-bullet-color: var(--cd-inactive-color);
@@ -72,6 +77,37 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
+    --primary-color-h: 187;
+    --primary-color-s: 47%;
+    --primary-color-l: 40%;
+    --secondary-color-h: 7;
+    --secondary-color-s: 47%;
+    --secondary-color-l: 55%;
+    --contrastThreshold: 60%;
+    --lightnessTransform: 10%;
+    --darknessTransform: 15%;
+    --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
+    --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));
+    --secondary-color-light-l: calc(var(--secondary-color-l) + var(--lightnessTransform));
+    --secondary-color-dark-l: calc(var(--secondary-color-l) - var(--darknessTransform));
+    --color-primary: hsl(var(--primary-color-h),
+            var(--primary-color-s),
+            var(--primary-color-l));
+    --color-secondary: hsl(var(--secondary-color-h),
+            var(--secondary-color-s),
+            var(--secondary-color-l));
+    --color-primary-dark: hsl(var(--primary-color-h),
+            var(--primary-color-s),
+            var(--primary-color-dark-l));
+    --color-secondary-dark: hsl(var(--secondary-color-h),
+            var(--secondary-color-s),
+            var(--secondary-color-dark-l));
+    --color-primary-light: hsl(var(--primary-color-h),
+            var(--primary-color-s),
+            var(--primary-color-light-l));
+    --color-secondary-light: hsl(var(--secondary-color-h),
+            var(--secondary-color-s),
+            var(--secondary-color-light-l));
     --bg-color: #e9ded8;
     --bg-color-1: #e3d6ce;
     --bg-color-2: #ddcec4;
@@ -80,9 +116,9 @@ html[data-theme='light'] {
     --bg-color-5: #cdb5a7;
     --bg-color-6: #c7ad9d;
     --cd-inactive-color: #705b5f;
-    --cd-active-color: #368b96;
+    --cd-active-color: hsl(187, 47%, 40%);
     --cd-accent-color: #996064;
-    --cd-alternate-color: #c26356;
+    --cd-alternate-color: hsl(7, 47%, 55%);
     --cd-alternate-faded-color: #c263563e;
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
