@@ -144,6 +144,53 @@ a.tag[data-ref="daily log"]:after {
   top: 0px;
   padding-right: 3px;
 }
+/* === PROJECTS === */
+a.tag[data-ref="(prj)"]:after {
+  content: "\ec45";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref="(prj)"]:after {
+  content: "\ec45";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
+.page-ref[data-ref$="(prj)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(prj)"]:before, h1.title[data-ref$="(prj)"]:before {
+  content: "\ec45";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref="(prj)"] {
+  display: inline-flex;
+}
+span[data-page-ref$="(prj)"]:after {
+  content: "\ec45";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+h1.title[data-ref$="(prj)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
 /* === MISC === */
 a.tag {
     background: var(--ls-guideline-color);
