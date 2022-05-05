@@ -247,7 +247,7 @@ a.tag[data-ref="communication note"]:after {
     top: 0px;
     padding-right: 3px;
 }
-a.tag[data-ref="knowledge"]:after {
+a.tag[data-ref="knowledge bank"]:after {
     content: "\ecf7";
     font-family: 'tabler-icons';
     margin-left: 3px;
@@ -308,7 +308,7 @@ a.tag[data-ref="misc"]:after {
   top: 0px;
   padding-right: 3px;
 }
-.page-ref[data-ref="knowledge"]:after {
+.page-ref[data-ref="knowledge bank"]:after {
   content: "\ecf7";
   font-family: 'tabler-icons';
   margin-left: 3px;
