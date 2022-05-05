@@ -252,15 +252,6 @@ a.tag[data-ref="misc"]:after {
   top: 0px;
   padding-right: 3px;
 }
-.page-ref[data-ref$="(spk)"]:after {
-  content: "\ea51";
-  font-family: 'tabler-icons';
-  margin-left: 3px;
-  font-weight: 100;
-  position: relative;
-  top: 0px;
-  padding-right: 3px;
-}
 .page-ref[data-ref="proactive"]:after {
   content: "\ee2f";
   font-family: 'tabler-icons';
