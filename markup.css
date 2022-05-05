@@ -3,7 +3,7 @@
 a.tag {
     background: var(--ls-guideline-color);
     border: 0px solid;
-    font-size: 80%;
+    font-size: 100%;
     line-height: 1em;
     padding: 2px 3px;
     font-weight: 700;
