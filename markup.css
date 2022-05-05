@@ -133,6 +133,15 @@ a.tag[data-ref="misc"]:after {
   top: 0px;
   padding-right: 3px;
 }
+.page-ref[data-ref$="(spk)"]:after {
+  content: "\ec2c";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
+  padding-right: 3px;
+}
 .page-ref[data-ref="proactive"]:after {
   content: "\ec2c";
   font-family: 'tabler-icons';
@@ -182,6 +191,10 @@ a.tag[data-ref="misc"]:after {
     color: var(--cd-alternate-color);
 }
 .page-ref[data-ref$="(iss)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(spk)"] {
   font-weight: 600;
   color: var(--cd-alternate-color);
 }
@@ -246,6 +259,14 @@ a.tag[data-ref="misc"]:after {
     top: 0px;
     font-weight: 100;
   }
+  .page-ref[data-ref$="(spk)"]:before, h1.title[data-ref$="(spk)"]:before {
+    content: "\ec2c";
+    font-family: 'tabler-icons';
+    margin-right: 3px;
+    position: relative;
+    top: 0px;
+    font-weight: 100;
+  }
   .page-ref[data-ref$="(bfix)"]:before, h1.title[data-ref$="(bfix)"]:before {
     content: "\ec2c";
     font-family: 'tabler-icons';
@@ -287,7 +308,7 @@ a.tag[data-ref="misc"]:after {
     font-weight: 100;
   }
 
-span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="(iss)"], span[data-page-ref^="OBS "], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
+span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref$="(moc)"], span[data-page-ref$="(MOC)"], span[data-page-ref="(iss)"], span[data-page-ref^="OBS "], span[data-page-ref$="(spk)"], span[data-page-ref="Literature Notes"], span[data-page-ref="Permanent Notes"] {
   display: inline-flex;
 }  
   
@@ -303,6 +324,15 @@ span[data-page-ref^="Z:"]:after {
 
 span[data-page-ref$="(moc)"]:after {
   content: "\ed50";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(spk)"]:after {
+  content: "\ec2c";
   font-family: 'tabler-icons';
   margin-left: 3px;
   margin-right: 12px;
@@ -441,6 +471,10 @@ h1.title[data-ref$="(moc)"] {
   font-weight: 700;
 }
 h1.title[data-ref$="(sl)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+h1.title[data-ref$="(spk)"] {
   color: var(--cd-active-color);
   font-weight: 700;
 }
