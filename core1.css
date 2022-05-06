@@ -346,12 +346,12 @@ li.my-2 {
     background-color: var(--bg-color-2);
 }
 
-.ls-block {
+/*.ls-block {
     font-weight: 400;
 }
 .ls-block b {
     font-weight: 600;
-}
+}*/
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
 }

@@ -145,16 +145,15 @@ a.tag[data-ref="daily log"]:after {
   padding-right: 3px;
 }
 /* === PROJECTS === */
-a.tag[data-ref="(prj)"]:after {
+.page-ref[data-ref$="project"]:before, h1.title[data-ref$="project"]:before {
   content: "\ec45";
   font-family: 'tabler-icons';
-  margin-left: 3px;
-  font-weight: 100;
+  margin-right: 3px;
   position: relative;
   top: 0px;
-  padding-right: 3px;
+  font-weight: 100;
 }
-.page-ref[data-ref="(prj)"]:after {
+a.tag[data-ref="(prj)"]:after {
   content: "\ec45";
   font-family: 'tabler-icons';
   margin-left: 3px;
@@ -420,9 +419,16 @@ a.tag[data-ref="misc"]:after {
 
 
 
-span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref="(iss)"], span[data-page-ref^="OBS "], span[data-page-ref$="(spk)"] {
+span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(sl)"], span[data-page-ref$="(SL)"], span[data-page-ref$="(prb)"], span[data-page-ref$="(PRB)"] span[data-page-ref$="(obs)"], span[data-page-ref$="(OBS)"], span[data-page-ref^="OBS "], span[data-page-ref$="(spk)"] {
   display: inline-flex;
-}  
+}
+
+span[data-page-ref*="(iss)"] {
+  display: inline-flex;
+}
+span[data-page-ref*="(iss)"] .text-xs.rounded.border.mr-2.px-1 {
+  display: none;
+}
   
 span[data-page-ref^="Z:"]:after {
   content: "\ed51";
@@ -451,7 +457,7 @@ span[data-page-ref$="(obs)"]:after {
   top: 0px;
   font-weight: 100;
 }
-span[data-page-ref$="(iss)"]:after {
+span[data-page-ref$="(iss)"]:before {
   content: "\ee72";
   font-family: 'tabler-icons';
   margin-left: 3px;
