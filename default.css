@@ -15,6 +15,9 @@ html[data-theme='dark'] {
     --accent-color-h: 180;
     --accent-color-s: 26%;
     --accent-color-l: 64%;
+    --primary-text-h: 183;
+    --primary-text-s: 11%;
+    --primary-text-l: 68%;
     --cd-inactive-color: #3a7e8e;
     --cd-active-color: hsl(180, 26%, 64%);
     --cd-accent-color: #8abbbb;
@@ -37,8 +40,8 @@ html[data-theme='dark'] {
     --ls-secondary-border-color: var(--cd-alternate-color);
     --ls-guideline-color: #0b4a5a;
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #a4b5b6;
-    --ls-secondary-text-color: #dfdfdf;
+    --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
+    --ls-secondary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-darken));
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);
@@ -89,6 +92,9 @@ html[data-theme='light'] {
     --accent-color-h: 203;
     --accent-color-s: 82%;
     --accent-color-l: 35%;
+    --primary-text-h: 38;
+    --primary-text-s: 9%;
+    --primary-text-l: 24%;
     --cd-inactive-color: #705b5f;
     --cd-active-color: #106aa2;
     --cd-accent-color: #106ba3;
@@ -111,8 +117,8 @@ html[data-theme='light'] {
     --ls-secondary-border-color: var(--cd-alternate-color);
     --ls-guideline-color: rgba(46, 27, 5, 0.08);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: #433f38;
-    --ls-secondary-text-color: #161e2e;
+    --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
+    --ls-secondary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-lighten));
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: var(--ls-secondary-text-color);
     --ls-link-text-hover-color: var(--cd-alternate-color);

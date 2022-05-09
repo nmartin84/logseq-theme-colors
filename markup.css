@@ -1,21 +1,125 @@
-/* Zettelkasten */
-
-/* === Zettels === */
-.page-ref[data-ref$="(ztl)"] {
+/* Tech Garden */
+/* === Files === */
+.page-ref[data-ref="files"] {
   font-weight: 600;
   color: var(--cd-alternate-color);
 }
-.page-ref[data-ref$="(ztl)"]:before, h1.title[data-ref$="(ztl)"]:before {
-  content: "\ed51";
+.page-ref[data-ref="files"]:before, h1.title[data-ref$="files"]:before {
+  content: "\eaa2";
   font-family: 'tabler-icons';
   margin-right: 3px;
   position: relative;
   top: 0px;
   font-weight: 100;
 }
-h1.title[data-ref$="(ztl)"] {
+span[data-page-ref$="files"], span[data-page-ref$="files"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="files"] {
   color: var(--cd-active-color);
   font-weight: 700;
+}
+span[data-page-ref$="files"]:after {
+  content: "\eaa2";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+/* === Commands === */
+.page-ref[data-ref="commands"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref="commands"]:before, h1.title[data-ref$="commands"]:before {
+  content: "\ebef";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="commands"], span[data-page-ref$="COMMANDS"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="commands"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="commands"]:after {
+  content: "\ebef";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+/* === Usage === */
+.page-ref[data-ref="usage"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref="usage"]:before, h1.title[data-ref$="usage"]:before {
+  content: "\ed29";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="usage"], span[data-page-ref$="COMMANDS"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="usage"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="usage"]:after {
+  content: "\ed29";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+
+/* Zettelkasten */
+
+/* === Zettels === */
+.page-ref[data-ref$="(ztl)"], .page-ref[data-ref$="(z)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(ztl)"]:before, h1.title[data-ref$="(ztl)"]:before, .page-ref[data-ref$="(z)"]:before, h1.title[data-ref$="(z)"]:before {
+  content: "\eaa2";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+h1.title[data-ref$="(ztl)"], h1.title[data-ref$="(z)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="(ztl)"], span[data-page-ref$="(ZTL)"] {
+  display: inline-flex;
+}
+span[data-page-ref$="(ztl)"] .text-xs.rounded.border.mr-2.px-1 {
+  display: none;
+}
+span[data-page-ref$="(ztl)"]:before {
+  content: "\eaa2";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
 }
 /* === MOC === */
 .page-ref[data-ref$="(moc)"] {
@@ -47,21 +151,20 @@ span[data-page-ref$="(moc)"]:after {
   font-weight: 100;
 }
 /* === Literature === */
-a.tag[data-ref="literature notes"]:after {
-  content: "\ed4f";
+a.tag[data-ref="literature notes"]:before {
+  content: "\eb6e";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
 .page-ref[data-ref="literature notes"] {
   color: var(--cd-accent-color);
   font-weight: 600;
 }
 .page-ref[data-ref="literature notes"]:before, h1.title[data-ref="literature notes"]:before {
-  content: "\ed4f";
+  content: "\eb6e";
   font-family: 'tabler-icons';
   margin-right: 3px;
   position: relative;
@@ -72,7 +175,7 @@ span[data-page-ref="Literature Notes"] {
   display: inline-flex;
 }
 span[data-page-ref="Literature Notes"]:after {
-  content: "\ed4f";
+  content: "\eb6e";
   font-family: 'tabler-icons';
   margin-left: 3px;
   margin-right: 12px;
@@ -106,43 +209,127 @@ span[data-page-ref="Permanent Notes"]:after {
   font-weight: 100;
 }
 /* === Sparknote === */
-a.tag[data-ref="sparknote"]:after {
+a.tag[data-ref="sparknote"]:before {
   content: "\ea51";
   font-family: 'tabler-icons';
   margin-left: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="sparknote"]:after {
+.page-ref[data-ref="sparknote"]:before {
   content: "\ea51";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
+}
+/* ======== CRM ======== */
+/*** Customers ***/
+.page-ref[data-ref$="(c)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="(c)"]:before, h1.title[data-ref$="(c)"]:before {
+  content: "\ebf2";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(c)"], span[data-page-ref$="(C)"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="(c)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="(c)"]:after {
+  content: "\ebf2";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+/*** Incident Management ***/
+.page-ref[data-ref$="incident management"] {
+  color: var(--cd-alternate-color);
+}
+.page-ref[data-ref$="incident management"]:before, h1.title[data-ref$="incident management"]:before {
+  content: "\ea48";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="incident management"], span[data-page-ref$="Incident Management"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="incident management"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="incident management"]:after {
+  content: "\ea48";
+  font-family: 'tabler-icons';
+  margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
 }
 /* PROJECT MANAGEMENT */
-/* === Dail Logs === */
-a.tag[data-ref="daily log"]:after {
-  content: "\ef8e";
-  font-family: 'tabler-icons';
-  margin-left: 3px;
-  font-weight: 100;
-  position: relative;
-  top: 0px;
-  padding-right: 3px;
+/* === Incident Management === */
+/* === MOC === */
+.page-ref[data-ref$="(t)"] {
+  font-weight: 600;
+  color: var(--cd-alternate-color);
 }
-.page-ref[data-ref="daily log"]:after {
-  content: "\ef8e";
+.page-ref[data-ref$="(t)"]:before, h1.title[data-ref$="(t)"]:before {
+  content: "\ede7";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+span[data-page-ref$="(t)"], span[data-page-ref$="(t)"] {
+  display: inline-flex;
+}
+h1.title[data-ref$="(t)"] {
+  color: var(--cd-active-color);
+  font-weight: 700;
+}
+span[data-page-ref$="(t)"]:after {
+  content: "\ede7";
   font-family: 'tabler-icons';
   margin-left: 3px;
+  margin-right: 12px;
+  position: relative;
+  top: 0px;
+  font-weight: 100;
+}
+/* === Dail Logs === */
+a.tag[data-ref="daily log"]:before {
+  content: "\eef7";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
+}
+.page-ref[data-ref="daily log"]:before {
+  content: "\eef7";
+  font-family: 'tabler-icons';
+  margin-right: 3px;
+  font-weight: 100;
+  position: relative;
+  top: 0px;
 }
 /* === PROJECTS === */
 .page-ref[data-ref$="project"]:before, h1.title[data-ref$="project"]:before {
@@ -153,14 +340,13 @@ a.tag[data-ref="daily log"]:after {
   top: 0px;
   font-weight: 100;
 }
-a.tag[data-ref="(prj)"]:after {
+a.tag[data-ref="(prj)"]:before {
   content: "\ec45";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
 .page-ref[data-ref$="(prj)"] {
   font-weight: 600;
@@ -191,88 +377,71 @@ h1.title[data-ref$="(prj)"] {
   font-weight: 700;
 }
 /* === MISC === */
-a.tag {
-    background: var(--ls-guideline-color);
-    border: 0px solid;
-    font-size: 85%;
-    line-height: 1em;
-    padding: 2px 3px;
-    font-weight: 700;
-    border-radius: 2px;
-}
-a.tag[data-ref$="breakfix"]:after {
+a.tag[data-ref$="breakfix"]:before {
     content: "\ec2c";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="work note"]:after {
+  }
+a.tag[data-ref="work note"]:before {
     content: "\ea89";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="relevant note"]:after {
+  }
+a.tag[data-ref="relevant note"]:before {
     content: "\f00a";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
+  }
 
-a.tag[data-ref="proactive"]:after {
+a.tag[data-ref="proactive"]:before {
     content: "\ee2f";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="communication note"]:after {
+  }
+a.tag[data-ref="communication note"]:before {
     content: "\ebf2";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="knowledge bank"]:after {
-    content: "\ecf7";
+  }
+a.tag[data-ref="knowledge bank"]:before {
+    content: "\ea39";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="training"]:after {
+  }
+a.tag[data-ref="training"]:before {
     content: "\ec82";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
-a.tag[data-ref="misc"]:after {
+  }
+a.tag[data-ref="misc"]:before {
     content: "\eaf3";
     font-family: 'tabler-icons';
-    margin-left: 3px;
+    margin-right: 3px;
     font-weight: 100;
     position: relative;
     top: 0px;
-    padding-right: 3px;
-}
+  }
 
 /* PAGE REFERENCE MARKUPS */
 
@@ -280,66 +449,60 @@ a.tag[data-ref="misc"]:after {
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
-.page-ref[data-ref="breakfix"]:after {
+.page-ref[data-ref="breakfix"]:before {
   content: "\ec2c";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="communication note"]:after {
+.page-ref[data-ref="communication note"]:before {
   content: "\ebf2";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="proactive"]:after {
+.page-ref[data-ref="proactive"]:before {
   content: "\ee2f";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="knowledge bank"]:after {
-  content: "\ecf7";
+.page-ref[data-ref="knowledge bank"]:before {
+  content: "\ea39";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="training"]:after {
+.page-ref[data-ref="training"]:before {
   content: "\ec2c";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
-.page-ref[data-ref="misc"]:after {
+.page-ref[data-ref="misc"]:before {
   content: "\ec2c";
   font-family: 'tabler-icons';
-  margin-left: 3px;
+  margin-right: 3px;
   font-weight: 100;
   position: relative;
   top: 0px;
-  padding-right: 3px;
 }
 
 .page-ref[data-ref$="(obs)"] {
     font-weight: 600;
     color: var(--cd-alternate-color);
 }
-.page-ref[data-ref$="(iss)"] {
+.page-ref[data-ref$="(iss)"], .page-ref[data-ref$="(i)"] {
   font-weight: 600;
   color: var(--cd-alternate-color);
 }
@@ -376,7 +539,7 @@ a.tag[data-ref="misc"]:after {
     top: 0px;
     font-weight: 100;
   }
-  .page-ref[data-ref$="(iss)"]:before, h1.title[data-ref$="(iss)"]:before {
+  .page-ref[data-ref$="(iss)"]:before, h1.title[data-ref$="(iss)"]:before, .page-ref[data-ref$="(i)"]:before, h1.title[data-ref$="(i)"]:before {
     content: "\ee72";
     font-family: 'tabler-icons';
     margin-right: 3px;
@@ -423,10 +586,10 @@ span[data-page-ref^="Z:"], span[data-page-ref$="(bfix)"], span[data-page-ref$="(
   display: inline-flex;
 }
 
-span[data-page-ref*="(iss)"] {
+span[data-page-ref*="(iss)"], span[data-page-ref*="(i)"] {
   display: inline-flex;
 }
-span[data-page-ref*="(iss)"] .text-xs.rounded.border.mr-2.px-1 {
+span[data-page-ref*="(iss)"] .text-xs.rounded.border.mr-2.px-1, span[data-page-ref*="(i)"] .text-xs.rounded.border.mr-2.px-1 {
   display: none;
 }
   
@@ -457,7 +620,7 @@ span[data-page-ref$="(obs)"]:after {
   top: 0px;
   font-weight: 100;
 }
-span[data-page-ref$="(iss)"]:before {
+span[data-page-ref$="(iss)"]:before, span[data-page-ref$="(i)"]:before {
   content: "\ee72";
   font-family: 'tabler-icons';
   margin-left: 3px;
@@ -547,7 +710,7 @@ h1.title[data-ref$="(bfix)"] {
   color: var(--cd-active-color);
   font-weight: 700;
 }
-h1.title[data-ref$="(iss)"] {
+h1.title[data-ref$="(iss)"], h1.title[data-ref$="(i)"] {
   color: var(--cd-active-color);
   font-weight: 700;
 }

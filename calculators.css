@@ -4,6 +4,9 @@ html[data-theme='dark'] {
         --contrastThreshold: 60%;
         --lightnessTransform: 10%;
         --darknessTransform: 15%;
+        /* Text Transformer */
+        --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
+        --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 2));
         /* Transformers */
         --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
         --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));
@@ -66,6 +69,9 @@ html[data-theme='light'] {
         --contrastThreshold: 60%;
         --lightnessTransform: 10%;
         --darknessTransform: 15%;
+        /* Text Transformer */
+        --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
+        --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 2));
         /* Transformers */
         --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
         --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));

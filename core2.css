@@ -6,7 +6,7 @@
 :root {
     --ls-font-family: "Work Sans";
     --ls-main-content-max-width: 750px;
-    --ls-main-content-max-width-wide: 900px;
+    --ls-main-content-max-width-wide: 100%;
 }
 
 /* Gradient Background */
@@ -104,6 +104,8 @@ a.button.active, a.button:hover {
 .extensions__code-lang {
     top: 8px;
     padding: .10rem .30rem !important;
+    right: 4px;
+    border-radius: 5px;
     color: var(--bg-color);
 }
 
@@ -336,6 +338,16 @@ li.my-2 {
 
 .done .tag {
     text-decoration: line-through;
+}
+a.tag {
+    background: var(--ls-block-bullet-color);
+    color: var(--bg-color);
+    border: 0px solid;
+    font-size: 85%;
+    line-height: 1em;
+    padding: 2px 3px;
+    font-weight: 700;
+    border-radius: 2px;
 }
 
 /* PDF Viewer */
