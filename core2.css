@@ -203,14 +203,6 @@ mark {
     font-weight: 600;
 }
 
-.external-link:after {
-    font-family: 'tabler-icons';
-    margin-left: 3px;
-    content: "\ea99";
-    padding-left: 3px;
-    font-size: 80%;
-}
-
 .external-link {
     color: var(--ls-link-text-color);
     border-bottom: 0px solid;
