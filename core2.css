@@ -215,21 +215,18 @@ mark {
 }
 
 .block-ref {
-    border-bottom: 0px solid var(--bg-color-6);
+    border-bottom: 1px solid var(--cd-accent-color);
     color: var(--ls-primary-text-color);
-    padding: 0px 0px;
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-color: var(--ls-primary-text-color);
-    text-underline-offset: 1px;
-    text-decoration-thickness: 1px;
+    padding: 0 4px;
+    display: inline;
 }
-
 .block-ref:hover {
-    color: var(--cd-alternate-color);
+    background: var(--cd-alternate-faded-color);
     cursor: pointer;
-    padding: 0px 0px;
 }
+.block-ref > div div {
+    display: inline;
+  }
 
 .block-children {
     border-left: 0px solid var(--ls-guideline-color);
@@ -247,15 +244,16 @@ mark {
 
 :not(pre)>code {
     font-family: "JetBrains Mono", "Fira Code";
-    background-color: var(--ls-page-inline-code-bg-color);
-    background-color: transparent;
-    color: var(--cd-alternate-color);
-    padding: 0px 1px !important;
+    background-color: var(--bg-color-2);
+    color: var(--ls-primary-text-color);
+    padding: 0px 2px !important;
     border-radius: 1px;
+    border: 1px solid var(--bg-color-3);
 }
-
-:not(pre)>code:before, :not(pre)>code:after {
-    content: "`";
+.references-blocks :not(pre)>code {
+    background-color: var(--bg-color-4);
+    border-radius: 1px;
+    border: 1px solid var(--bg-color-5);
 }
 
 /*html[data-theme=light] .cp__right-sidebar .block-content {
@@ -332,9 +330,9 @@ li.my-2 {
     text-decoration: line-through;
 }
 a.tag {
-    background: var(--ls-block-bullet-color);
-    color: var(--bg-color);
-    border: 0px solid;
+    background: var(--bg-color-4);
+    color: var(--ls-primary-text-color);
+    border: 1px solid var(--bg-color-5);
     font-size: 85%;
     line-height: 1em;
     padding: 2px 3px;
