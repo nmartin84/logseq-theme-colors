@@ -256,9 +256,6 @@ span[data-page-ref$="(c)"]:after {
   font-weight: 100;
 }
 /*** Incident Management ***/
-.page-ref[data-ref$="incident management"] {
-  color: var(--cd-alternate-color);
-}
 .page-ref[data-ref$="incident management"]:before, h1.title[data-ref$="incident management"]:before {
   content: "\ea48";
   font-family: 'tabler-icons';
