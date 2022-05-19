@@ -9,21 +9,27 @@
     --ls-main-content-max-width-wide: 100%;
 }
 
+
 /* Gradient Background */
-.dark-theme #app-container, .white-theme #app-container {
+
+.dark-theme #app-container,
+.white-theme #app-container {
     background-image: var(--bg-gradient);
 }
+
 .cp__sidebar-main-layout {
     background-color: transparent;
 }
 
+
 /* TRANSPARENCY ELEMENTS */
+
 .color-level {
     background-color: var(--bg-color-1-faded)
 }
 
 .color-level .color-level {
-    background-color:  var(--bg-color-1-faded);
+    background-color: var(--bg-color-1-faded);
 }
 
 .cp__right-sidebar-topbar {
@@ -56,6 +62,7 @@
     padding: 1px;
     border-radius: 0px;
 }
+
 .left-sidebar-inner a.item:hover {
     background-color: transparent;
     color: var(--cd-active-color);
@@ -69,28 +76,38 @@
     background: var(--bg-color-1-faded);
 }
 
-a.button.active, a.button:hover {
+a.button.active,
+a.button:hover {
     background: var(--bg-color-1-faded);
 }
 
+
 /* NAVIGATOR BAR ICONS */
-.cp__header-logo, .fade-link {
+
+.cp__header-logo,
+.fade-link {
     color: var(--ls-link-text-color);
 }
 
+
 /* LEFT SIDEBAR */
+
 .left-sidebar-inner a.item:hover {
     background: var(--bg-color-1-faded);
 }
+
 .left-sidebar-inner .nav-content-item>.header:hover {
     background: var(--bg-color-1-faded);
 }
+
 .left-sidebar-inner .nav-content-item>.header:hover * {
     color: var(--cd-active-color);
 }
+
 .left-sidebar-inner .nav-content-item>.bd ul a:hover {
     background: var(--bg-color-1-faded);
 }
+
 .left-sidebar-inner .nav-content-item>.bd ul a:hover {
     color: var(--cd-active-color);
 }
@@ -98,6 +115,7 @@ a.button.active, a.button:hover {
 .bg-indigo-600 {
     background-color: var(--cd-active-color);
 }
+
 
 /* Code Mirror Block */
 
@@ -127,6 +145,7 @@ a.button.active, a.button:hover {
 .dark-theme .CodeMirror-sizer {
     background-color: var(--bg-dark);
 }
+
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
     background-color: var(--bg-color-1);
 }
@@ -141,6 +160,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 .cm-s-solarized.cm-s-dark {
     color: var(--ls-primary-text-color);
 }
+
 
 /* Code Mirror Colors */
 
@@ -181,6 +201,7 @@ html[data-theme='light'] .CodeMirror-gutter,
     color: var(--cd-active-color);
 }
 
+
 /* Markdown Formatting */
 
 mark {
@@ -193,8 +214,9 @@ mark {
     border-bottom: 0px solid !important;
 }
 
-.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
-    margin: 0 0 0  !important;
+.editor-inner .uniline-block:is(.h1, .h2),
+.ls-block :is(h1, h2) {
+    margin: 0 0 0 !important;
 }
 
 .block-marker {
@@ -220,13 +242,21 @@ mark {
     padding: 0 4px;
     display: inline;
 }
+
 .block-ref:hover {
     background: var(--cd-alternate-faded-color);
     cursor: pointer;
 }
-.block-ref > div div {
+
+.block-ref>div div {
     display: inline;
-  }
+}
+
+.block-ref a.tag {
+    background: transparent;
+    border: 0px solid;
+    font-size: 100%;
+}
 
 .block-children {
     border-left: 0px solid var(--ls-guideline-color);
@@ -240,6 +270,7 @@ mark {
     background-color: var(--cd-active-color) !important;
 }
 
+
 /* TYPOGRAPHY */
 
 :not(pre)>code {
@@ -250,11 +281,13 @@ mark {
     border-radius: 1px;
     border: 1px solid var(--bg-color-3);
 }
+
 .references-blocks :not(pre)>code {
     background-color: var(--bg-color-4);
     border-radius: 1px;
     border: 1px solid var(--bg-color-5);
 }
+
 
 /*html[data-theme=light] .cp__right-sidebar .block-content {
     --ls-page-inline-code-bg-color: transparent !important;
@@ -274,6 +307,7 @@ mark {
 .white-theme .references .foldable-title .page-ref:hover {
     color: var(--ls-link-ref-text-hover-color) !important;
 }
+
 
 /* === References Window Breadcrumbs === */
 
@@ -329,6 +363,7 @@ li.my-2 {
 .done .tag {
     text-decoration: line-through;
 }
+
 a.tag {
     background: var(--bg-color-4);
     color: var(--ls-primary-text-color);
@@ -339,6 +374,7 @@ a.tag {
     font-weight: 700;
     border-radius: 2px;
 }
+
 
 /* PDF Viewer */
 
@@ -385,7 +421,8 @@ a.tag {
 }
 
 .cm-s-solarized.cm-s-dark,
-.cm-s-solarized.cm-s-dark .CodeMirror-linenumber, .cm-s-solarized.cm-s-light {
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber,
+.cm-s-solarized.cm-s-light {
     text-shadow: none !important;
 }
 
@@ -401,7 +438,6 @@ a.tag {
     color: var(--ls-primary-text-color);
 }
 
-
 .open-block-ref-link {
     background-color: var(--bg-color-1-faded);
     color: var(--cd-alternate-color);
@@ -416,21 +452,26 @@ a.tag {
     padding: 0px 8px;
     margin: 0px;
 }
-.white-theme .references-blocks :is(.CodeMirror-gutter,.CodeMirror-lines,.CodeMirror-scroll,.CodeMirror-sizer) {
+
+.white-theme .references-blocks :is(.CodeMirror-gutter, .CodeMirror-lines, .CodeMirror-scroll, .CodeMirror-sizer) {
     background-color: var(--bg-color-2);
 }
 
 .ls-block {
     font-weight: 400;
 }
+
 .ls-block b {
     font-weight: 600;
 }
+
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
 }
 
+
 /* FIXES */
+
 .whitespace-nowrap {
     white-space: normal;
 }
