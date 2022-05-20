@@ -9,10 +9,6 @@
     --ls-main-content-max-width-wide: 100%;
 }
 
-.bg-indigo-600 {
-    background-color: var(--cd-active-color);
-}
-
 
 /* Code Mirror Block */
 
@@ -22,10 +18,7 @@
     right: 4px;
     border-radius: 5px;
     color: var(--bg-color);
-}
-
-.extensions__code-lang {
-    background-color: var(--cd-accent-color);
+    background-color: var(--cd-active-color);
 }
 
 .extensions__code .code-editor {

@@ -5,16 +5,28 @@
     "description": "The one dark theme for logseq",
     "logseq": {
         "themes": [{
-                "name": "Default Theme",
-                "url": "./default.css",
+                "name": "Default - Dark",
+                "url": "./default-dark.css",
                 "description": "Default Colors",
                 "mode": "dark"
             },
             {
-                "name": "Ayu",
-                "url": "./ayu.css",
+                "name": "Default - Light",
+                "url": "./default-light.css",
+                "description": "Default Colors",
+                "mode": "light"
+            },
+            {
+                "name": "Ayu - Dark",
+                "url": "./ayu-dark.css",
                 "description": "Ayu Colors",
                 "mode": "dark"
+            },
+            {
+                "name": "Ayu - Light",
+                "url": "./ayu-light.css",
+                "description": "Ayu Colors",
+                "mode": "light"
             },
             {
                 "name": "Bearded Earth",
