@@ -1,5 +1,8 @@
-@import './worksans.css';
-@import './markup.css';
+/*@import './worksans.css';*/
+
+
+/*@import './markup.css';*/
+
 .dark-theme,
 html[data-theme='dark'] {
     /* Values for calculations */
@@ -230,15 +233,18 @@ mark {
 }
 
 .block-ref {
-    border-bottom: 1px solid var(--cd-accent-color);
-    color: var(--ls-primary-text-color);
-    padding: 0 4px;
+    border-bottom: 0px solid var(--cd-accent-color);
+    color: var(--cd-active-color);
+    padding: 0 0px;
     display: inline;
+    font-style: italic;
+    opacity: 0.6;
 }
 
 .block-ref:hover {
-    background: var(--cd-alternate-faded-color);
+    background: transparent;
     cursor: pointer;
+    opacity: 1;
 }
 
 .block-ref>div div {
@@ -267,7 +273,6 @@ mark {
 /* TYPOGRAPHY */
 
 :not(pre)>code {
-    font-family: "JetBrains Mono", "Fira Code";
     background-color: var(--bg-color-2);
     color: var(--ls-primary-text-color);
     padding: 0px 2px !important;
@@ -369,13 +374,12 @@ li.my-2 {
 }
 
 a.tag {
-    background: var(--ls-primary-text-color);
-    color: var(--bg-color);
+    background: transparent;
+    color: var(--cd-active-color);
     border: 0px solid var(--bg-color-5);
-    font-size: 95%;
-    line-height: 1em;
-    padding: 2px 3px;
-    font-weight: 700;
+    font-size: 90%;
+    padding: 0px 0px;
+    font-weight: 600;
     border-radius: 2px;
 }
 
