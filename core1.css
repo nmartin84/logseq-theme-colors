@@ -1,7 +1,6 @@
 /*@import './worksans.css';*/
 
-
-/*@import './markup.css';*/
+@import './markup.css';
 
 .dark-theme,
 html[data-theme='dark'] {
