@@ -258,11 +258,11 @@ mark {
 }
 
 .block-children {
-    border-left: 0px solid var(--ls-guideline-color);
+    border-left: 1px solid var(--ls-guideline-color);
 }
 
 .block-children-left-border {
-    background-color: var(--ls-guideline-color);
+    background-color: transparent;
 }
 
 .block-children-left-border:hover {
@@ -447,9 +447,9 @@ a.tag {
 }
 
 .open-block-ref-link {
-    background-color: var(--bg-color-4);
+    background-color: var(--bg-color-2);
     color: var(--ls-primary-text-color);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .flex.flex-1.flex-row.w-full.mt-6 {
