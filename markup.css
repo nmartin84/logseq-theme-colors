@@ -1,5 +1,15 @@
 /* Tech Garden */
 
+/* === Contents === */
+a.page-ref[data-ref="contents"] {
+    background: var(--cd-active-color);
+    color: var(--bg-color);
+    padding: 0px 3px;
+    border-radius: 2px;
+  }
+  a.page-ref[data-ref="contents"]:hover {
+    color: var(--bg-color);
+  }
 
 /* === Files === */
 
