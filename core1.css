@@ -232,12 +232,12 @@ mark {
 }
 
 .block-ref {
-    border-bottom: 0px solid var(--cd-accent-color);
+    border-bottom: 1px solid var(--cd-accent-color);
     color: var(--cd-active-color);
     padding: 0 0px;
     display: inline;
     font-style: italic;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .block-ref:hover {

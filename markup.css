@@ -2,13 +2,12 @@
 
 /* === Contents === */
 a.page-ref[data-ref="contents"] {
-    background: var(--cd-active-color);
-    color: var(--bg-color);
-    padding: 0px 3px;
-    border-radius: 2px;
+    color: var(--cd-active-color) !important;
+    font-weight: 700;
+    text-decoration: underline;
   }
   a.page-ref[data-ref="contents"]:hover {
-    color: var(--bg-color);
+    color: var(--cd-active-color) !important;
   }
 
 /* === Files === */
