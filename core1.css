@@ -101,7 +101,7 @@ html[data-theme='light'] {
 
 :root {
     --ls-font-family: "Work Sans";
-    --ls-main-content-max-width: 900px;
+    --ls-main-content-max-width: 800px;
     --ls-main-content-max-width-wide: 100%;
 }
 
@@ -465,13 +465,12 @@ a.tag {
     background-color: var(--bg-color);
 }
 
-
-/*.ls-block {
+.ls-block {
     font-weight: 400;
 }
 .ls-block b {
-    font-weight: 600;
-}*/
+    font-weight: 700;
+}
 
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
