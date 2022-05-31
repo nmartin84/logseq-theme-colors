@@ -52,7 +52,8 @@ html[data-theme='dark'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: var(--color-level-2);
-    --ls-block-bullet-color: var(--cd-inactive-color);
+    /*--ls-block-bullet-color: var(--cd-inactive-color);*/
+    --ls-block-bullet-color: var(--ls-primary-text-color);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: #56b5c25c;
@@ -130,7 +131,8 @@ html[data-theme='light'] {
     --ls-tag-text-hover-color: var(--cd-alternate-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: #b69a9c47;
-    --ls-block-bullet-color: #b69a9c;
+    /*--ls-block-bullet-color: #b69a9c;*/
+    --ls-block-bullet-color: var(--ls-primary-text-color);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--cd-active-color);
     --ls-page-checkbox-color: #56b5c242;

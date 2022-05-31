@@ -1,6 +1,6 @@
 /*@import './worksans.css';*/
-
-@import './markup.css';
+/*@import './markup.css';*/
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 .dark-theme,
 html[data-theme='dark'] {
@@ -197,6 +197,9 @@ mark {
 
 
 /* === Headlines & Titles === */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lora";
+}
 
 .editor-inner .uniline-block:is(.h1, .h2),
 .ls-block :is(h1, h2) {
@@ -257,11 +260,11 @@ mark {
 }
 
 .block-children {
-    border-left: 1px solid var(--ls-guideline-color);
+    border-left: 0px solid var(--ls-guideline-color);
 }
 
 .block-children-left-border {
-    background-color: transparent;
+    background-color: var(--ls-guideline-color);
 }
 
 .block-children-left-border:hover {
@@ -300,14 +303,6 @@ mark {
 #right-sidebar .my-2.color-level .block-properties {
     background-color: var(--color-level-3) !important;
 }
-
-
-/* Embedded page, main container reference window */
-
-#main-content-container .references-blocks .block-properties {
-    background-color: transparent;
-}
-
 
 /* References title and breadcrumbs */
 
@@ -438,10 +433,6 @@ a.tag {
     text-decoration-color: var(--cd-inactive-color);
 }
 
-.page-property-key {
-    color: var(--ls-primary-text-color);
-}
-
 .open-block-ref-link {
     background-color: var(--bg-color-2);
     color: var(--ls-primary-text-color);
@@ -457,10 +448,22 @@ a.tag {
     margin: 0px;
 }
 
-.dark-theme .page-properties {
-    background: var(--bg-dark);
-}
+/* ====== PAGE PROPERTIES ======= */
 
+.page-properties {
+    background: var(--ls-primary-text-color);
+    color: var(--bg-color);
+    display: inline-block;
+    border-radius: 3px;
+}
+.page-properties .page-ref {
+    color: var(--bg-color);
+    font-weight: 700;
+}
+.page-property-key {
+    color: var(--bg-color);
+    font-weight: 400;
+}
 .white-theme .references-blocks :is(.CodeMirror-gutter, .CodeMirror-lines, .CodeMirror-scroll, .CodeMirror-sizer) {
     background-color: var(--bg-color);
 }
