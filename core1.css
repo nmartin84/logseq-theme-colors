@@ -451,17 +451,12 @@ a.tag {
 /* ====== PAGE PROPERTIES ======= */
 
 .page-properties {
-    background: var(--ls-primary-text-color);
-    color: var(--bg-color);
+    color: var(--ls-primary-text-color);
     display: inline-block;
     border-radius: 3px;
 }
-.page-properties .page-ref {
-    color: var(--bg-color);
-    font-weight: 700;
-}
 .page-property-key {
-    color: var(--bg-color);
+    color: var(--ls-primary-text-color);
     font-weight: 400;
 }
 .white-theme .references-blocks :is(.CodeMirror-gutter, .CodeMirror-lines, .CodeMirror-scroll, .CodeMirror-sizer) {
