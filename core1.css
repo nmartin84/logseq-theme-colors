@@ -190,12 +190,6 @@ html[data-theme='light'] .CodeMirror-gutter,
 
 /* Markdown Formatting */
 
-mark {
-    background-color: var(--cd-active-color);
-    color: var(--bg-color);
-}
-
-
 /* === Headlines & Titles === */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lora";
