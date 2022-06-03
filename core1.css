@@ -211,7 +211,8 @@ html[data-theme='light'] .CodeMirror-gutter,
 .block-marker {
     color: var(--cd-active-color);
     opacity: 0.7;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 100%;
 }
 
 .external-link {
@@ -340,13 +341,14 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1.5px solid var(--ls-page-checkbox-border-color);
+    border: 1px solid var(--ls-page-checkbox-border-color);
     background-color: transparent;
     opacity: 0.7;
-    border-radius: 1px;
+    border-radius: 2px;
     margin-left: 1px;
     position: relative;
     top: 0px;
+    box-shadow: rgb(23 42 53 / 10%) 0px 1px 2px 0px;
 }
 
 .form-checkbox:checked {
