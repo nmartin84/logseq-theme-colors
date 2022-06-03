@@ -100,7 +100,7 @@ html[data-theme='light'] {
 /* GLOBAL SETTINGS */
 
 :root {
-    --ls-font-family: "Work Sans";
+    --ls-font-family: "SF Pro Text";
     --ls-main-content-max-width: 800px;
     --ls-main-content-max-width-wide: 100%;
 }
