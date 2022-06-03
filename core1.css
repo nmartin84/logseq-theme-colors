@@ -191,9 +191,6 @@ html[data-theme='light'] .CodeMirror-gutter,
 /* Markdown Formatting */
 
 /* === Headlines & Titles === */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Lora";
-}
 
 .editor-inner .uniline-block:is(.h1, .h2),
 .ls-block :is(h1, h2) {
