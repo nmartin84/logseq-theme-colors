@@ -1,0 +1,39 @@
+@import './base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: 192;
+    --background-color-s: 94%;
+    --background-color-l: 14%;
+    --primary-color-h: 180;
+    --primary-color-s: 26%;
+    --primary-color-l: 64%;
+    --secondary-color-h: 180;
+    --secondary-color-s: 26%;
+    --secondary-color-l: 64%;
+    --accent-color-h: 180;
+    --accent-color-s: 26%;
+    --accent-color-l: 64%;
+    --primary-text-h: 183;
+    --primary-text-s: 11%;
+    --primary-text-l: 68%;
+}
+
+.white-theme,
+html[data-theme='light'] {
+    --background-color-h: 0;
+    --background-color-s: 0%;
+    --background-color-l: 100%;
+    --primary-color-h: 203;
+    --primary-color-s: 82%;
+    --primary-color-l: 35%;
+    --secondary-color-h: 203;
+    --secondary-color-s: 82%;
+    --secondary-color-l: 35%;
+    --accent-color-h: 203;
+    --accent-color-s: 82%;
+    --accent-color-l: 35%;
+    --primary-text-h: 38;
+    --primary-text-s: 9%;
+    --primary-text-l: 24%;
+}

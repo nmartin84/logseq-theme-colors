@@ -1,159 +1,52 @@
 {
-    "name": "Logseq One",
+    "name": "Variable Colors",
     "author": "nmartin84",
     "version": "0.1.0",
-    "description": "The one dark theme for logseq",
+    "description": "A theme focused on varying colors.",
     "logseq": {
         "themes": [{
-                "name": "Default - Dark",
-                "url": "./default-dark.css",
-                "description": "Default Colors",
-                "mode": "dark"
-            },
-            {
-                "name": "Default - Light",
-                "url": "./default-light.css",
-                "description": "Default Colors",
-                "mode": "light"
-            },
-            {
-                "name": "Ayu - Dark",
-                "url": "./ayu-dark.css",
-                "description": "Ayu Colors",
-                "mode": "dark"
-            },
-            {
-                "name": "Ayu - Light",
-                "url": "./ayu-light.css",
-                "description": "Ayu Colors",
-                "mode": "light"
-            },
-            {
-                "name": "Bearded Earth",
-                "url": "./bearded-earth.css",
-                "description": "Ayu Colors"
-            },
-            {
-                "name": "Bearded Eggplant",
-                "url": "./bearded-eggplant.css",
-                "description": "Ayu Colors"
-            },
-            {
-                "name": "Bearded Stone",
-                "url": "./bearded-stone.css",
-                "description": "Ayu Colors"
-            },
-            {
-                "name": "Bearded Watermelon",
-                "url": "./bearded-watermelon.css",
-                "description": "Ayu Colors"
-            },
-            {
-                "name": "Bearded Watermelon - Gradient",
-                "url": "./bearded-watermelon2.css",
-                "description": "Watermelon Gradient Colors"
-            },
-            {
-                "name": "Chocolate",
-                "url": "./chocolate.css",
-                "description": "A dark theme focused around the one."
-            },
-            {
-                "name": "Chocolate - Gradient",
-                "url": "./chocolate2.css",
-                "description": "A dark theme focused around the one."
-            },
-            {
-                "name": "Dracula",
-                "url": "./dracula.css",
-                "description": "A dark theme focused around the one."
-            },
-            {
                 "name": "Flatwhite",
                 "url": "./flatwhite.css",
-                "description": "A dark theme focused around the one."
+                "description": "Flatwhite Colors",
+                "mode": "light"
             },
             {
-                "name": "Gruvbox",
-                "url": "./gruvbox.css",
-                "description": "Gruvbox..."
+                "name": "Vanilla Chocolate",
+                "url": "./chocolate.css",
+                "description": "Vanilla Chocolate",
+                "mode": "light"
             },
             {
-                "name": "Gruvbox - Gradient",
-                "url": "./gruvbox2.css",
-                "description": "Gruvbox Gradient"
+                "name": "Dark Chocolate",
+                "url": "./chocolate.css",
+                "description": "Dark Chocolate",
+                "mode": "dark"
             },
             {
-                "name": "Miramare",
-                "url": "./miramare.css",
-                "description": "A dark theme focused around the one."
+                "name": "Light Default",
+                "url": "./default.css",
+                "description": "Light Default with Improvements",
+                "mode": "light"
             },
             {
-                "name": "Noctis1",
+                "name": "Dark Default",
+                "url": "./default.css",
+                "description": "Dark Default with Improvements",
+                "mode": "dark"
+            },
+            {
+                "name": "Noctis 1 Light",
                 "url": "./noctis1.css",
-                "description": "A theme for noctis1"
+                "description": "Light Default with Improvements",
+                "mode": "light"
             },
             {
-                "name": "Noctis2",
-                "url": "./noctis2.css",
-                "description": "A theme for noctis2"
-            },
-            {
-                "name": "Nord",
-                "url": "./nord.css",
-                "description": "Nord for logseq."
-            },
-            {
-                "name": "Oceanic Next",
-                "url": "./oceanic-next.css",
-                "description": "Nord for logseq."
-            },
-            {
-                "name": "Old Hope",
-                "url": "./oldhope.css",
-                "description": "Nord for logseq."
-            },
-            {
-                "name": "Opera",
-                "url": "./opera.css",
-                "description": "Opera."
-            },
-            {
-                "name": "Peacock",
-                "url": "./peacock.css",
-                "description": "A dark theme focused around the one."
-            },
-            {
-                "name": "Rougue",
-                "url": "./rougue.css",
-                "description": "Solarized Theme"
-            },
-            {
-                "name": "Slate",
-                "url": "./slate.css",
-                "description": "Slate   "
-            },
-            {
-                "name": "Slate - Turqoise",
-                "url": "./slate-turqoise.css",
-                "description": "Slate Turqoise"
-            },
-            {
-                "name": "Solarized",
-                "url": "./solarized.css",
-                "description": "Solarized Theme"
-            },
-            {
-                "name": "Tokyo",
-                "url": "./tokyo.css",
-                "description": "Tokyo night"
-            },
-            {
-                "name": "Yin",
-                "url": "./yin.css",
-                "description": "Yin and Yang"
+                "name": "Noctis 1 Dark",
+                "url": "./noctis1.css",
+                "description": "Dark Default with Improvements",
+                "mode": "dark"
             }
         ],
-        "id": "one"
+        "id": "flatwhite"
     }
 }
