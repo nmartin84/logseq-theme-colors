@@ -11,39 +11,63 @@
                 "mode": "light"
             },
             {
-                "name": "Vanilla Chocolate",
+                "name": "Chocolate",
                 "url": "./chocolate.css",
                 "description": "Vanilla Chocolate",
                 "mode": "light"
             },
             {
-                "name": "Dark Chocolate",
+                "name": "Chocolate",
                 "url": "./chocolate.css",
                 "description": "Dark Chocolate",
                 "mode": "dark"
             },
             {
-                "name": "Light Default",
+                "name": "Default",
                 "url": "./default.css",
                 "description": "Light Default with Improvements",
                 "mode": "light"
             },
             {
-                "name": "Dark Default",
+                "name": "Default",
                 "url": "./default.css",
                 "description": "Dark Default with Improvements",
                 "mode": "dark"
             },
             {
-                "name": "Noctis 1 Light",
+                "name": "Noctis 1",
                 "url": "./noctis1.css",
                 "description": "Light Default with Improvements",
                 "mode": "light"
             },
             {
-                "name": "Noctis 1 Dark",
-                "url": "./noctis1.css",
+                "name": "Noctis 2",
+                "url": "./noctis2.css",
+                "description": "Light Default with Improvements",
+                "mode": "light"
+            },
+            {
+                "name": "Noctis 2",
+                "url": "./noctis2.css",
                 "description": "Dark Default with Improvements",
+                "mode": "dark"
+            },
+            {
+                "name": "Solarized",
+                "url": "./solarized.css",
+                "description": "Light Default with Improvements",
+                "mode": "light"
+            },
+            {
+                "name": "Solarized",
+                "url": "./solarized.css",
+                "description": "Dark Default with Improvements",
+                "mode": "dark"
+            },
+            {
+                "name": "Oceanic Next",
+                "url": "./oceanic.css",
+                "description": "Oceanic Dark",
                 "mode": "dark"
             }
         ],

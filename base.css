@@ -219,7 +219,7 @@ html[data-theme='light'] {
 /* GLOBAL SETTINGS */
 
 :root {
-    --ls-font-family: "SF Pro Text", Inter;
+    --ls-font-family: "Work Sans", Inter;
     --ls-main-content-max-width: 950px;
     --ls-main-content-max-width-wide: 100%;
 }
@@ -317,11 +317,12 @@ html[data-theme='light'] .CodeMirror-gutter,
 /* Markdown Formatting */
 
 mark {
-    background: transparent;
+    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.2);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: var(--color-primary);
     text-underline-offset: 2px;
+    text-decoration-skip-ink: none;
     display: inline;
     color: var(--ls-primary-text-color);
     padding: 0px 3px;
@@ -527,7 +528,7 @@ li.my-2 {
 .form-checkbox {
     border: 1.1px solid var(--ls-page-checkbox-border-color);
     opacity: var(--cl-slight-faint);
-    border-radius: var(--cl-border-radius);
+    border-radius: 50%;
     margin-left: 1px;
     position: relative;
     top: 0px;

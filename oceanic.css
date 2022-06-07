@@ -1,0 +1,20 @@
+@import './base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: 202;
+    --background-color-s: 32%;
+    --background-color-l: 12%;
+    --primary-color-h: 300;
+    --primary-color-s: 30%;
+    --primary-color-l: 68%;
+    --secondary-color-h: 210;
+    --secondary-color-s: 50%;
+    --secondary-color-l: 60%;
+    --accent-color-h: 40;
+    --accent-color-s: 94%;
+    --accent-color-l: 68%;
+    --primary-text-h: 219;
+    --primary-text-s: 28%;
+    --primary-text-l: 88%;
+}
