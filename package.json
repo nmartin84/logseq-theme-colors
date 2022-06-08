@@ -35,6 +35,18 @@
                 "mode": "dark"
             },
             {
+                "name": "Gruvbox",
+                "url": "./gruvbox.css",
+                "description": "Gruvbox",
+                "mode": "light"
+            },
+            {
+                "name": "Gruvbox",
+                "url": "./gruvbox.css",
+                "description": "Gruvbox",
+                "mode": "dark"
+            },
+            {
                 "name": "Noctis 1",
                 "url": "./noctis1.css",
                 "description": "Light Default with Improvements",
@@ -53,6 +65,18 @@
                 "mode": "dark"
             },
             {
+                "name": "Nord",
+                "url": "./nord.css",
+                "description": "Nord",
+                "mode": "light"
+            },
+            {
+                "name": "Nord",
+                "url": "./nord.css",
+                "description": "Nord",
+                "mode": "dark"
+            },
+            {
                 "name": "Solarized",
                 "url": "./solarized.css",
                 "description": "Light Default with Improvements",
@@ -62,6 +86,18 @@
                 "name": "Solarized",
                 "url": "./solarized.css",
                 "description": "Dark Default with Improvements",
+                "mode": "dark"
+            },
+            {
+                "name": "Yin",
+                "url": "./yin.css",
+                "description": "Yin",
+                "mode": "light"
+            },
+            {
+                "name": "Yin",
+                "url": "./yin.css",
+                "description": "Yin",
                 "mode": "dark"
             },
             {

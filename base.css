@@ -69,7 +69,7 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--color-primary);
     --ls-border-color: var(--color-accent);
     --ls-secondary-border-color: var(--color-secondary);
-    --ls-guideline-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-darken), 0.2);
+    --ls-guideline-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
     --ls-guideline-references-color: var(--bg-color-3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
@@ -173,7 +173,7 @@ html[data-theme='light'] {
     --ls-mark-color: var(--color-primary);
     --ls-border-color: var(--color-accent);
     --ls-secondary-border-color: var(--color-secondary);
-    --ls-guideline-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-lighten), 0.2);
+    --ls-guideline-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
     --ls-guideline-references-color: var(--bg-color-3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
@@ -259,7 +259,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 .CodeMirror-lines,
 .CodeMirror-scroll,
 .CodeMirror-sizer {
-    background-color: var(--color-level-1);
+    background-color: var(--color-level-2);
 }
 
 .cm-s-solarized.cm-s-dark {
@@ -477,7 +477,7 @@ mark .block-ref:hover {
 /* Embedded page, main container reference window */
 
 #main-content-container .references-blocks .block-properties {
-    background-color: transparent;
+    background-color: var(--bg-color-2);
 }
 
 
@@ -631,8 +631,7 @@ a.tag {
 .block-properties {
     padding: 2px 8px;
     margin: 0px;
-    box-shadow: var(--cl-box-shadow);
-    background: var(--bg-color-1);
+    background: var(--bg-color-2);
     border-radius: var(--cl-border-radius);
 }
 
@@ -654,6 +653,10 @@ a.tag {
 
 
 /* FIXES */
+
+a svg {
+    color: var(--ls-secondary-text-color);
+}
 
 .whitespace-nowrap {
     white-space: normal;
