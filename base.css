@@ -219,9 +219,9 @@ html[data-theme='light'] {
 /* GLOBAL SETTINGS */
 
 :root {
-    --ls-font-family: "Work Sans", Inter;
-    --ls-main-content-max-width: 950px;
-    --ls-main-content-max-width-wide: 100%;
+    --ls-font-family: "SF Pro Text", Inter;
+    --ls-main-content-max-width: 850px;
+    --ls-main-content-max-width-wide: 1000px;
 }
 
 
@@ -550,7 +550,6 @@ a.tag {
     border: 1px solid hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.2);
     font-size: 85%;
     padding: 0px 3px;
-    font-weight: 700;
     border-radius: var(--cl-border-radius);
     display: inline;
 }
@@ -638,26 +637,14 @@ a.tag {
 .white-theme .references-blocks :is(.CodeMirror-gutter, .CodeMirror-lines, .CodeMirror-scroll, .CodeMirror-sizer) {
     background-color: var(--bg-color);
 }
-
-
-/*.ls-block {
-    font-weight: 400;
-}
-.ls-block b {
-    font-weight: 600;
-}*/
-
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
 }
 
-
 /* FIXES */
-
 a svg {
     color: var(--ls-secondary-text-color);
 }
-
 .whitespace-nowrap {
     white-space: normal;
 }
