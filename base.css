@@ -17,7 +17,7 @@ html[data-theme='dark'] {
     /* ==== TRANSFORMERS ==== */
     /* text colors */
     --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
-    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 3));
+    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 7));
     /* primary colors */
     --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
     --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));
@@ -84,7 +84,7 @@ html[data-theme='dark'] {
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-darken), 0.2);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
-    --ls-block-bullet-color: var(--primary-text-dark);
+    --ls-block-bullet-color: var(--primary-text-light);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--color-primary);
     --ls-page-checkbox-color: transparent;
@@ -121,7 +121,7 @@ html[data-theme='light'] {
     /* ==== TRANSFORMERS ==== */
     /* text colors */
     --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
-    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 3));
+    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 8));
     /* primary colors */
     --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
     --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));
@@ -186,7 +186,7 @@ html[data-theme='light'] {
     --ls-tag-text-color: var(--color-primary);
     --ls-tag-text-hover-color: var(--color-secondary);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-lighten), 0.2);
+    --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-lighten), 0.3);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
     --ls-block-bullet-color: var(--primary-text-light);
     --ls-block-highlight-color: var(--color-level-3);
@@ -305,14 +305,6 @@ html[data-theme='light'] .CodeMirror-gutter,
 .cm-s-solarized .cm-attribute {
     color: var(--color-primary);
 }
-
-
-/* ====== Bullet Threading ======= */
-
-.references-blocks .bullet-container.bullet-closed {
-    background-color: var(--ls-block-bullet-references-border-color);
-}
-
 
 /* Markdown Formatting */
 
@@ -546,7 +538,7 @@ li.my-2 {
 
 a.tag {
     background: hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.25);
-    color: var(--ls-primary-text-color);
+    color: var(--color-primary-light);
     border: 1px solid hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.2);
     font-size: 85%;
     padding: 0px 3px;
