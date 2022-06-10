@@ -537,12 +537,13 @@ li.my-2 {
 }
 
 a.tag {
-    background: hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.25);
-    color: var(--color-primary-light);
-    border: 1px solid hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.2);
-    font-size: 85%;
-    padding: 0px 3px;
+    background: transparent;
+    color: var(--color-primary);
+    border: 0px solid hsl(var(--secondary-color-h), var(--secondary-color-s), var(--secondary-color-l), 0.2);
+    font-size: 90%;
+    padding: 0px 1px;
     border-radius: var(--cl-border-radius);
+    font-weight: 600;
     display: inline;
 }
 
