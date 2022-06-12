@@ -2,6 +2,7 @@
 
 .dark-theme,
 html[data-theme='dark'] {
+    --bg-url: url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
     --background-color-h: 193;
     --background-color-s: 100%;
     --background-color-l: 7%;
@@ -21,9 +22,10 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
+    --bg-url: url(https://images.unsplash.com/photo-1542708993627-b6e5bbae43c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2644&q=80);
     --background-color-h: 45;
-    --background-color-s: 85%;
-    --background-color-l: 92%;
+    --background-color-s: 30%;
+    --background-color-l: 97%;
     --primary-color-h: 190;
     --primary-color-s: 100%;
     --primary-color-l: 32%;
@@ -36,4 +38,11 @@ html[data-theme='light'] {
     --primary-text-h: 204;
     --primary-text-s: 70%;
     --primary-text-l: 24%;
+}
+
+.ls-block b {
+    color: var(--color-secondary);
+}
+.ls-block i {
+    color: var(--color-accent);
 }

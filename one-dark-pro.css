@@ -1,0 +1,21 @@
+@import './base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --bg-url: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+    --background-color-h: 220;
+    --background-color-s: 13%;
+    --background-color-l: 18%;
+    --primary-color-h: 204;
+    --primary-color-s: 83%;
+    --primary-color-l: 62%;
+    --secondary-color-h: 95;
+    --secondary-color-s: 38%;
+    --secondary-color-l: 62%;
+    --accent-color-h: 286;
+    --accent-color-s: 60%;
+    --accent-color-l: 67%;
+    --primary-text-h: 204;
+    --primary-text-s: 20%;
+    --primary-text-l: 69%;
+}

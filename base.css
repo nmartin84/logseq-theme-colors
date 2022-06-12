@@ -1,4 +1,7 @@
 :root {
+    --ls-font-family: "SF Pro Text", Inter;
+    --ls-main-content-max-width: 900px;
+    --ls-main-content-max-width-wide: 100%;
     --cl-box-shadow: rgba(23, 42, 53, 0.1) 0 1px 2px 0;
     --cl-border-radius: 2px;
     --cl-faint: 0.2;
@@ -69,7 +72,7 @@ html[data-theme='dark'] {
     --ls-mark-color: var(--color-primary);
     --ls-border-color: var(--color-accent);
     --ls-secondary-border-color: var(--color-secondary);
-    --ls-guideline-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
+    --ls-guideline-color: hsl(var(--background-color-h), var(--background-color-s), var(--bg-lightness-4), 0.5);
     --ls-guideline-references-color: var(--bg-color-3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
@@ -84,7 +87,7 @@ html[data-theme='dark'] {
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-darken), 0.2);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
-    --ls-block-bullet-color: var(--primary-text-light);
+    --ls-block-bullet-color: var(--primary-text-dark);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--color-primary);
     --ls-page-checkbox-color: transparent;
@@ -173,7 +176,7 @@ html[data-theme='light'] {
     --ls-mark-color: var(--color-primary);
     --ls-border-color: var(--color-accent);
     --ls-secondary-border-color: var(--color-secondary);
-    --ls-guideline-color: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
+    --ls-guideline-color: hsl(var(--background-color-h), var(--background-color-s), var(--bg-lightness-4), 0.5);
     --ls-guideline-references-color: var(--bg-color-3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l));
@@ -215,23 +218,47 @@ html[data-theme='light'] {
     --color-level-6: var(--bg-color-5);
 }
 
-
-/* GLOBAL SETTINGS */
-
-:root {
-    --ls-font-family: "SF Pro Text", Inter;
-    --ls-main-content-max-width: 850px;
-    --ls-main-content-max-width-wide: 1000px;
+/* ==== INTERFACE ==== */
+.cp__header a {
+    color: var(--ls-primary-text-color);
 }
 
+/* ==== Centralized view port ==== */
+#left-container {
+    background-image: var(--bg-url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+#main-container {
+    background-color: transparent;
+}
+#main-content {
+    background-color: transparent;
+}
+#main-content-container {
+    flex-wrap: wrap;
+    padding: 24px;
+}
+.cp__sidebar-main-content > div {
+    background-color: var(--ls-primary-background-color);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px 4px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-bottom: 56px !important;
+}
+.cp__header a {
+  background: var(--bg-color);
+  opacity: 1 !important;
+}
 
 /* Code Mirror Block */
 
 .extensions__code-lang {
-    top: 8px;
+    top: 4px;
     padding: .10rem .30rem !important;
-    right: 4px;
-    border-radius: 5px;
+    border-top-right-radius: 2px;
     color: var(--bg-color);
     background-color: var(--color-primary);
 }
@@ -306,7 +333,55 @@ html[data-theme='light'] .CodeMirror-gutter,
     color: var(--color-primary);
 }
 
+/* ==== BULLET THREADING ==== */
+
+.bullet-container .bullet {
+    border-radius: 0px;
+    height: 1px;
+    width: 7px;
+}
+a:hover>.bullet-container {
+    background-color: transparent;
+}
+a:hover>.bullet-container .bullet {
+    background-color: var(--color-primary);
+}
+.bullet-container.bullet-closed {
+    background-color: transparent;
+}
+.bullet-container.bullet-closed .bullet, a:hover>.bullet-container.bullet-closed .bullet {
+    background-color: transparent;
+}
+.bullet-container.bullet-closed .bullet:before {
+    content: "+";
+    display: inline;
+    position: relative;
+    top: -12px;
+    left: -2.1px;
+    color: var(--ls-block-bullet-color);
+    font-weight: 400;
+}
+a:hover>.bullet-container.bullet-closed .bullet:before {
+    color: var(--color-primary);
+}
+
+/* ==== Block Control ==== */
+.block-control {
+    opacity: 0;
+}
+.block-control:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
 /* Markdown Formatting */
+
+/* Font Weights */
+.ls-block {
+    font-weight: 300;
+}
+
+/* === Highlights ==== */
 
 mark {
     background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.2);
@@ -330,6 +405,9 @@ mark .block-ref:hover {
     border-radius: 0px;
     color: var(--color-primary);
     background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-dark-l), 0.1);
+}
+mark:not(pre)>code {
+    padding: 0px 0px !important;
 }
 
 /* ==== BLOCK REFERENCES ==== */
@@ -572,12 +650,12 @@ a.tag {
 }
 
 :root {
-    --ph-highlight-color-blue: var(--color-accent);
+    /*--ph-highlight-color-blue: var(--color-accent);
     --ph-highlight-color-green: var(--cd-green-1);
     --ph-highlight-color-red: var(--color-primary);
     --ph-highlight-color-purple: var(--cd-pink-1);
-    --ph-highlight-color-yellow: var(--color-secondary);
-    --ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);
+    --ph-highlight-color-yellow: var(--color-secondary);*/
+    /*--ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);*/
 }
 
 .hls-popup-box {
@@ -632,6 +710,7 @@ a.tag {
 }
 .page-reference .bracket {
     color: var(--ls-primary-text-color);
+    opacity: 0.2;
 }
 
 /* FIXES */

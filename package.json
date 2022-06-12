@@ -77,6 +77,12 @@
                 "mode": "dark"
             },
             {
+                "name": "One Dark Pro",
+                "url": "./one-dark-pro.css",
+                "description": "One Dark Pro",
+                "mode": "dark"
+            },
+            {
                 "name": "Solarized",
                 "url": "./solarized.css",
                 "description": "Light Default with Improvements",
@@ -86,6 +92,12 @@
                 "name": "Solarized",
                 "url": "./solarized.css",
                 "description": "Dark Default with Improvements",
+                "mode": "dark"
+            },
+            {
+                "name": "Vue",
+                "url": "./vue.css",
+                "description": "Vue",
                 "mode": "dark"
             },
             {
