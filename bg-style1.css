@@ -2,8 +2,9 @@
     background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.85);
 }
 .block-properties {
-    background: hsl(var(--background-color-h), var(--background-color-s), var(--bg-lightness-2), 0.5);
+    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
     padding: 4px 8px;
+    border: 1px solid hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.05);
     border-radius: 1px;
 }
 .bullet-container .bullet {
