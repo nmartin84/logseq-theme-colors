@@ -11,3 +11,20 @@
 .page-property-key {
     color: var(--color-accent);
 }
+.bullet-container .bullet {
+    background-color: var(--color-primary);
+}
+.dark-theme, html[data-theme='dark'], .white-theme, html[data-theme='light'] {
+    --ls-guideline-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.3);
+}
+:not(pre)>code {
+    padding: 0px 0px !important;
+    background: transparent;
+    color: var(--color-accent);
+}
+:not(pre)>code:before, :not(pre)>code:after {
+    content: "'";
+}
+.color-level {
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.6);
+}
