@@ -7,6 +7,9 @@
     border: 1px solid hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.05);
     border-radius: 1px;
 }
+#main-content-container .references-blocks .block-properties {
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.2);
+}
 .bullet-container .bullet {
     background-color: var(--color-primary);
 }
@@ -22,5 +25,5 @@
     content: "'";
 }
 .color-level {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--bg-lightness-1), 0.6);
+    background-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
 }
