@@ -337,7 +337,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 
 .bullet-container .bullet {
     border-radius: 0px;
-    height: 1px;
+    height: 1.5px;
     width: 7px;
 }
 a:hover>.bullet-container {
@@ -596,9 +596,9 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1.1px solid var(--ls-page-checkbox-border-color);
+    border: 1px solid var(--ls-page-checkbox-border-color);
     opacity: var(--cl-slight-faint);
-    border-radius: 50%;
+    border-radius: 2px;
     margin-left: 1px;
     position: relative;
     top: 0px;
