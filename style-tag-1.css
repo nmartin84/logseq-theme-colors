@@ -1,14 +1,14 @@
 a.tag {
     background: hsl(var(--primary-color-h), 40%, var(--primary-color-l), 0.3);
     color: hsl(var(--primary-color-h), 10%, var(--primary-color-l), 1);
-    border: 1px solid hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.4);
+    border: 1px solid hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
     font-size: 85%;
     padding: 1px 5px;
-    border-radius: 3px;
+    border-radius: 1px;
     font-weight: 700;
     display: inline;
 }
 a.tag:hover {
-    color: hsl(var(--primary-color-h), 50%, var(--primary-color-l), 1);
-    background: hsl(var(--primary-color-h), 40%, var(--primary-color-l), 0.5);
+    color: hsl(var(--primary-color-h), 30%, var(--primary-color-l), 1);
+    background: hsl(var(--primary-color-h), 40%, var(--primary-color-l), 0.3);
 }
