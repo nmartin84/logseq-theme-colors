@@ -1,14 +1,11 @@
 .cp__sidebar-main-content > div {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.8);
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.85);
 }
 .block-properties {
-    background: transparent;
+    background: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
     padding: 0px 0px;
     border-radius: 0px;
     font-weight: 300;
-    color: var(--color-accent);
-}
-.page-property-key {
     color: var(--color-accent);
 }
 .bullet-container .bullet {
@@ -26,5 +23,5 @@
     content: "'";
 }
 .color-level {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.6);
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--bg-lightness-1), 0.6);
 }
