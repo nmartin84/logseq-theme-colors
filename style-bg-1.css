@@ -21,7 +21,7 @@
 :not(pre)>code:before, :not(pre)>code:after {
     content: "'";
 }
-.color-level {
+.color-level, .color-level .color-level {
     background-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
 }
 .dark-theme, html[data-theme='dark'], .white-theme, html[data-theme='light'] {

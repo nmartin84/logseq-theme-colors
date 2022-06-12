@@ -1,7 +1,7 @@
 @import './base.css';
 .white-theme,
 html[data-theme='light'] {
-    --bg-url: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80);
+    --bg-url: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
     --background-color-h: 33;
     --background-color-s: 36%;
     --background-color-l: 99%;
