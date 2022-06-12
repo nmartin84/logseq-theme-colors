@@ -5,7 +5,6 @@
     background: hsl(var(--accent-color-h), var(--accent-color-s), var(--accent-color-l), 0.2);
     padding: 0px 0px;
     border-radius: 0px;
-    font-weight: 300;
     color: var(--color-accent);
 }
 .bullet-container .bullet {
