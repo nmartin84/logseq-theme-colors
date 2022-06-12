@@ -335,7 +335,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 
 /* ==== BULLET THREADING ==== */
 
-.bullet-container .bullet {
+/*.bullet-container .bullet {
     border-radius: 0px;
     height: 1.5px;
     width: 7px;
@@ -363,7 +363,7 @@ a:hover>.bullet-container .bullet {
 }
 a:hover>.bullet-container.bullet-closed .bullet:before {
     color: var(--color-primary);
-}
+}*/
 
 /* ==== Block Control ==== */
 .block-control {
