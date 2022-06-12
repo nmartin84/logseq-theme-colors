@@ -381,6 +381,14 @@ a:hover>.bullet-container.bullet-closed .bullet:before {
     font-weight: 300;
 }
 
+/* === BOLD & ITALICS === */
+.ls-block b {
+    color: var(--color-secondary);
+}
+.ls-block i {
+    color: var(--color-accent);
+}
+
 /* === Highlights ==== */
 
 mark {
