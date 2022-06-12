@@ -1,5 +1,5 @@
 .cp__sidebar-main-content > div {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.85);
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.9);
 }
 .block-properties {
     background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
@@ -8,7 +8,7 @@
     border-radius: 1px;
 }
 #main-content-container .references-blocks .block-properties {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.2);
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.6);
 }
 .bullet-container .bullet {
     background-color: var(--color-primary);
