@@ -221,6 +221,8 @@ html[data-theme='light'] {
 /* ==== INTERFACE ==== */
 .cp__header a {
     color: var(--ls-primary-text-color);
+}
+.cp__header .button {
     opacity: 1 !important;
 }
 
@@ -354,10 +356,6 @@ html[data-theme='light'] {
     border-radius: 5px;
     padding: 20px 30px;
     margin-bottom: 56px !important;
-}
-.cp__header a {
-  background: var(--bg-color);
-  opacity: 1 !important;
 }
 
 /* Code Mirror Block */
