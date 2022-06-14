@@ -504,7 +504,7 @@ mark {
     text-underline-offset: 2px;
     text-decoration-skip-ink: none;
     display: inline;
-    color: var(--ls-primary-text-color);
+    color: var(--color-primary-light);
     padding: 0px 3px;
 }
 mark .block-ref {
