@@ -483,7 +483,7 @@ a:hover>.bullet-container.bullet-closed .bullet:before {
 
 /* Font Weights */
 .ls-block {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 /* === BOLD & ITALICS === */
@@ -533,9 +533,13 @@ mark:not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
     font-family: "SF Mono";
-    padding: 0px 3px !important;
-    background: var(--bg-color-2);
+    padding: 0px 1px !important;
+    background: transparent;
     display: inline;
+    color: var(--color-accent);
+}
+:not(pre)>code:before, :not(pre)>code:after {
+    content: "'";
 }
 
 /* === Headlines & Titles === */
