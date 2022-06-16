@@ -713,13 +713,14 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1.2px solid var(--ls-page-checkbox-border-color);
+    border: 1.5px solid var(--ls-page-checkbox-border-color);
     opacity: var(--cl-slight-faint);
     border-radius: 2px;
     margin-left: 1px;
     position: relative;
     top: 0px;
     box-shadow: var(--cl-box-shadow);
+    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.2);
 }
 
 .form-checkbox:checked {
