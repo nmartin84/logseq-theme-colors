@@ -21,6 +21,7 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
+    --bg-url: url(https://images.unsplash.com/photo-1593063338710-db1f8bf2a410?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2387&q=80);
     --background-color-h: 0;
     --background-color-s: 0%;
     --background-color-l: 100%;
