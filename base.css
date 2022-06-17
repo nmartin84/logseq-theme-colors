@@ -481,6 +481,14 @@ a:hover>.bullet-container.bullet-closed .bullet:before {
 
 /* Markdown Formatting */
 
+/* === Horizontal Line === */
+hr {
+    margin: 0px;
+    border-top-width: 4px;
+    position: relative;
+    top: 10px;
+}
+
 /* Font Weights */
 .ls-block {
     font-weight: 300;
