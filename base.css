@@ -484,9 +484,9 @@ a:hover>.bullet-container.bullet-closed .bullet:before {
 /* === Horizontal Line === */
 hr {
     margin: 0px;
-    border-top-width: 4px;
+    border-top-width: 2px;
     position: relative;
-    top: 10px;
+    top: 11px;
 }
 
 /* Font Weights */
