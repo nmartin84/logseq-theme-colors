@@ -1,5 +1,5 @@
 .cp__sidebar-main-content > div {
-    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.95);
+    background-color: hsl(var(--background-color-h), var(--background-color-s), var(--background-color-l), 0.98);
 }
 .block-properties {
     background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
