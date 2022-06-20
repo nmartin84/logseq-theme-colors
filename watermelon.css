@@ -1,0 +1,41 @@
+@import './base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --bg-url: url(https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2831&q=80);
+    --background-color-h: 190;
+    --background-color-s: 31%;
+    --background-color-l: 10%;
+    --primary-color-h: 5;
+    --primary-color-s: 62%;
+    --primary-color-l: 62%;
+    --secondary-color-h: 185;
+    --secondary-color-s: 55%;
+    --secondary-color-l: 50%;
+    --accent-color-h: 149;
+    --accent-color-s: 58%;
+    --accent-color-l: 74%;
+    --primary-text-h: 140;
+    --primary-text-s: 11%;
+    --primary-text-l: 78%;
+}
+
+.white-theme,
+html[data-theme='light'] {
+    --bg-url: url(https://images.unsplash.com/photo-1433840496881-cbd845929862?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
+    --background-color-h: 190;
+    --background-color-s: 31%;
+    --background-color-l: 97%;
+    --primary-color-h: 353;
+    --primary-color-s: 86%;
+    --primary-color-l: 54%;
+    --secondary-color-h: 185;
+    --secondary-color-s: 100%;
+    --secondary-color-l: 35%;
+    --accent-color-h: 168;
+    --accent-color-s: 53%;
+    --accent-color-l: 48%;
+    --primary-text-h: 215;
+    --primary-text-s: 50%;
+    --primary-text-l: 23%;
+}

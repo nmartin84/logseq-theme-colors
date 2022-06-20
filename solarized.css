@@ -39,10 +39,3 @@ html[data-theme='light'] {
     --primary-text-s: 70%;
     --primary-text-l: 24%;
 }
-
-.ls-block b {
-    color: var(--color-secondary);
-}
-.ls-block i {
-    color: var(--color-accent);
-}

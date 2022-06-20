@@ -77,6 +77,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Oceanic Next",
+                "url": "./oceanic.css",
+                "description": "Oceanic Dark",
+                "mode": "dark"
+            },
+            {
                 "name": "One Dark Pro",
                 "url": "./one-dark-pro.css",
                 "description": "One Dark Pro",
@@ -101,6 +107,18 @@
                 "mode": "dark"
             },
             {
+                "name": "Watermelon",
+                "url": "./watermelon.css",
+                "description": "Watermelon",
+                "mode": "light"
+            },
+            {
+                "name": "Watermelon",
+                "url": "./watermelon.css",
+                "description": "Watermelon",
+                "mode": "dark"
+            },
+            {
                 "name": "Yin",
                 "url": "./yin.css",
                 "description": "Yin",
@@ -110,12 +128,6 @@
                 "name": "Yin",
                 "url": "./yin.css",
                 "description": "Yin",
-                "mode": "dark"
-            },
-            {
-                "name": "Oceanic Next",
-                "url": "./oceanic.css",
-                "description": "Oceanic Dark",
                 "mode": "dark"
             }
         ],
