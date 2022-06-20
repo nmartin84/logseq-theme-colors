@@ -1,6 +1,6 @@
 :root {
     --ls-font-family: "SF Pro Text", Inter;
-    --ls-main-content-max-width: 900px;
+    --ls-main-content-max-width: 800px;
     --ls-main-content-max-width-wide: 100%;
     --cl-box-shadow: rgba(23, 42, 53, 0.1) 0 1px 2px 0;
     --cl-border-radius: 2px;
@@ -610,7 +610,7 @@ hr {
 
 /* Font Weights */
 .ls-block {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* === BOLD & ITALICS === */
