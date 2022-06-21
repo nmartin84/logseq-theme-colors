@@ -2,6 +2,7 @@
 
 .dark-theme,
 html[data-theme='dark'] {
+    --bg-url: url(https://images.unsplash.com/photo-1599090725706-560998776d5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2367&q=80);
     --background-color-h: 0;
     --background-color-s: 0%;
     --background-color-l: 8%;
@@ -21,6 +22,7 @@ html[data-theme='dark'] {
 
 .white-theme,
 html[data-theme='light'] {
+    --bg-url: url(https://images.unsplash.com/photo-1520529890308-f503006340b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2367&q=80);
     --background-color-h: 46;
     --background-color-s: 33%;
     --background-color-l: 96%;
