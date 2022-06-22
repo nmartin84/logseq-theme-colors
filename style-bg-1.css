@@ -10,21 +10,11 @@
 #main-content-container .references-blocks .block-properties {
     background-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
 }
-.bullet-container .bullet {
-    background-color: var(--color-primary);
-}
 :not(pre)>code {
     padding: 0px 0px !important;
     background: transparent;
     color: var(--color-accent);
 }
-:not(pre)>code:before, :not(pre)>code:after {
-    content: "'";
-}
 .color-level, .color-level .color-level {
     background-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.1);
-}
-.dark-theme, html[data-theme='dark'], .white-theme, html[data-theme='light'] {
-    --ls-guideline-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.3);
-    --ls-block-bullet-border-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.2);
 }

@@ -2,6 +2,7 @@
 
 .dark-theme,
 html[data-theme='dark'] {
+    --bg-url: url(https://images.unsplash.com/photo-1481151500463-1fa2dd2d5dbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80);
     --background-color-h: 192;
     --background-color-s: 94%;
     --background-color-l: 14%;
