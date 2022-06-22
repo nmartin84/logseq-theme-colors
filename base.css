@@ -660,13 +660,11 @@ mark:not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
     font-family: "SF Mono";
-    padding: 0px 1px !important;
-    background: transparent;
+    padding: 0px 5px !important;
+    background: hsl(var(--accent-color-h), var(--accent-color-s), 30%, 0.1);
+    border: 1px solid hsl(var(--accent-color-h), var(--accent-color-s), 30%, 0.2);
     display: inline;
     color: var(--color-accent);
-}
-:not(pre)>code:before, :not(pre)>code:after {
-    content: "'";
 }
 
 /* === Headlines & Titles === */
