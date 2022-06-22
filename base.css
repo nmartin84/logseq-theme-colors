@@ -727,10 +727,15 @@ mark:not(pre)>code {
 }
 
 .block-ref {
-    border-bottom: 1px solid var(--color-primary);
-    color: var(--ls-primary-text-color);
+    border-bottom: 0px solid var(--color-primary);
+    color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.7);
     padding: 0 2px;
     display: inline;
+    font-style: italic;
+}
+.block-ref:before {
+    content: "»";
+    padding-right: 2px;
 }
 
 .block-ref:hover {
