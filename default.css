@@ -7,13 +7,13 @@ html[data-theme='dark'] {
     --background-color-s: 6%;
     --background-color-l: 10%;
     --primary-color-h: 180;
-    --primary-color-s: 26%;
+    --primary-color-s: 50%;
     --primary-color-l: 64%;
     --secondary-color-h: 180;
-    --secondary-color-s: 26%;
+    --secondary-color-s: 50%;
     --secondary-color-l: 64%;
     --accent-color-h: 180;
-    --accent-color-s: 26%;
+    --accent-color-s: 50%;
     --accent-color-l: 64%;
     --primary-text-h: 183;
     --primary-text-s: 11%;

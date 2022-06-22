@@ -452,6 +452,7 @@ html[data-theme='light'] {
 }
 
 /* ==== Centralized view port ==== */
+/*
 #left-container {
     background-image: var(--bg-url);
     background-size: cover;
@@ -476,7 +477,7 @@ html[data-theme='light'] {
     padding: 20px 30px;
     margin-bottom: 56px !important;
 }
-
+*/
 /* Code Mirror Block */
 
 .extensions__code-lang {
