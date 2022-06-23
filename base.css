@@ -735,8 +735,8 @@ mark:not(pre)>code {
     font-style: italic;
 }
 .block-ref:before {
-    content: "»";
-    padding-right: 2px;
+    content: "❯";
+    padding-right: 6px;
     font-style: normal;
 }
 
