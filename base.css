@@ -738,6 +738,7 @@ mark:not(pre)>code {
     content: "❯";
     padding-right: 6px;
     font-style: normal;
+    color: var(--color-primary);
 }
 
 .block-ref:hover {
