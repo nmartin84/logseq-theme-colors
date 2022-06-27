@@ -852,9 +852,11 @@ li.my-2 {
     margin-left: 1px;
     position: relative;
     top: 0px;
-    background: var(--bg-color-1);
+    background-color: var(--bg-color-1);
 }
-
+.custom-query .form-checkbox {
+    background-color: var(--bg-color);
+}
 .form-checkbox:checked {
     opacity: var(--cl-slight-faint);
     background-color: var(--color-primary);
