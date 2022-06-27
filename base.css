@@ -846,7 +846,7 @@ li.my-2 {
 }
 
 .form-checkbox {
-    border: 1.5px solid var(--bg-color-3);
+    border: 1.5px solid var(--bg-color-5);
     opacity: var(--cl-slight-faint);
     border-radius: 3px;
     margin-left: 1px;
