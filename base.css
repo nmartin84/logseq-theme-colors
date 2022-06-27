@@ -852,7 +852,7 @@ li.my-2 {
     margin-left: 1px;
     position: relative;
     top: 0px;
-    background: var(--bg-color);
+    background: var(--bg-color-1);
 }
 
 .form-checkbox:checked {
