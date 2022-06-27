@@ -852,7 +852,6 @@ li.my-2 {
     margin-left: 1px;
     position: relative;
     top: 0px;
-    box-shadow: var(--cl-box-shadow);
     background: var(--bg-color);
 }
 
