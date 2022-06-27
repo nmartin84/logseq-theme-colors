@@ -632,7 +632,7 @@ mark {
     text-underline-offset: 2px;
     text-decoration-skip-ink: none;
     display: inline;
-    color: var(--color-primary-light);
+    color: var(--ls-primary-text-color);
     padding: 0px 3px;
 }
 mark .block-ref {
