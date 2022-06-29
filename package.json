@@ -29,6 +29,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Cobalt",
+                "url": "./cobalt.css",
+                "description": "Cobalt",
+                "mode": "light"
+            },
+            {
                 "name": "Default",
                 "url": "./default.css",
                 "description": "Light Default with Improvements",
