@@ -590,6 +590,62 @@ a:hover>.bullet-container.bullet-closed .bullet:before {
     color: var(--color-primary);
 }*/
 
+/* START Bullet & Bullet Container */
+
+.block-children-left-border {
+	transition: all 0.3s ease-in-out;
+}
+
+.block-children-left-border:hover {
+	background-color: var(--color-primary);
+	transition: var(--transition);
+}
+
+a:hover>.bullet-container .bullet {
+	background-color: var(--color-primary);
+	box-shadow: 0 0 0 2px var(--ls-primary-background-color),
+		0 0 0 4px var(--color-primary);
+	transform: scale(1.4);
+	/* transition: var(--transition); */
+}
+
+.ls-block .bullet {
+	background-color: var(--color-primary);
+	box-shadow: 0 0 0 2px var(--ls-primary-background-color),
+		0 0 0 4px var(--color-primary);
+	display: block;
+	transition: all 0.3s ease-in-out;
+}
+
+/*=========================================================*/
+/* === START highlight current path by cannibalox v0.2 ===*/
+/*=========================================================*/
+
+.ls-block:not(:focus-within) .bullet {
+	background-color: var(--ls-block-bullet-color);
+	box-shadow: none;
+}
+
+.block-children:not(:focus-within) {
+	border-left: 1px solid var(--ls-guideline-color);
+}
+
+/*========================================================*/
+/* === highlight current path by cannibalox v0.2  END ===*/
+/*========================================================*/
+
+.block-children {
+	border-left: 1px solid var(--color-primary);
+	transition: all 0.3s ease-in-out;
+}
+
+/* .block-children-container:focus-within > .block-children-left-border {
+  border-left: 1px solid rgba(var(--havelock-blue), 0.6);
+  /* display: block; */
+/* }  */
+
+/* Bullet & Bullet Container END */
+
 /* ==== Block Control ==== */
 .block-control {
     opacity: 0;
@@ -657,16 +713,32 @@ mark:not(pre)>code {
 }
 
 /* ==== INLINE CODE ==== */
-:not(pre)>code {
+
+.white-theme :not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
     font-family: "SF Mono";
-    padding: 0px 2px !important;
-    background: transparent;
-    display: inline;
-    font-style: italic !important;
-    color: var(--color-secondary);
+    padding: 1px 5px !important;
+    background: hsl(var(--primary-text-h), var(--primary-text-s), 85%, 0.2);
+    color: var(--ls-primary-text-color);
+    line-height: 1.45em;
+    font-style: normal !important;
+    border: 1px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
+    word-spacing: -2.5px;
 }
+.dark-theme :not(pre)>code {
+    border-radius: var(--cl-border-radius);
+    font-size: 85%;
+    font-family: "SF Mono";
+    padding: 1px 5px !important;
+    background: hsl(var(--primary-text-h), var(--primary-text-s), 2%, 0.2);
+    color: var(--ls-primary-text-color);
+    line-height: 1.45em;
+    font-style: normal !important;
+    border: 1px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
+    word-spacing: -2.5px;
+}
+
 
 /* === Headlines & Titles === */
 
