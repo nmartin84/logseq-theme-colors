@@ -1,7 +1,7 @@
 :root {
     --ls-font-family: "iA Writer Duospace", "Roboto Mono", "SF Pro Text", Inter;
-    --ls-main-content-max-width: 800px;
-    --ls-main-content-max-width-wide: 100%;
+    --ls-main-content-max-width: 950px;
+    --ls-main-content-max-width-wide: 1200px;
     --cl-box-shadow: rgba(23, 42, 53, 0.1) 0 1px 2px 0;
     --cl-border-radius: 2px;
     --cl-faint: 0.2;
@@ -470,10 +470,18 @@ html[data-theme='light'] {
     flex-wrap: wrap;
     padding: 24px;
 }
+body:is([data-page="page"],[data-page="home"]).is-banner-active #main-content-container {
+    flex-wrap: wrap;
+    padding: 24px;
+}
+.is-banner-active #main-content-container::before {
+    border-radius: 10px 10px 0 0;
+    max-width: var(--ls-main-content-max-width);
+}
 .cp__sidebar-main-content > div {
     background-color: var(--ls-primary-background-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 5px 2px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     padding: 20px 30px;
     margin-bottom: 56px !important;
 }
@@ -681,15 +689,10 @@ hr {
 /* === Highlights ==== */
 
 mark {
-    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.2);
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--color-primary);
-    text-underline-offset: 2px;
-    text-decoration-skip-ink: none;
-    display: inline;
-    color: var(--ls-primary-text-color);
-    padding: 0px 3px;
+    background: var(--color-primary);
+    color: var(--bg-color);
+    padding: 3px 3px;
+    border-radius: 0px;
 }
 mark .block-ref {
     border-bottom: 0px solid;
@@ -990,6 +993,11 @@ a.tag {
 
 .editor-inner textarea {
     caret-color: var(--color-primary);
+    background-color: var(--bg-color-1);
+}
+
+.color-level .editor-inner {
+    background-color: var(--bg-color-2);
 }
 
 .cm-s-solarized.cm-s-dark,
