@@ -554,7 +554,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 }
 
 .cm-s-solarized .cm-comment {
-    color: var(--cd-inactive-color);
+    color: slategray;
 }
 
 .cm-s-solarized .cm-variable {
@@ -679,12 +679,6 @@ hr {
 }
 
 /* === BOLD & ITALICS === */
-.ls-block b {
-    color: var(--color-secondary);
-}
-.ls-block i {
-    color: var(--color-accent);
-}
 
 /* === Highlights ==== */
 
