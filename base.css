@@ -690,13 +690,13 @@ mark .block-ref {
     border-bottom: 0px solid;
     padding: 0px 0px;
     transition: 0.2s;
-    color: var(--color-primary);
+    color: var(--bg-color-6);
+    position: relative;
+    top: 0.2px;
 }
 mark .block-ref:hover {
     padding: 0px 0px;
     border-radius: 0px;
-    color: var(--color-primary);
-    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-dark-l), 0.1);
 }
 mark:not(pre)>code {
     padding: 0px 0px !important;
@@ -799,7 +799,6 @@ mark:not(pre)>code {
     color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.7);
     padding: 0 2px;
     display: inline;
-    font-style: italic;
 }
 .block-ref:before {
     content: "»";
