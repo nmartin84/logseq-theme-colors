@@ -85,7 +85,7 @@ html[data-theme='dark'] {
     --ls-tag-text-color: var(--color-secondary);
     --ls-tag-text-hover-color: var(--color-primary);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-darken), 0.2);
+    --ls-block-bullet-border-color: hsl(var(--primary-text-h), 5%, var(--primary-text-darken), 0.1);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
     --ls-block-bullet-color: hsl(var(--primary-text-h), 5%, var(--primary-text-darken), 1);
     --ls-block-highlight-color: var(--color-level-3);
@@ -97,9 +97,9 @@ html[data-theme='dark'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: var(--ls-primary-text-color);
     --ls-page-inline-code-bg-color: var(--bg-color-1);
-    --ls-scrollbar-foreground-color: var(--ls-guideline-color);
+    --ls-scrollbar-foreground-color: var(--color-accent);
     --ls-scrollbar-background-color: var(--color-level-2);
-    --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
+    --ls-scrollbar-thumb-hover-color: var(--color-accent);
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: var(--color-primary);
     --ls-icon-color: var(--color-primary);
@@ -201,9 +201,9 @@ html[data-theme='light'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: var(--ls-primary-text-color);
     --ls-page-inline-code-bg-color: var(--bg-color-1);
-    --ls-scrollbar-foreground-color: var(--ls-guideline-color);
+    --ls-scrollbar-foreground-color: var(--color-accent);
     --ls-scrollbar-background-color: var(--color-level-2);
-    --ls-scrollbar-thumb-hover-color: var(--cd-inactive-color);
+    --ls-scrollbar-thumb-hover-color: var(--color-accent);
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: var(--color-primary);
     --ls-icon-color: var(--color-primary);
