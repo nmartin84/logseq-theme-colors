@@ -189,9 +189,9 @@ html[data-theme='light'] {
     --ls-tag-text-color: var(--color-secondary);
     --ls-tag-text-hover-color: var(--color-primary);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-lighten), 0.3);
+    --ls-block-bullet-border-color: hsl(var(--primary-text-h), 5%, var(--primary-text-lighten), 0.3);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
-    --ls-block-bullet-color: hsl(var(--primary-text-h), 5%, 70%, 1);
+    --ls-block-bullet-color: hsl(var(--primary-text-h), 5%, 60%, 1);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--color-primary);
     --ls-page-checkbox-color: transparent;
