@@ -189,9 +189,9 @@ html[data-theme='light'] {
     --ls-tag-text-color: var(--color-secondary);
     --ls-tag-text-hover-color: var(--color-primary);
     --ls-slide-background-color: var(--ls-primary-background-color);
-    --ls-block-bullet-border-color: hsl(var(--primary-text-h), 5%, var(--primary-text-lighten), 0.3);
+    --ls-block-bullet-border-color: hsl(var(--primary-text-h), 10%, var(--primary-text-lighten), 0.3);
     --ls-block-bullet-references-border-color: var(--color-offset-dark);
-    --ls-block-bullet-color: hsl(var(--primary-text-h), 5%, 60%, 1);
+    --ls-block-bullet-color: hsl(var(--primary-text-h), 10%, 60%, 1);
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: var(--color-primary);
     --ls-page-checkbox-color: transparent;
@@ -965,14 +965,14 @@ a.tag {
     background-color: var(--color-primary);
 }
 
-:root {
-    /*--ph-highlight-color-blue: var(--color-accent);
+/*:root {
+    --ph-highlight-color-blue: var(--color-accent);
     --ph-highlight-color-green: var(--cd-green-1);
     --ph-highlight-color-red: var(--color-primary);
     --ph-highlight-color-purple: var(--cd-pink-1);
-    --ph-highlight-color-yellow: var(--color-secondary);*/
-    /*--ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);*/
-}
+    --ph-highlight-color-yellow: var(--color-secondary);
+    --ph-highlight-scroll-into-color: rgba(255, 75, 93, 0.67);
+}*/
 
 .hls-popup-box {
     background-color: var(--color-level-3);
