@@ -20,7 +20,7 @@ html[data-theme='dark'] {
     /* ==== TRANSFORMERS ==== */
     /* text colors */
     --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
-    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 7));
+    --primary-text-lighten: calc(var(--primary-text-l) + calc(var(--lightnessTransform) * 5));
     /* primary colors */
     --primary-color-light-l: calc(var(--primary-color-l) + var(--lightnessTransform));
     --primary-color-dark-l: calc(var(--primary-color-l) - var(--darknessTransform));
@@ -881,14 +881,18 @@ mark:not(pre)>code {
 }
 
 .block-parents a:not(.tag) {
-    color: var(--ls-primary-text-color);
+    color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     font-size: 90%;
-    filter: opacity(0.7);
 }
 
-.block-parents a:hover {
+.block-parents a:not(.page-reference):hover {
     color: var(--ls-primary-text-color) !important;
     filter: opacity(1);
+    transition: 0.0s;
+}
+.block-parents .page-reference:hover {
+    color: var(--color-primary);
+    transition: 0.0s;
 }
 
 .foldable-title .page-ref {
