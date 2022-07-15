@@ -101,6 +101,12 @@
                 "mode": "dark"
             },
             {
+                "name": "Panda",
+                "url": "./panda.css",
+                "description": "Panda",
+                "mode": "dark"
+            },
+            {
                 "name": "Solarized",
                 "url": "./solarized.css",
                 "description": "Light Default with Improvements",
