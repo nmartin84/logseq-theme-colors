@@ -3,21 +3,21 @@
 .dark-theme,
 html[data-theme='dark'] {
     --bg-url: url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
-    --background-color-h: 193;
+    --background-color-h: 192;
     --background-color-s: 100%;
-    --background-color-l: 7%;
-    --primary-color-h: 164;
-    --primary-color-s: 47%;
-    --primary-color-l: 52%;
-    --secondary-color-h: 178;
-    --secondary-color-s: 67%;
-    --secondary-color-l: 32%;
-    --accent-color-h: 355;
-    --accent-color-s: 78%;
-    --accent-color-l: 66%;
-    --primary-text-h: 185;
-    --primary-text-s: 32%;
-    --primary-text-l: 92%;
+    --background-color-l: 11%;
+    --primary-color-h: 175;
+    --primary-color-s: 59%;
+    --primary-color-l: 40%;
+    --secondary-color-h: 68;
+    --secondary-color-s: 100%;
+    --secondary-color-l: 30%;
+    --accent-color-h: 45;
+    --accent-color-s: 100%;
+    --accent-color-l: 35%;
+    --primary-text-h: 186;
+    --primary-text-s: 8%;
+    --primary-text-l: 55%;
 }
 
 .white-theme,

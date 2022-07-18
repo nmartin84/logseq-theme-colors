@@ -1,7 +1,7 @@
 :root {
     --ls-font-family: "Poppins", "Sora", "iA Writer Duospace", "Roboto Mono", "SF Pro Text", Inter;
-    --ls-main-content-max-width: 950px;
-    --ls-main-content-max-width-wide: 1200px;
+    --ls-main-content-max-width: 850px;
+    --ls-main-content-max-width-wide: 1000px;
     --cl-box-shadow: rgba(23, 42, 53, 0.1) 0 1px 2px 0;
     --cl-border-radius: 2px;
     --cl-faint: 0.2;
@@ -576,9 +576,7 @@ html[data-theme='light'] .CodeMirror-gutter,
 a:hover>.bullet-container {
     background-color: transparent;
 }
-a:hover>.bullet-container .bullet {
-    background-color: var(--color-primary);
-}
+
 .bullet-container.bullet-closed {
     background-color: transparent;
 }
@@ -613,7 +611,7 @@ a:hover>.bullet-container .bullet {
 	background-color: var(--color-primary);
 	box-shadow: 0 0 0 2px var(--ls-primary-background-color),
 		0 0 0 4px var(--color-primary);
-	transform: scale(1.4);
+    transform: scale(1.0);
 	/* transition: var(--transition); */
 }
 
@@ -681,22 +679,24 @@ hr {
 /* === Highlights ==== */
 
 mark {
-    background: var(--color-primary);
+    background: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.6);
     color: var(--bg-color);
-    padding: 3px 3px;
+    padding: 1px 3px;
     border-radius: 0px;
 }
 mark .block-ref {
     border-bottom: 0px solid;
     padding: 0px 0px;
     transition: 0.2s;
-    color: var(--bg-color-6);
+    color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 0.8);
     position: relative;
     top: 0.2px;
 }
 mark .block-ref:hover {
     padding: 0px 0px;
     border-radius: 0px;
+    background: transparent;
+    color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l), 1);
 }
 mark:not(pre)>code {
     padding: 0px 0px !important;
@@ -713,24 +713,24 @@ mark:not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
     font-family: "SF Mono";
-    padding: 1px 5px !important;
-    background: hsl(var(--primary-text-h), var(--primary-text-s), 85%, 0.2);
-    color: var(--ls-primary-text-color);
+    padding: 1px 3px !important;
+    background: transparent;
+    color: var(--color-secondary);
     line-height: 1.45em;
-    font-style: normal !important;
-    border: 1px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
+    font-style: italic !important;
+    border: 0px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
     word-spacing: -2.5px;
 }
 .dark-theme :not(pre)>code {
     border-radius: var(--cl-border-radius);
     font-size: 85%;
     font-family: "SF Mono";
-    padding: 1px 5px !important;
-    background: hsl(var(--primary-text-h), var(--primary-text-s), 2%, 0.2);
-    color: var(--ls-primary-text-color);
+    padding: 1px 3px !important;
+    background: transparent;
+    color: var(--color-secondary);
     line-height: 1.45em;
-    font-style: normal !important;
-    border: 1px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
+    font-style: italic !important;
+    border: 0px solid hsl(var(--primary-text-h), var(--primary-text-s), 50%, 0.6);
     word-spacing: -2.5px;
 }
 
